@@ -15,6 +15,6 @@ public class Registration
     }
     private static void ServerRegistration(String username, String password)
     {
-        System.out.println("Registration completed successfully.");
+        System.out.println("Registration has been completed successfully.");
     }
 }

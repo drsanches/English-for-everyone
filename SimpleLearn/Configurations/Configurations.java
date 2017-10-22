@@ -5,6 +5,6 @@ public class Configurations
 {
     public static void Configurations(String[] args)
     {
-        System.out.print("Some settings");
+        System.out.println("Some settings");
     }
 }

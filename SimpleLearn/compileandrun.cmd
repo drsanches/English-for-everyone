@@ -9,6 +9,6 @@ javac Unregistration/Unregistration.java
 
 javac SimpleLearn/SimpleLearn.java
 
-java SimpleLearn/SimpleLearn unreg
+java SimpleLearn/SimpleLearn help
 
 cmd /k

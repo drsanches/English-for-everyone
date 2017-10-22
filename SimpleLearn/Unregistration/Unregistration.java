@@ -5,6 +5,6 @@ public class Unregistration
 {
     public static void Unregistration(String[] args)
     {
-        System.out.print("Your account has been deleted.");
+        System.out.println("Your account has been deleted.");
     }
 }

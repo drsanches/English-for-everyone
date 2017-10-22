@@ -5,6 +5,6 @@ public class Logout
 {
     public static void Logout(String[] args)
     {
-        System.out.print("Logout was executed.");
+        System.out.println("Logout was executed.");
     }
 }

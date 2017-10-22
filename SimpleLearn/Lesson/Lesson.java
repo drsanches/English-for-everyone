@@ -5,6 +5,6 @@ public class Lesson
 {
     public static void Lesson(String[] args)
     {
-        System.out.print("Learning new words.");
+        System.out.println("Learning new words.");
     }
 }
