@@ -19,7 +19,7 @@ public class SimpleLearn {
         //For debug:
         commandName = "reg";
         
-        switch (commandName){
+        switch (commandName) {
         case "reg":
                 Registration.registration();
                 break;
@@ -55,7 +55,8 @@ public class SimpleLearn {
                 System.out.println("Uncorrect command. Use command help or /? to see help");
         }
     }
-    public static void help(){
+    
+    public static void help() {
         System.out.println("\n---------------SimpleLearn----------------");
         System.out.println("Available commands:");
         System.out.println("reg - Description of reg;");
@@ -67,5 +68,4 @@ public class SimpleLearn {
         System.out.println("logout - Description of logout;");
         System.out.println("unreg - Description of unreg.");
     }
-    
 }

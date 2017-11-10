@@ -6,8 +6,7 @@ import org.json.*;
 
 public class Registration {
     
-    public static void registration()
-    {
+    public static void registration() {
         System.out.print("username: ");
         String username = (new Scanner(System.in)).nextLine();
         System.out.print("Password: ");
@@ -16,12 +15,12 @@ public class Registration {
         String email = (new Scanner(System.in)).nextLine();
         serverRegistration(username, password, email);
     }
-    private static void serverRegistration(String username, String password, String email)
-    {
+    
+    private static void serverRegistration(String username, String password, String email) {
         String url = "http://www.something.com/reg";
         
         //TODO: Test it!
-        try{
+        try {
             HttpResponse<JsonNode> jsonResponse = Unirest.get(url)
                     .header("Accept", "application/json")
                     .routeParam("Username", username)
@@ -32,7 +31,7 @@ public class Registration {
             String status = jsonResponse.getBody().getObject().getString("Status");
             System.out.println(status);
         }
-        catch(Exception e){
+        catch(Exception e) {
             System.out.println("Error: " + e.toString());
         }
     }
