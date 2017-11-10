@@ -18,7 +18,7 @@ public class Registration {
     }
     private static void serverRegistration(String username, String password, String email)
     {
-        String url = "http://www.something.com";
+        String url = "http://www.something.com/reg";
         
         //TODO: Test it!
         try{
