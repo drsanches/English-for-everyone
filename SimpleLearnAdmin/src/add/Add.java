@@ -2,7 +2,7 @@ package add;
 
 public class Add
 {
-    public static void Add() {
+    public static void add() {
         System.out.println("Something has been added somewhere.");
     }
 }

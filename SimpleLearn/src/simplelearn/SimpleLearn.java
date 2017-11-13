@@ -10,52 +10,52 @@ import logout.*;
 import unregistration.*;
 
 public class SimpleLearn {
-    
+
     public static void main(String[] args) {
         String commandName = "";
         if (args.length > 0)
-                commandName = args[0];
-        
+            commandName = args[0];
+
         //For debug:
         commandName = "reg";
-        
+
         switch (commandName) {
-        case "reg":
+            case "reg":
                 Registration.registration();
                 break;
-        case "login":
+            case "login":
                 Login.login();
                 break;
-        case "config":
+            case "config":
                 Configurations.configurations();
                 break;
-        case "learn":
+            case "learn":
                 Lesson.lesson();
                 break;
-        case "test":
+            case "test":
                 Test.test();
                 break;
-        case "stat":
+            case "stat":
                 Statistics.statistics();
                 break;
-        case "logout":
+            case "logout":
                 Logout.logout();
                 break;
-        case "unreg":
+            case "unreg":
                 Unregistration.unregistration();
                 break;
-        case "help":
+            case "help":
                 help();
                 break;
-        case "/?":
+            case "/?":
                 help();
                 break;
 
-        default: 
+            default:
                 System.out.println("Uncorrect command. Use command help or /? to see help");
         }
     }
-    
+
     public static void help() {
         System.out.println("\n---------------SimpleLearn----------------");
         System.out.println("Available commands:");

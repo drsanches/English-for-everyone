@@ -18,29 +18,29 @@ public class SimpleLearnAdmin {
         
         switch (commandName) {
             case "add":
-                    Add.Add();
+                    Add.add();
                     break;
             case "del":
-                    Delete.Delete();
+                    Delete.delete();
                     break;
             case "backup":
-                    Backup.Backup();
+                    Backup.backup();
                     break;
             case "restore":
-                    Restore.Restore();
+                    Restore.restore();
                     break;
             case "help":
-                    Help();
+                    help();
                     break;
             case "/?":
-                    Help();
+                    help();
                     break;
             default: 
                     System.out.println("Uncorrect command. Use command help or /? to see help");
         }
     }
     
-    public static void Help() {
+    public static void help() {
         System.out.println("\n----------SimpleLearn for admins----------");
         System.out.println("Available commands:");
         System.out.println("add - Add a new dictionary to the system;");
