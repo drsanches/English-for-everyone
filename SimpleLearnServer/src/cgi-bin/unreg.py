@@ -3,11 +3,9 @@ import json
 
 form = cgi.FieldStorage()
 
-username = form.getvalue("Username")
-password = form.getvalue("Password")
-email = form.getvalue("E-mail")
+session_id = form.getvalue("SessionId")
 
-if username is None or password is None or email is None:
+if session_id is None:
     status = "Failure"
 else:
     status = "Success"
