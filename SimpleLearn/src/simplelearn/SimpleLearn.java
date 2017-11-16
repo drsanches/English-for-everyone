@@ -12,19 +12,32 @@ import unregistration.*;
 public class SimpleLearn {
 
     public static void main(String[] args) {
-        String commandName = "";
-        if (args.length > 0)
-            commandName = args[0];
 
-        //For debug:
-        commandName = "reg";
+        //Only for debug
+        args = new String[4];
+        args[0] = "login";
+        args[1] = "arg1";
+        args[2] = "arg2";
+        args[3] = "arg3";
+
+        String commandName = "";
+        String[] commandArgs = new String[0];
+
+        if (args.length > 0) {
+            commandName = args[0];
+            if (args.length > 1) {
+                commandArgs = new String[args.length - 1];
+                for (int i = 0; i < commandArgs.length; i++)
+                    commandArgs[i] = args[i + 1];
+            }
+        }
 
         switch (commandName) {
             case "reg":
-                Registration.registration();
+                Registration.registration(commandArgs);
                 break;
             case "login":
-                Login.login();
+                Login.login(commandArgs);
                 break;
             case "config":
                 Configurations.configurations();
@@ -52,20 +65,23 @@ public class SimpleLearn {
                 break;
 
             default:
-                System.out.println("Uncorrect command. Use command help or /? to see help");
+                System.out.println("Incorrect command. Use command help or /? to see help");
         }
     }
 
     public static void help() {
         System.out.println("\n---------------SimpleLearn----------------");
         System.out.println("Available commands:");
-        System.out.println("reg - Description of reg;");
-        System.out.println("login - Description of login;");
-        System.out.println("config - Description of config;");
-        System.out.println("learn - Description of learn;");
-        System.out.println("test - Description of test;");
-        System.out.println("stat - Description of stat;");
-        System.out.println("logout - Description of logout;");
-        System.out.println("unreg - Description of unreg.");
+        System.out.println("reg    - Description: description;\n"
+                         + "         Arguments: username password e-mail;");
+        System.out.println("login  - Description: description;\n"
+                         + "         Arguments: username password [remember me = false];");
+        System.out.println("config - Description: description;");
+        System.out.println("learn  - Description: description;");
+        System.out.println("test   - Description: description;");
+        System.out.println("stat   - Description: description;");
+        System.out.println("logout - Description: description;");
+        System.out.println("unreg  - Description: description;");
+        System.out.println("help   - Description: description.");
     }
 }

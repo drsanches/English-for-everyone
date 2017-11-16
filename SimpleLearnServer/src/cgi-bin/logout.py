@@ -10,7 +10,7 @@ if session_id is None:
 else:
     status = "Success"
 
-answer = json.dumps({"Status" : status})
+answer = json.dumps({"Status": status})
 
 print("Content-type: application/json")
 print()

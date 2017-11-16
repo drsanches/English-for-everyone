@@ -7,13 +7,13 @@ session_id = form.getvalue("SessionId")
 
 if session_id is None:
     status = "Failure"
-    statistics = ""
+    answer = json.dumps({"Status": status})
 else:
     status = "Success"
     statistics = ""
+    answer = json.dumps({"Status": status,
+                         "Statistics": statistics})
 
-answer = json.dumps({"Status" : status,
-                     "Statistics" : statistics})
 
 print("Content-type: application/json")
 print()
