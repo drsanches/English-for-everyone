@@ -5,16 +5,23 @@ form = cgi.FieldStorage()
 
 session_id = form.getvalue("SessionId")
 
+
+response = {}
+
 if session_id is None:
-    status = "Failure"
-    answer = json.dumps({"Status": status})
+    response["Status"] = "Failure"
 else:
-    status = "Success"
-    statistics = ""
-    answer = json.dumps({"Status": status,
-                         "Statistics": statistics})
+    response["Status"] = "Success"
+    statistics = []
+    for i in range(4):
+        user = {}
+        user["Username"] = "username" + str(i)
+        user["XP"] = i * 100
+        user["Level"] = i
+        statistics.append(user)
+    response["Statistics"] = statistics
 
 
 print("Content-type: application/json")
 print()
-print(answer)
+print(json.dumps(response))

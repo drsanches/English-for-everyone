@@ -15,8 +15,8 @@
       <file leaf-file-name="SimpleLearn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/simplelearn/SimpleLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="97" column="75" lean-forward="true" selection-start-line="97" selection-start-column="75" selection-end-line="97" selection-end-column="75" />
+            <state relative-caret-position="189">
+              <caret line="78" column="59" lean-forward="true" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,12 +61,12 @@
         <option value="$PROJECT_DIR$/src/configurations/Configurations.java" />
         <option value="$PROJECT_DIR$/src/information/Information.java" />
         <option value="$PROJECT_DIR$/src/timers/Timers.java" />
-        <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/lesson/Lesson.java" />
         <option value="$PROJECT_DIR$/src/statistics/Statistics.java" />
         <option value="$PROJECT_DIR$/src/logout/Logout.java" />
         <option value="$PROJECT_DIR$/src/unregistration/Unregistration.java" />
         <option value="$PROJECT_DIR$/src/simplelearn/SimpleLearn.java" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
       </list>
     </option>
   </component>
@@ -125,6 +125,12 @@
               <item name="SimpleLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="statistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -592,19 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="method#getTest#0;class#Test#0" expanded="false" />
-            <element signature="method#serverGetTest#0;class#Test#0" expanded="false" />
-            <element signature="method#gradeTestResults#0;class#Test#0" expanded="false" />
-            <element signature="method#serverGradeTestResults#0;class#Test#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/statistics/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -613,10 +606,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="method#getTest#0;class#Test#0" expanded="false" />
+            <element signature="method#serverGetTest#0;class#Test#0" expanded="false" />
+            <element signature="method#serverGradeTestResults#0;class#Test#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/simplelearn/SimpleLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="97" column="75" lean-forward="true" selection-start-line="97" selection-start-column="75" selection-end-line="97" selection-end-column="75" />
+        <state relative-caret-position="189">
+          <caret line="78" column="59" lean-forward="true" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

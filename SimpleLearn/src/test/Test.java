@@ -28,6 +28,8 @@ public class Test {
         if (args.length == 0) {
             System.out.print("Session id: ");
             String sessionId = (new Scanner(System.in)).nextLine();
+            System.out.print("Test id: ");
+            int testId = Integer.parseInt((new Scanner(System.in)).nextLine());
             System.out.print("Count of answers: ");
             int countOfAnswers = Integer.parseInt((new Scanner(System.in)).nextLine());
             String[] answers = new String[countOfAnswers];
@@ -37,21 +39,22 @@ public class Test {
                 answers[i] = (new Scanner(System.in)).nextLine();
             }
 
-            serverGradeTestResults(sessionId, answers);
-        } else if (args.length > 1) {
+            serverGradeTestResults(sessionId, testId, answers);
+        } else if (args.length > 2) {
             String sessionId = args[0];
-            String[] answers = new String[args.length - 1];
+            int testId = Integer.parseInt(args[1]);
+            String[] answers = new String[args.length - 2];
 
             for (int i = 0; i < answers.length; i++)
-                answers[i] = args[i + 1];
+                answers[i] = args[i + 2];
 
-            serverGradeTestResults(sessionId, answers);
+            serverGradeTestResults(sessionId, testId, answers);
         } else {
             System.out.println("Incorrect count of arguments.");
         }
     }
 
-    private static void serverGradeTestResults(String sessionId, String[] answers) {
+    private static void serverGradeTestResults(String sessionId, int testId, String[] answers) {
         //TODO: Write code
     }
 }

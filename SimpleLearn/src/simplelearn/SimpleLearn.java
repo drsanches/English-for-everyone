@@ -94,31 +94,31 @@ public class SimpleLearn {
         System.out.println("\n---------------SimpleLearn----------------");
         System.out.println("Available commands:");
         System.out.println("reg              - Description: description;\n"
-                         + "                   Arguments:   Username Password E-mail;");
+                + "                   Arguments:   Username Password E-mail;");
         System.out.println("login            - Description: description;\n"
-                         + "                   Arguments:   Username Password RememberMe(true / false);");
+                + "                   Arguments:   Username Password RememberMe(true / false);");
         System.out.println("setconfig        - Description: description;\n"
-                         + "                   Arguments:   SessionId NativeLanguage ForeignLanguage Level;");
+                + "                   Arguments:   SessionId NativeLanguage ForeignLanguage Level;");
         System.out.println("getinfo          - Description: description;\n"
-                         + "                   Arguments:   SessionId;");
+                + "                   Arguments:   SessionId;");
         System.out.println("gettimers        - Description: description;\n"
-                         + "                   Arguments:   SessionId;");
+                + "                   Arguments:   SessionId;");
         System.out.println("settimer         - Description: description;\n"
-                         + "                   Arguments:   SessionId Time Period Count;");
+                + "                   Arguments:   SessionId Time Period Count;");
         System.out.println("deltimer         - Description: description;\n"
-                         + "                   Arguments:   SessionId TimerId;");
+                + "                   Arguments:   SessionId TimerId;");
         System.out.println("getlesson        - Description: description;\n"
-                         + "                   Arguments:   SessionId TestId Type;");
+                + "                   Arguments:   SessionId TestId Type;");
         System.out.println("gettest          - Description: description;\n"
-                         + "                   Arguments:   SessionId Type;");
+                + "                   Arguments:   SessionId Type;");
         System.out.println("gradetestresults - Description: description;\n"
-                         + "                   Arguments:   SessionId Answer1 Answer2 ... AnswerN;");
+                + "                   Arguments:   SessionId TestId Answer1 Answer2 ... AnswerN;");
         System.out.println("getstat          - Description: description;\n"
-                         + "                   Arguments:   SessionId;");
+                + "                   Arguments:   SessionId;");
         System.out.println("logout           - Description: description;\n"
-                         + "                   Arguments:   SessionId;");
+                + "                   Arguments:   SessionId;");
         System.out.println("unreg            - Description: description;\n"
-                         + "                   Arguments:   SessionId;");
+                + "                   Arguments:   SessionId;");
         System.out.println("help             - Description: shows this help.\n");
     }
 }

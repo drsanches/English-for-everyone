@@ -4,13 +4,13 @@ import json
 form = cgi.FieldStorage()
 
 session_id = form.getvalue("SessionId")
-native_language = form.getvalue("NativeLanguage")
-foreign_language = form.getvalue("ForeignLanguage")
-level = form.getvalue("Level")
+time = form.getvalue("Time")
+period = form.getvalue("Period")
+count = form.getvalue("Count")
 
 response = {}
 
-if session_id is None or native_language is None or foreign_language is None or level is None:
+if session_id is None or time is None or period is None or count is None:
     response["Status"] = "Failure"
 else:
     response["Status"] = "Success"

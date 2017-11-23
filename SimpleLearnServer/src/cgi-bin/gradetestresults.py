@@ -5,17 +5,26 @@ form = cgi.FieldStorage()
 
 session_id = form.getvalue("SessionId")
 test_id = form.getvalue("TestId")
-answers = form.getvalue("Answers")
+answers = []
+i = 1
+while not (form.getvalue("Answer-" + str(i)) is None):
+    answers.append(form.getvalue("Answer-" + str(i)))
+    i = i + 1
+
+
+response = {}
 
 if session_id is None or test_id is None or answers is None:
-    status = "Failure"
-    answer = json.dumps({"Status": status})
+    response["Status"] = "Failure"
 else:
-    status = "Success"
-    right_answers = ""
-    answer = json.dumps({"Status": status,
-                         "RightAnswers": right_answers})
+    response["Status"] = "Success"
+    right_answers = []
+    for i in range(5):
+        right_answer = "rightanswer" + str(i)
+        right_answers.append(right_answer)
+    response["RightAnswers"] = right_answers
+
 
 print("Content-type: application/json")
 print()
-print(answer)
+print(json.dumps(response))
