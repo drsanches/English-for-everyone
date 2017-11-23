@@ -1,6 +1,7 @@
 package login;
 
 import com.mashape.unirest.http.*;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import serveraddress.ServerAddress;
 
 import java.util.Scanner;
@@ -8,33 +9,26 @@ import java.util.Scanner;
 public class Login {
     
     public static void login(String[] args) {
-
-        String username = "";
-        String password = "";
-        boolean rememberMe = false;
-
-        if (args.length >= 2) {
-            username = args[0];
-            password = args[1];
-            if (args.length == 3) {
-                rememberMe = Boolean.parseBoolean(args[2]);
-            }
+        if (args.length == 0) {
+            System.out.print("Username: ");
+            String username = (new Scanner(System.in)).nextLine();
+            System.out.print("Password: ");
+            String password = (new Scanner(System.in)).nextLine();
+            System.out.print("Remember me (true / false): ");
+            boolean rememberMe = Boolean.parseBoolean((new Scanner(System.in)).nextLine());
+            serverLogin(username, password, rememberMe);
+        }
+        else if (args.length == 3) {
+            String username = args[0];
+            String password = args[1];
+            boolean rememberMe = Boolean.parseBoolean(args[2]);
+            serverLogin(username, password, rememberMe);
         }
         else {
-            if (args.length != 0) {
-                System.out.println("Incorrect count of arguments.");
-            }
-            System.out.print("username: ");
-            username = (new Scanner(System.in)).nextLine();
-            System.out.print("Password: ");
-            password = (new Scanner(System.in)).nextLine();
-            System.out.print("Remember me (true / false): ");
-            rememberMe = Boolean.parseBoolean((new Scanner(System.in)).nextLine());
+            System.out.println("Incorrect count of arguments.");
         }
-
-        serverLogin(username, password, rememberMe);
     }
-    
+
     private static void serverLogin(String username, String password, boolean rememberMe) {
         try {
             String url = ServerAddress.getAddress("login.py");
