@@ -1,6 +1,10 @@
 package logout;
 
+import com.mashape.unirest.http.*;
+import org.json.*;
+import serveraddress.ServerAddress;
 import java.util.Scanner;
+
 
 public class Logout {
 
@@ -20,6 +24,27 @@ public class Logout {
     }
 
     private static void serverLogout(String sessionId) {
-        //TODO: Write code
+        try {
+            String url = ServerAddress.getAddress("logout.py");
+            HttpResponse<JsonNode> jsonResponse = Unirest.post(url)
+                    .header("content-type", "application/x-www-form-urlencoded")
+                    .body("SessionId=" + sessionId)
+                    .asJson();
+
+            printLogoutResponse(jsonResponse.getBody().getObject());
+        }
+        catch(Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
+    }
+
+    private static void printLogoutResponse(JSONObject response) {
+        try {
+            String status = response.getString("Status");
+            System.out.println("Status: " + status);
+        }
+        catch (Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
     }
 }

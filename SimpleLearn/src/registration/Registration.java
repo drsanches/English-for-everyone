@@ -2,6 +2,7 @@ package registration;
 
 import java.util.Scanner;
 import com.mashape.unirest.http.*;
+import org.json.*;
 import serveraddress.*;
 
 
@@ -36,10 +37,19 @@ public class Registration {
                     .body("Username=" + username + "&Password=" + password + "&E-mail=" + email)
                     .asJson();
 
-            String status = jsonResponse.getBody().getObject().getString("Status");
-            System.out.println(status);
+            printRegistrationResponse(jsonResponse.getBody().getObject());
         }
         catch(Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
+    }
+
+    private static void printRegistrationResponse(JSONObject response) {
+        try {
+            String status = response.getString("Status");
+            System.out.println("Status: " + status);
+        }
+        catch (Exception e) {
             System.out.println("Error: " + e.toString());
         }
     }

@@ -1,6 +1,10 @@
 package unregistration;
 
+import com.mashape.unirest.http.*;
+import org.json.*;
+import serveraddress.ServerAddress;
 import java.util.Scanner;
+
 
 public class Unregistration {
 
@@ -20,6 +24,27 @@ public class Unregistration {
     }
 
     private static void serverUnregistration(String sessionId) {
-        //TODO: Write code
+        try {
+            String url = ServerAddress.getAddress("unreg.py");
+            HttpResponse<JsonNode> jsonResponse = Unirest.post(url)
+                    .header("content-type", "application/x-www-form-urlencoded")
+                    .body("SessionId=" + sessionId)
+                    .asJson();
+
+            printUnregistrationResponse(jsonResponse.getBody().getObject());
+        }
+        catch(Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
+    }
+
+    private static void printUnregistrationResponse(JSONObject response) {
+        try {
+            String status = response.getString("Status");
+            System.out.println("Status: " + status);
+        }
+        catch (Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
     }
 }

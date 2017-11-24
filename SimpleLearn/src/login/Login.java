@@ -1,10 +1,10 @@
 package login;
 
 import com.mashape.unirest.http.*;
-import com.sun.org.apache.xpath.internal.operations.Bool;
+import org.json.*;
 import serveraddress.ServerAddress;
-
 import java.util.Scanner;
+
 
 public class Login {
     
@@ -37,10 +37,19 @@ public class Login {
                     .body("Username=" + username + "&Password=" + password + "&RememberMe=" + rememberMe)
                     .asJson();
 
-            String status = jsonResponse.getBody().getObject().getString("Status");
-            System.out.println(status);
+            printLoginResponse(jsonResponse.getBody().getObject());
         }
         catch(Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
+    }
+
+    private static void printLoginResponse(JSONObject response) {
+        try {
+            String status = response.getString("Status");
+            System.out.println("Status: " + status);
+        }
+        catch (Exception e) {
             System.out.println("Error: " + e.toString());
         }
     }

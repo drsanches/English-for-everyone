@@ -1,6 +1,10 @@
 package configurations;
 
+import com.mashape.unirest.http.*;
+import org.json.*;
+import serveraddress.ServerAddress;
 import java.util.Scanner;
+
 
 public class Configurations {
 
@@ -29,6 +33,30 @@ public class Configurations {
     }
 
     private static void serverSetConfigurations(String sessionId, String nativeLanguage, String foreignLanguage, int level) {
-        //TODO: Write code
+        try {
+            String url = ServerAddress.getAddress("setconfig.py");
+            HttpResponse<JsonNode> jsonResponse = Unirest.post(url)
+                    .header("content-type", "application/x-www-form-urlencoded")
+                    .body("SessionId=" + sessionId
+                            + "&NativeLanguage=" + nativeLanguage
+                            + "&ForeignLanguage=" + foreignLanguage
+                            + "&Level=" + level)
+                    .asJson();
+
+            printSetConfigurationsResponse(jsonResponse.getBody().getObject());
+        }
+        catch(Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
+    }
+
+    private static void printSetConfigurationsResponse(JSONObject response) {
+        try {
+            String status = response.getString("Status");
+            System.out.println("Status: " + status);
+        }
+        catch (Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
     }
 }

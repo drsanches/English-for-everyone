@@ -1,30 +1,26 @@
 package simplelearn;
 
-import information.Information;
 import registration.*;
 import login.*;
 import configurations.*;
 import information.*;
 import timers.*;
 import lesson.*;
-
 import test.*;
 import statistics.*;
 import logout.*;
 import unregistration.*;
 
-import javax.swing.*;
 
 public class SimpleLearn {
 
     public static void main(String[] args) {
 
 //        Only for debug
-        args = new String[1];
-        args[0] = "help";
-//        args[1] = "arg1";
-//        args[2] = "arg2";
-//        args[3] = "3";
+        args = new String[2];
+        args[0] = "getinfo";
+        for (int i = 1; i < args.length; i++)
+            args[i] = Integer.toString(i);
 
         String commandName = "";
         String[] commandArgs = new String[0];

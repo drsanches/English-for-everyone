@@ -1,6 +1,10 @@
 package timers;
 
+import com.mashape.unirest.http.*;
+import org.json.*;
+import serveraddress.ServerAddress;
 import java.util.Scanner;
+
 
 public class Timers {
 
@@ -29,7 +33,31 @@ public class Timers {
     }
 
     private static void serverSetTimer(String sessionId, String time, String period, int count) {
-        //TODO: Write code
+        try {
+            String url = ServerAddress.getAddress("settimer.py");
+            HttpResponse<JsonNode> jsonResponse = Unirest.post(url)
+                    .header("content-type", "application/x-www-form-urlencoded")
+                    .body("SessionId=" + sessionId
+                            + "&Time=" + time
+                            + "&Period=" + period
+                            + "&Count=" + count)
+                    .asJson();
+
+            printSetTimerResponse(jsonResponse.getBody().getObject());
+        }
+        catch(Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
+    }
+
+    private static void printSetTimerResponse(JSONObject response) {
+        try {
+            String status = response.getString("Status");
+            System.out.println("Status: " + status);
+        }
+        catch (Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
     }
 
     public static void deleteTimer(String[] args) {
@@ -51,7 +79,29 @@ public class Timers {
     }
 
     private static void serverDeleteTimer(String sessionId, int timerId) {
-        //TODO: Write code
+        try {
+            String url = ServerAddress.getAddress("deltimer.py");
+            HttpResponse<JsonNode> jsonResponse = Unirest.post(url)
+                    .header("content-type", "application/x-www-form-urlencoded")
+                    .body("SessionId=" + sessionId
+                            + "&TimerId=" + timerId)
+                    .asJson();
+
+            printDelTimerResponse(jsonResponse.getBody().getObject());
+        }
+        catch(Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
+    }
+
+    private static void printDelTimerResponse(JSONObject response) {
+        try {
+            String status = response.getString("Status");
+            System.out.println("Status: " + status);
+        }
+        catch (Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
     }
 
     public static void getTimers(String[] args) {
@@ -70,6 +120,41 @@ public class Timers {
     }
 
     private static void serverGetTimers(String sessionId) {
-        //TODO: Write code
+        try {
+            String url = ServerAddress.getAddress("gettimers.py");
+            HttpResponse<JsonNode> jsonResponse = Unirest.post(url)
+                    .header("content-type", "application/x-www-form-urlencoded")
+                    .body("SessionId=" + sessionId)
+                    .asJson();
+
+            printGetTimersResponse(jsonResponse.getBody().getObject());
+        }
+        catch(Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
+    }
+
+    private static void printGetTimersResponse(JSONObject response) {
+        try {
+            String status = response.getString("Status");
+            System.out.println("Status: " + status);
+
+            if (status.equals("Success")) {
+                JSONArray timers = response.getJSONArray("Timers");
+                System.out.println("Your timers: \n");
+
+                for (int i = 0; i < timers.length(); i++)
+                {
+                    JSONObject timer = timers.getJSONObject(i);
+                    System.out.println("    Timer id: " + timer.getInt("Id"));
+                    System.out.println("    Time: " + timer.getString("Time"));
+                    System.out.println("    Period: " + timer.getString("Period"));
+                    System.out.println("    Count: " + timer.getInt("Count") + "\n");
+                }
+            }
+        }
+        catch (Exception e) {
+            System.out.println("Error: " + e.toString());
+        }
     }
 }
