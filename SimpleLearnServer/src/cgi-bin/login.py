@@ -5,21 +5,18 @@ form = cgi.FieldStorage()
 
 username = form.getvalue("Username")
 password = form.getvalue("Password")
-rememberMe = form.getvalue("RememberMe")
+remember_me = form.getvalue("RememberMe")
 
-if username is None or password is None or rememberMe is None:
-    status = "Failure"
-    answer = json.dumps({"Status" : status})
+response = {}
+
+if username is None or password is None or remember_me is None:
+    response["Status"] = "Failure"
 else:
-    status = "Success"
-    sessionId = 123
-    startTime = 1
-    expiryPeriod = 10
-    answer = json.dumps({"Status": status,
-                         "SessionId": sessionId,
-                         "StartTime": startTime,
-                         "ExpiryPeriod": expiryPeriod})
+    response["Status"] = "Success"
+    response["SessionId"] = 123
+    response["StartTime"] = 1
+    response["ExpiryPeriod"] = 10
 
 print("Content-type: application/json")
 print()
-print(answer)
+print(json.dumps(response))
