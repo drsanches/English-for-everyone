@@ -50,8 +50,7 @@ public class Test {
                 System.out.println("Test id: " + response.getInt("TestId"));
                 JSONArray questions = response.getJSONArray("Questions");
 
-                for (int i = 0; i < questions.length(); i++)
-                {
+                for (int i = 0; i < questions.length(); i++) {
                     JSONObject question = questions.getJSONObject(i);
                     System.out.println("Question" + Integer.toString(i + 1) + ": ");
                     System.out.println("    Question: " + question.getString("Question"));
