@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.fade {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.form-container {
+  position: fixed;
+  display: none;
+  left: 35%;
+  top: 10%;
+  width: 30%;
+  height: 70%;
+  z-index: 10;
+  background: white; }
+  .form-container h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #100059;
+    font-size: 20px; }
+  .form-container .form {
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .form-container .form label {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      width: 50%;
+      font-family: 'Roboto', sans-serif;
+      color: #100059; }
+      .form-container .form label input {
+        margin-left: 10px;
+        height: 30px;
+        border-radius: 5px;
+        outline: none; }
+        .form-container .form label input:focus {
+          border: 2px solid #100059; }
+      .form-container .form label input[type="submit"] {
+        width: 150px;
+        border: none;
+        color: white;
+        background-color: #ff525a;
+        -webkit-transition: 0.5s ease;
+        transition: 0.5s ease;
+        cursor: pointer; }
+      .form-container .form label input[type="submit"]:hover {
+        background: #100059; }
+
+.intro-section {
+  padding: 150px 30px 150px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /*    align-items: center;*/
+  /*    background: red;*/ }
+  .intro-section img {
+    width: 50%; }
+
+.description-div {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center; }
+  .description-div h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #100059;
+    /*    margin-bottom: 10px;*/ }
+  .description-div p {
+    font-family: 'Roboto', serif;
+    /*    margin-bottom: 30px;*/ }
+  .description-div button {
+    width: 60%;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff525a;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease; }
+    .description-div button:hover {
+      background-color: #100059; }
+
+.adv-section {
+  min-height: 500px; }
+  .adv-section h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #100059;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px; }
+
+.hiw-section {
+  min-height: 600px;
+  background: #4a70ed; }
+  .hiw-section h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px; }
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s; }
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
