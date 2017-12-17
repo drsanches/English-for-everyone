@@ -1,0 +1,19 @@
+﻿{
+	"NativeLanguage": "Rus",
+	"ForeignLanguage": "Eng",
+	"Words": 
+	[
+		{
+			"NativeWord": "кот",
+			"NativeTranscription": "[kot]",
+			"ForeignWord": "cat",
+			"ForeignTranscription": "[cat]"
+		},
+		{
+			"NativeWord": "пес",
+			"NativeTranscription": "[pes]",
+			"ForeignWord": "dog",
+			"ForeignTranscription": "[dog]"
+		}
+	]
+}

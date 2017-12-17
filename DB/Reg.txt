@@ -1,1 +1,1 @@
-INSERT INTO Users(UserName, Password, Email, XP) VALUES('новый пользователь', 'пароль', 'майл', 0)
+INSERT INTO Users(UserName, UserPassword, Email, XP) VALUES('новый пользователь', 'пароль', 'майл', 0)

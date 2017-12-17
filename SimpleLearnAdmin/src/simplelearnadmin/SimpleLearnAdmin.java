@@ -8,17 +8,27 @@ import restore.*;
 
 public class SimpleLearnAdmin {
     
-    public static void main(String[] args) {
+    public static void main(String[] args){
+//        Only for debug
+        args = new String[2];
+        args[0] = "add";
+        args[1] = "dictionary1.txt";
+
         String commandName = "";
-        if (args.length > 0)
-                commandName = args[0];
-        
-        //For debug:
-        commandName = "add";
-        
+        String[] commandArgs = new String[0];
+
+        if (args.length > 0) {
+            commandName = args[0];
+            if (args.length > 1) {
+                commandArgs = new String[args.length - 1];
+                for (int i = 0; i < commandArgs.length; i++)
+                    commandArgs[i] = args[i + 1];
+            }
+        }
+
         switch (commandName) {
             case "add":
-                    Add.add();
+                    Add.add(commandArgs);
                     break;
             case "del":
                     Delete.delete();
