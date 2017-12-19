@@ -1,0 +1,4 @@
+INSERT INTO Sessions(SessionID, UserID, Started, Expires)
+SELECT 'ID сессии', Users.UserID, 'время начала - сейчас', 'хз что это, я не поняла'
+FROM Users
+WHERE Users.UserName = 'имя пользователя которое ввели' AND Users.UserPassword = 'пароль который ввели'
