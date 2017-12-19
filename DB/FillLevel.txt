@@ -1,0 +1,14 @@
+INSERT INTO Level(LevelName, NeededWords) VALUES('Beginer', 0)
+
+INSERT INTO Level(LevelName, NeededWords) VALUES('Elementary', 50)
+
+INSERT INTO Level(LevelName, NeededWords) VALUES('Pre-Intermediate', 150)
+
+INSERT INTO Level(LevelName, NeededWords) VALUES('Intermediate', 350)
+
+INSERT INTO Level(LevelName, NeededWords) VALUES('Upper-Intermediate', 700)
+
+INSERT INTO Level(LevelName, NeededWords) VALUES('Advanced', 1100)
+
+INSERT INTO Level(LevelName, NeededWords) VALUES('Proficiency', 2000)
+
