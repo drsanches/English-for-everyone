@@ -1,0 +1,1 @@
+INSERT INTO Languages(LangName) VALUES ('название языка')
