@@ -1,0 +1,6 @@
+UPDATE Users 
+SET 
+	NLang = (SELECT LangID FROM Languages WHERE LangName = 'родной язык'),
+	FLang = (SELECT LangID FROM Languages WHERE LangName = 'изучаемый язык')
+WHERE 
+	Users.UserID = (SELECT UserID FROM Sessions WHERE SessionID = 'ID сессии')
