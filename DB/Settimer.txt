@@ -1,0 +1,4 @@
+INSERT INTO Timers (UserID, Count, Time, Days)
+SELECT Sessions.UserID, что такое count, "время", дни
+FROM Sessions
+WHERE SessionID = "номер сессии"
