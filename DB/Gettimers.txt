@@ -1,0 +1,1 @@
+SELECT Count, Time, Days FROM Timers left JOIN Sessions ON Timers.UserID = Sessions.UserID WHERE SessionID = "номер сессии"
