@@ -1,0 +1,1 @@
+SELECT UserName, LangName, XP FROM Users left JOIN Sessions On Users.UserID = Sessions.UserID left JOIN Languages On Users.NLang = Languages.LangID WHERE Sessions.SessionID = "номер сессии"
