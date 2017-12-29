@@ -1,0 +1,1 @@
+delete FROM Timers WHERE TimersID IN (SELECT TimersID FROM Timers INNER JOIN Sessions ON Sessions.UserID=Timers.UserID WHERE SessionID = "номер сессии")
