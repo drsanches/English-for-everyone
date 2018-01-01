@@ -1,0 +1,11 @@
+запишем в переменную id юзера
+SELECT UserID FROM Sessions WHERE SessionID = "номер сессии";
+DELETE FROM Timers WHERE UserID = id юзера;
+DELETE FROM WordToLearn WHERE UserID = id юзера;
+DELETE FROM Progress WHERE UserID = id юзера;
+запомним TimeRepeatID что бы удалить в последствие(может быть несколько)
+DELETE FROM WordToRepeat WHERE UserID = id юзера;
+DELETE FROM TimeRepeat WHERE TimeRepeatID = id времени повторения;
+DELETE FROM UserLevel WHERE UserID = id юзера;
+DELETE FROM Sessions WHERE UserID = id юзера;
+DELETE FROM Users WHERE UserID = id юзера;
