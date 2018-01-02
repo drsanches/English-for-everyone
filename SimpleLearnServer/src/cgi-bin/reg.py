@@ -4,11 +4,9 @@ import sqlite3
 import db_address
 
 form = cgi.FieldStorage()
-
 username = form.getvalue("Username")
 password = form.getvalue("Password")
 email = form.getvalue("E-mail")
-
 response = {}
 
 if username is None or password is None or email is None:
