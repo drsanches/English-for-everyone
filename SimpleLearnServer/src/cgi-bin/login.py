@@ -24,6 +24,12 @@ else:
     try:
         connection = sqlite3.connect(db_address.get_db_address())
         cursor = connection.cursor()
+
+        query = "SELECT * FROM Users WHERE Users.UserName = ? AND Users.UserPassword = ?"
+        cursor.execute(query, (username, password))
+        if len(cursor.fetchall()) != 1:
+            raise Exception()
+
         query = """INSERT INTO Sessions(SessionID, UserID, Started, Expires)
                 SELECT ?, Users.UserID, ?, ?
                 FROM Users
