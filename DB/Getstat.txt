@@ -1,0 +1,6 @@
+SELECT UserName, LangName, XP FROM Users
+left join Sessions ON Users.UserID = Sessions.UserID
+left join UserLevel ON UserLevel.UserID = Users.UserID
+left join Languages ON Users.FLang = Languages.LangID
+left join Level ON UserLevel.LevelID = Level.LevelID
+WHERE SessionID = 'номер сессии'
