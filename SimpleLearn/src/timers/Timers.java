@@ -14,32 +14,32 @@ public class Timers {
             String sessionId = (new Scanner(System.in)).nextLine();
             System.out.print("Time: ");
             String time = (new Scanner(System.in)).nextLine();
-            System.out.print("Period: ");
-            String period = (new Scanner(System.in)).nextLine();
+            System.out.print("Days: ");
+            String days = (new Scanner(System.in)).nextLine();
             System.out.print("Count of words: ");
             int count = Integer.parseInt((new Scanner(System.in)).nextLine());
-            serverSetTimer(sessionId, time, period, count);
+            serverSetTimer(sessionId, time, days, count);
         }
         else if (args.length == 4) {
             String sessionId = args[0];
             String time = args[1];
-            String period = args[2];
+            String days = args[2];
             int count = Integer.parseInt(args[3]);
-            serverSetTimer(sessionId, time, period, count);
+            serverSetTimer(sessionId, time, days, count);
         }
         else {
             System.out.println("Incorrect count of arguments.");
         }
     }
 
-    private static void serverSetTimer(String sessionId, String time, String period, int count) {
+    private static void serverSetTimer(String sessionId, String time, String days, int count) {
         try {
             String url = ServerAddress.getAddress("settimer.py");
             HttpResponse<JsonNode> jsonResponse = Unirest.post(url)
                     .header("content-type", "application/x-www-form-urlencoded")
                     .body("SessionId=" + sessionId
                             + "&Time=" + time
-                            + "&Period=" + period
+                            + "&Days=" + days
                             + "&Count=" + count)
                     .asJson();
 

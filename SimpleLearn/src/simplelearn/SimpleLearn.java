@@ -100,7 +100,7 @@ public class SimpleLearn {
         System.out.println("gettimers        - Description: description;\n"
                 + "                   Arguments:   SessionId;");
         System.out.println("settimer         - Description: description;\n"
-                + "                   Arguments:   SessionId Time Period Count;");
+                + "                   Arguments:   SessionId Time Days Count;");
         System.out.println("deltimer         - Description: description;\n"
                 + "                   Arguments:   SessionId TimerId;");
         System.out.println("getlesson        - Description: description;\n"
