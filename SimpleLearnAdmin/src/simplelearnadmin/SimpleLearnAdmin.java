@@ -5,13 +5,12 @@ import delete.*;
 import backup.*;
 import restore.*;
 
-
 public class SimpleLearnAdmin {
     
     public static void main(String[] args){
 //        Only for debug
         args = new String[2];
-        args[0] = "add";
+        args[0] = "backup";
         args[1] = "dictionary1.txt";
 
         String commandName = "";
@@ -34,7 +33,7 @@ public class SimpleLearnAdmin {
                     Delete.delete();
                     break;
             case "backup":
-                    Backup.backup();
+                    Backup.backup(commandArgs);
                     break;
             case "restore":
                     Restore.restore();
