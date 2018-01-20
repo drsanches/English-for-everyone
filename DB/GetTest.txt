@@ -1,0 +1,55 @@
+Ќаходим id юзера и его изучаемый €зык по номеру сессии
+SELECT Users.UserID, FLang FROM Sessions left join Users On Sessions.UserID = Users.UserID WHERE SessionID = 'номер сессии';
+находитс€ его уровень
+SELECT LevelID FROM UserLevel WHERE UserID = номер юзера AND LangID = номер €зыка
+если нет записи в таблице UserLevel - вызываетс€ начальный тест
+
+Ќачальный тест:
+выведем все номера пар слов дл€ каждого уровн€:
+Select ID FROM Pair left join Dictionary ON Pair.DicID = Dictionary.DictionaryID left join Level ON Dictionary.LevelID = Level.LevelID WHERE LevelName = '”ровень' And Theme = 'basic'
+”ровни:
+Elementary
+Intermediate
+Upper-Intermediate
+
+выбрать 10 пар из каждого уровн€ и заполнить таблицу Test:
+INSERT INTO TEST(TestID,TypeID, PairID) values(номер теста, 1, номер пары)
+
+Select Spell, TypeName FROM Test left join Pair ON Test.PairID = Pair.ID
+left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID left join TestType On Test.TestID = TestType.TypeID
+WHERE TestID = номер теста
+выдает слово1, слово2 и тип вопроса, дл€ начального теста-'слово-перевод'
+
+Ќепервичный тест(если есть строчка в UserLevel):
+выведем все номера пар дл€ изучени€
+SELECT PairID FROM WordsToLearn left join Sessions ON WordsToLearn.UserID = Sessions.UserID WHERE Sessions.SessionID = 'номер сессии'
+ƒл€ теста слово-перевод
+¬ыбираем 5 пар
+INSERT INTO TEST(TestID,TypeID, PairID)
+SELECT номер теста, TypeID, номер пары
+FROM TestType
+WHERE TypeName = 'слово-перевод'
+
+ƒл€ теста перевод-слово
+¬ыбираем 5 пар
+INSERT INTO TEST(TestID,TypeID, PairID)
+SELECT номер теста, TypeID, номер пары
+FROM TestType
+WHERE TypeName = 'перевод-слово'
+
+ƒл€ теста аудио
+¬ыбираем 5 пар
+INSERT INTO TEST(TestID,TypeID, PairID)
+SELECT номер теста, TypeID, номер пары
+FROM TestType
+WHERE TypeName = 'аудио'
+
+ƒл€ полного теста: все три части
+
+Select Spell, Phonetic, TypeName FROM Test left join Pair ON Test.PairID = Pair.ID
+left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID left join TestType On Test.TestID = TestType.TypeID
+WHERE TestID = номер теста
+
+¬ыводит слово, транскрипцию и тип вопроса
+
+
