@@ -1,0 +1,4 @@
+INSERT INTO Words(LangID, Spell)
+Select LangID, 'слово'
+from Languages
+Where LangName = 'язык'
