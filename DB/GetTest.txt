@@ -52,4 +52,39 @@ WHERE TestID = номер теста
 
 Выводит слово, транскрипцию и тип вопроса
 
+ТЕСТ НА ПОВТОРЕНИЕ:
+выведем все номера пар для повторения
+SELECT PairID FROM WordsToRepeat 
+left join Sessions ON WordsToLearn.UserID = Sessions.UserID 
+left join TimeRepeat ON WordToRepeat.TimeToRepeatID = TimeRepeat.TimeRepeatID
+WHERE Sessions.SessionID = 'номер сессии' AND Time <= сегодня в виде строчки
+Для теста слово-перевод
+Выбираем 5 пар
+INSERT INTO TEST(TestID,TypeID, PairID)
+SELECT номер теста, TypeID, номер пары
+FROM TestType
+WHERE TypeName = 'слово-перевод'
+
+Для теста перевод-слово
+Выбираем 5 пар
+INSERT INTO TEST(TestID,TypeID, PairID)
+SELECT номер теста, TypeID, номер пары
+FROM TestType
+WHERE TypeName = 'перевод-слово'
+
+Для теста аудио
+Выбираем 5 пар
+INSERT INTO TEST(TestID,TypeID, PairID)
+SELECT номер теста, TypeID, номер пары
+FROM TestType
+WHERE TypeName = 'аудио'
+
+Для полного теста: все три части
+
+Select Spell, Phonetic, TypeName FROM Test left join Pair ON Test.PairID = Pair.ID
+left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID left join TestType On Test.TestID = TestType.TypeID
+WHERE TestID = номер теста
+
+Выводит слово, транскрипцию и тип вопроса
+
 

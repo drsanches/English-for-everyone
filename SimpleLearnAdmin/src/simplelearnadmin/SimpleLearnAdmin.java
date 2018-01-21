@@ -9,9 +9,10 @@ public class SimpleLearnAdmin {
     
     public static void main(String[] args){
 //        Only for debug
-        args = new String[2];
+        args = new String[3];
         args[0] = "backup";
-        args[1] = "dictionary1.txt";
+        args[1] = "../DB/SimpleLearnBD.db";
+        args[2] = "../DB/backups/backup.log";
 
         String commandName = "";
         String[] commandArgs = new String[0];
@@ -36,7 +37,7 @@ public class SimpleLearnAdmin {
                     Backup.backup(commandArgs);
                     break;
             case "restore":
-                    Restore.restore();
+                    Restore.restore(commandArgs);
                     break;
             case "help":
                     help();
