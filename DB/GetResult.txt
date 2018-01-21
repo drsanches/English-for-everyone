@@ -1,0 +1,54 @@
+DELETE FROM Test WHERE TestID = номер теста
+
+ПЕРВОНАЧАЛЬНЫЙ ТЕСТ:
+у нас есть кол-во баллов за тест
+0-присваевается 1 уровень
+5-присваевается 2 уровень
+10- 3 уровень
+15 -4
+20 - 5
+
+INSERT INTO UserLevel 
+SELECT Users.UserID, FLang, номер уровня
+FROM Users left join Sessions On Sessions.UserID = Users.UserID
+WHERE SessionID = номер сессии
+
+тест НА ИЗУЧЕНИЕ:
+Если слово неправильное, то оно остается в WordToLearn
+Если слово правильное, то:
+Insert into WordToRepeat(UserID, PairID, TimeToRepeatID, Time, LangID)
+SELECT Users.UserID, номер пары, 1 - первый таймер, 'время слудующего повторения = сегодня + 7 дней', FLang
+FROM Users left join Sessions ON Sessions.UserID = Users.UserID
+Where SessionID = 'номер сессии'
+Удалим эту пару из таблицы на изучение
+DELETE FROM WordsToLearn WHERE UserID = ид юзера AND PairID = номер пары
+
+
+
+Тест на повторение:
+если слово неправильное - ничего не делаем
+если слово правильное - увеличиваем время повторения
+SELECT TimeToRepeatID FROM WordToRepeat WHERE PairID = номер пары
+находим следующий таймер на повторение
+SELECT Time FROM TimeRepeat WHERE TimeToRepeatID = новый таймер
+UPDATE WordToRepeat SET TimeToRepeatID = новый таймер,
+Time = 'сегодня + новый период'
+
+
+
+добавить очки
+ 
+UPDATE Users SET XP =(SELECT XP FROM Users WHERE UserID = id юзера AND FLang = изучаемый язык) + 1 
+WHERE UserID = id юзера AND FLang = изучаемый язык
+
+проверить прибавление уровня
+узнем текущий номер уровня для данного языка
+SELECT LevelID FROM UserLevel
+WHERE UserID = юзер AND LangID = язык изучаемый
+
+узнаем кол-во слов нужных для след уровня
+SELECT NeededWords FROM Level WHERE LevelID = номер уровня + 1
+узнаем кол-во изученных пользователем слов
+SELECT XP FROM Users WHERE UserID = юзер AND FLang = изучаемый язык
+при необходимости
+UPDATE UserLevel SET LevelID = новый уровень WHERE UserID = юзер AND LangID = язык
