@@ -1,8 +1,11 @@
 package add;
 
 import org.json.*;
-
 import java.io.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.Scanner;
 
 public class Add
@@ -22,8 +25,6 @@ public class Add
 
     private static void addDictionaryFile(String filePath) {
         try {
-
-
             String stringDictionary = "";
             final BufferedReader br = new BufferedReader(
                     new InputStreamReader(
@@ -45,6 +46,29 @@ public class Add
                 String nativeTranscription = word.getString("NativeTranscription");
                 String foreignWord = word.getString("ForeignWord");
                 String foreignTranscription = word.getString("ForeignTranscription");
+            }
+
+
+            String dbName = "../DB/SimpleLearnBD.db";
+            Connection connection = null;
+            try {
+                Class.forName("org.sqlite.JDBC");
+                connection = DriverManager.getConnection("jdbc:sqlite:" + dbName);
+                Statement statement = connection.createStatement();
+
+                ResultSet resultSet = statement.executeQuery("SELECT * FROM Users");
+                while (resultSet.next()) {
+                    String username = resultSet.getString("UserName");
+                    System.out.print(username);
+                }
+
+
+                resultSet.close();
+                statement.close();
+                connection.close();
+
+            } catch ( Exception e ) {
+                System.err.println( e.getClass().getName() + ": " + e.getMessage() );
             }
 
 
