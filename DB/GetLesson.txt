@@ -1,0 +1,4 @@
+Select Spell, Phonetic FROM WordsToLearn left join Pair ON WordsToLearn.PairID = Pair.ID
+left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID 
+left join Sessions ON Sessions.UserID = WordsToLearn.UserID
+WHERE SessionID = 'номер сесии'
