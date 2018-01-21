@@ -18,33 +18,36 @@ else:
 
         query = "SELECT UserID FROM Sessions WHERE Sessions.SessionID = ?"
         cursor.execute(query, (session_id,))
-        if len(cursor.rowcount()) != 1:
-           raise Exception()
+        temp = cursor.fetchall()
+        if len(temp) != 1:
+                raise Exception()
         else:
-            user_id = cursor.fetchone()[0]
+            user_id = temp[0][0];
 
             query = "DELETE FROM Timers WHERE UserID = ?"
-            cursor.execute(query, (user_id,))
-            query = "DELETE FROM WordToLearn WHERE UserID = ?"
-            cursor.execute(query, (user_id,))
+            cursor.execute(query, (str(user_id),))
+            query = "DELETE FROM WordsToLearn WHERE UserID = ?"
+            cursor.execute(query, (str(user_id),))
             query = "DELETE FROM Progress WHERE UserID = ?"
-            cursor.execute(query, (user_id,))
+            cursor.execute(query, (str(user_id),))
             query = "DELETE FROM WordToRepeat WHERE UserID = ?"
-            cursor.execute(query, (user_id,))
+            cursor.execute(query, (str(user_id),))
 
-            query = "SELECT TimeRep FROM W_To_Repeat WHERE Users.UserID = ?"
-            cursor.execute(query, (user_id,))
-            if len(cursor.rowcount()) != 0:
-                timerepeat_id = cursor.fetchone()[0]
+            query = "SELECT TimeToRepeat FROM WordToRepeat WHERE UserID = ?"
+            cursor.execute(query, (str(user_id),))
 
-            query = "DELETE FROM TimeRepeat  WHERE TimeRepeatID = ?"
-            cursor.execute(query, (timerepeat_id,))
+            temp = cursor.fetchall()
+            if len(temp) != 0:
+                for time_repeat in temp:
+                    query = "DELETE FROM TimeRepeat  WHERE TimeToRepeat = ?"
+                    cursor.execute(query, (time_repeat[0],))
+
             query = "DELETE FROM UserLevel WHERE UserID = ?"
-            cursor.execute(query, (user_id,))
+            cursor.execute(query, (str(user_id),))
             query = "DELETE FROM Sessions WHERE UserID = ?"
-            cursor.execute(query, (user_id,))
+            cursor.execute(query, (str(user_id),))
             query = "DELETE FROM Users WHERE UserID = ?"
-            cursor.execute(query, (user_id,))
+            cursor.execute(query, (str(user_id),))
 
         connection.commit()
         connection.close()
