@@ -1,0 +1,150 @@
+{
+	"ForeignWord": "﻿i",
+	"ForeignTranscription": "[aɪ]",
+	"NativeWord": "я, я",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "both",
+	"ForeignTranscription": "[boʊθ]",
+	"NativeWord": "оба, оба, обе",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "he",
+	"ForeignTranscription": "[hiː]",
+	"NativeWord": "он",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "her",
+	"ForeignTranscription": "[hɜː]",
+	"NativeWord": "её",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hers",
+	"ForeignTranscription": "[həːz]",
+	"NativeWord": "её",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "herself",
+	"ForeignTranscription": "[hərˈsɛlf]",
+	"NativeWord": "себя (сама)",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "himself",
+	"ForeignTranscription": "[hɪmˈsɛlf]",
+	"NativeWord": "себя (сам)",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "his",
+	"ForeignTranscription": "[hɪz]",
+	"NativeWord": "его",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "much",
+	"ForeignTranscription": "[mʌʧ]",
+	"NativeWord": "много, очень, много",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "one another",
+	"ForeignTranscription": "[wʌn əˈnʌðə]",
+	"NativeWord": "друг другу",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "oneself",
+	"ForeignTranscription": "[wʌnˈsɛlf]",
+	"NativeWord": "себя, сам, сама",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "she",
+	"ForeignTranscription": "[ʃi]",
+	"NativeWord": "она, она",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "such",
+	"ForeignTranscription": "[sʌʧ]",
+	"NativeWord": "такой",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "the same",
+	"ForeignTranscription": "[ðə seɪm]",
+	"NativeWord": "тот же самый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "their",
+	"ForeignTranscription": "[ðɛr]",
+	"NativeWord": "их",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "themselves",
+	"ForeignTranscription": "[ðɛmˈsɛlvz]",
+	"NativeWord": "себя (сами)",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "these",
+	"ForeignTranscription": "[ðiz]",
+	"NativeWord": "эти",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "they",
+	"ForeignTranscription": "[ðeɪ]",
+	"NativeWord": "они, они",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "this",
+	"ForeignTranscription": "[ðɪs]",
+	"NativeWord": "этот, этот, эта, это",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "we",
+	"ForeignTranscription": "[wi]",
+	"NativeWord": "мы, мы",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "whatever",
+	"ForeignTranscription": "[ˌwʌˈtɛvər]",
+	"NativeWord": "что бы ни, какой бы ни",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "whichever",
+	"ForeignTranscription": "[wɪtʃˈɛvə]",
+	"NativeWord": "какой бы ни",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "who",
+	"ForeignTranscription": "[hu]",
+	"NativeWord": "кто",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "whoever",
+	"ForeignTranscription": "[huːˈɛvə]",
+	"NativeWord": "кто бы ни",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "whose",
+	"ForeignTranscription": "[huz]",
+	"NativeWord": "чей, чей",
+	"NativeTranscription": "[ NODATA ]"
+},

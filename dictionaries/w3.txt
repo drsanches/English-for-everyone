@@ -1,0 +1,534 @@
+{
+	"ForeignWord": "﻿always",
+	"ForeignTranscription": "[ˈɔlˌweɪz]",
+	"NativeWord": "всегда, всегда",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "and",
+	"ForeignTranscription": "[ænd]",
+	"NativeWord": "и, и, а, и, а, но",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "another",
+	"ForeignTranscription": "[əˈnʌðər]",
+	"NativeWord": "ещё один, другой, новый, другой, ещё один, ещё один, другой",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "away",
+	"ForeignTranscription": "[əˈweɪ]",
+	"NativeWord": "далеко",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "back",
+	"ForeignTranscription": "[bæk]",
+	"NativeWord": "обратно, назад",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "begin",
+	"ForeignTranscription": "[bɪˈgɪn]",
+	"NativeWord": "начинать, начать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "break",
+	"ForeignTranscription": "[breɪk]",
+	"NativeWord": "перерыв, перемена (в школе), перелом, ломать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bring",
+	"ForeignTranscription": "[brɪŋ]",
+	"NativeWord": "приносить, приносить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "but",
+	"ForeignTranscription": "[bʌt]",
+	"NativeWord": "но, кроме",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "call",
+	"ForeignTranscription": "[kɔ:l]",
+	"NativeWord": "звонок, звонить, вызывать, телефонный звонок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "close",
+	"ForeignTranscription": "[kloʊs]",
+	"NativeWord": "закрывать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "come",
+	"ForeignTranscription": "[kʌm]",
+	"NativeWord": "приходить, приходить, приезжать, приехать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "day",
+	"ForeignTranscription": "[deɪ]",
+	"NativeWord": "день, день",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "end",
+	"ForeignTranscription": "[ɛnd]",
+	"NativeWord": "конец",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "even",
+	"ForeignTranscription": "[ˈivɪn]",
+	"NativeWord": "даже",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ever",
+	"ForeignTranscription": "[ˈɛvər]",
+	"NativeWord": "когда-либо, вечно",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "every",
+	"ForeignTranscription": "[ˈɛvri]",
+	"NativeWord": "каждый, каждый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "eye",
+	"ForeignTranscription": "[aɪ]",
+	"NativeWord": "глаз",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "face",
+	"ForeignTranscription": "[feɪs]",
+	"NativeWord": "лицо",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fall",
+	"ForeignTranscription": "[fɔl]",
+	"NativeWord": "падать, упасть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "first",
+	"ForeignTranscription": "[fɜrst]",
+	"NativeWord": "первый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "friend",
+	"ForeignTranscription": "[frɛnd]",
+	"NativeWord": "друг, друг",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "get",
+	"ForeignTranscription": "[gɛt]",
+	"NativeWord": "получать, добиваться, получать, получить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "give",
+	"ForeignTranscription": "[gɪv]",
+	"NativeWord": "отдавать, дать, дать, передать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hand",
+	"ForeignTranscription": "[hænd]",
+	"NativeWord": "рука (кисть), рука",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "head",
+	"ForeignTranscription": "[hɛd]",
+	"NativeWord": "голова",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hear",
+	"ForeignTranscription": "[hir]",
+	"NativeWord": "слышать, слышать, слышать, получать известие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "heart",
+	"ForeignTranscription": "[hɑrt]",
+	"NativeWord": "сердце, сердце",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "high",
+	"ForeignTranscription": "[haɪ]",
+	"NativeWord": "высокий; большой, сильный, интенсивный, высокий",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "his",
+	"ForeignTranscription": "[hɪz]",
+	"NativeWord": "его",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "home",
+	"ForeignTranscription": "[hoʊm]",
+	"NativeWord": "дом, дом, жилище, дом",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "in",
+	"ForeignTranscription": "[ɪn]",
+	"NativeWord": "внутри, в",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "keep",
+	"ForeignTranscription": "[kip]",
+	"NativeWord": "хранить, держать, держать, хранить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "last",
+	"ForeignTranscription": "[læst]",
+	"NativeWord": "последний, длиться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "late",
+	"ForeignTranscription": "[leɪt]",
+	"NativeWord": "поздно, поздний",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "leave",
+	"ForeignTranscription": "[li:v]",
+	"NativeWord": "оставлять, уезжать, покидать, покидать, уезжать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "life",
+	"ForeignTranscription": "[laɪf]",
+	"NativeWord": "жизнь, жизнь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "light",
+	"ForeignTranscription": "[laɪt]",
+	"NativeWord": "свет, лёгкий, светлый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "little",
+	"ForeignTranscription": "[ˈlɪtəl]",
+	"NativeWord": "маленький, небольшой; короткий, близкий (о времени, расстоянии), маленький",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "long",
+	"ForeignTranscription": "[lɔŋ]",
+	"NativeWord": "длинный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "lose",
+	"ForeignTranscription": "[luz]",
+	"NativeWord": "терять, терять",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "make",
+	"ForeignTranscription": "[meɪk]",
+	"NativeWord": "создавать, делать, создавать, делать что-либо руками",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "many",
+	"ForeignTranscription": "[ˈmɛni]",
+	"NativeWord": "многие, многие, много",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mean",
+	"ForeignTranscription": "[min]",
+	"NativeWord": "иметь в виду, значить, жалкий, неприятный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mind",
+	"ForeignTranscription": "[maɪnd]",
+	"NativeWord": "память, обращать внимание",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "move",
+	"ForeignTranscription": "[mu:v]",
+	"NativeWord": "двигаться, двигать, переехать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "much",
+	"ForeignTranscription": "[mʌʧ]",
+	"NativeWord": "много, очень, много",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "need",
+	"ForeignTranscription": "[ni:d]",
+	"NativeWord": "нуждаться, нуждаться (в чём-л.)",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "never",
+	"ForeignTranscription": "[ˈnɛvər]",
+	"NativeWord": "никогда, никогда",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "new",
+	"ForeignTranscription": "[nu]",
+	"NativeWord": "новый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "night",
+	"ForeignTranscription": "[naɪt]",
+	"NativeWord": "ночь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "now",
+	"ForeignTranscription": "[naʊ]",
+	"NativeWord": "теперь, сейчас, теперь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "often",
+	"ForeignTranscription": "[ˈɔfən]",
+	"NativeWord": "часто, часто",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "old",
+	"ForeignTranscription": "[oʊld]",
+	"NativeWord": "старый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "one",
+	"ForeignTranscription": "[wʌn]",
+	"NativeWord": "один",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "people",
+	"ForeignTranscription": "[ˈpipəl]",
+	"NativeWord": "люди",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "place",
+	"ForeignTranscription": "[pleɪs]",
+	"NativeWord": "место, размещать, место",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "play",
+	"ForeignTranscription": "[pleɪ]",
+	"NativeWord": "играть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "put",
+	"ForeignTranscription": "[pʊt]",
+	"NativeWord": "класть, класть, ставить, поместить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "really",
+	"ForeignTranscription": "[ˈrɪli]",
+	"NativeWord": "действительно, действительно, в самом деле",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "right",
+	"ForeignTranscription": "[raɪt]",
+	"NativeWord": "право, правильный, правый, правый, верный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "run",
+	"ForeignTranscription": "[rʌn]",
+	"NativeWord": "бежать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "say",
+	"ForeignTranscription": "[seɪ]",
+	"NativeWord": "говорить, сказать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "see",
+	"ForeignTranscription": "[si:]",
+	"NativeWord": "видеть, видеть, смотреть, встречаться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "seem",
+	"ForeignTranscription": "[siːm]",
+	"NativeWord": "казаться, казаться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "she",
+	"ForeignTranscription": "[ʃi]",
+	"NativeWord": "она, она",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "show",
+	"ForeignTranscription": "[ʃoʊ]",
+	"NativeWord": "показывать, показать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "stand",
+	"ForeignTranscription": "[stænd]",
+	"NativeWord": "стоять",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "start",
+	"ForeignTranscription": "[stɑrt]",
+	"NativeWord": "начинать, начать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "still",
+	"ForeignTranscription": "[stɪl]",
+	"NativeWord": "до сих пор, все ещё, до сих пор, (всё) ещё",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "take",
+	"ForeignTranscription": "[teɪk]",
+	"NativeWord": "брать, взять",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "talk",
+	"ForeignTranscription": "[tɔk]",
+	"NativeWord": "говорить, разговаривать, разговаривать, говорить, болтать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tell",
+	"ForeignTranscription": "[tɛl]",
+	"NativeWord": "рассказывать, сказать, говорить, рассказывать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "they",
+	"ForeignTranscription": "[ðeɪ]",
+	"NativeWord": "они, они",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "thing",
+	"ForeignTranscription": "[θɪŋ]",
+	"NativeWord": "вещь, вещь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "think",
+	"ForeignTranscription": "[θɪŋk]",
+	"NativeWord": "думать, считать, полагать, размышлять, думать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "this",
+	"ForeignTranscription": "[ðɪs]",
+	"NativeWord": "этот, этот, эта, это",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "time",
+	"ForeignTranscription": "[taɪm]",
+	"NativeWord": "время, время",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "try",
+	"ForeignTranscription": "[traɪ]",
+	"NativeWord": "пробовать, пытаться, пытаться, попробовать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "turn",
+	"ForeignTranscription": "[tɜ:rn]",
+	"NativeWord": "вращать, поворачивать, поворачивать, поворачиваться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "two",
+	"ForeignTranscription": "[tu]",
+	"NativeWord": "два",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "use",
+	"ForeignTranscription": "[juz]",
+	"NativeWord": "использовать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "walk",
+	"ForeignTranscription": "[wɔːk]",
+	"NativeWord": "идти, гулять, идти пешком",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "want",
+	"ForeignTranscription": "[wɑnt]",
+	"NativeWord": "хотеть, желать, хотеть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "way",
+	"ForeignTranscription": "[weɪ]",
+	"NativeWord": "путь, дорога, направление",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "we",
+	"ForeignTranscription": "[wi]",
+	"NativeWord": "мы, мы",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "with",
+	"ForeignTranscription": "[wɪð]",
+	"NativeWord": "с, с, вместе с",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "work",
+	"ForeignTranscription": "[wɜrk]",
+	"NativeWord": "работа, работать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "year",
+	"ForeignTranscription": "[jɪr]",
+	"NativeWord": "год, год, год",
+	"NativeTranscription": "[ NODATA ]"
+},
