@@ -1,8 +1,8 @@
 ﻿{
 	"Theme": "Тема1 (Theme1)",
 	"Level": "Elementary",
-	"NativeLanguage": "Rus",
-	"ForeignLanguage": "Eng",
+	"NativeLanguage": "Russian",
+	"ForeignLanguage": "English",
 	"Words": 
 	[
 		{

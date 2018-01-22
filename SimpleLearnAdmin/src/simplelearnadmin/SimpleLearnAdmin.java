@@ -10,8 +10,8 @@ public class SimpleLearnAdmin {
     public static void main(String[] args){
 //        Only for debug
         args = new String[3];
-        args[0] = "add";
-        args[1] = "dictionary2.txt";
+        args[0] = "del";
+        args[1] = "NW1";
         args[2] = "../DB/SimpleLearnBD2.db";
 
         String commandName = "";
