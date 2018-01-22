@@ -55,130 +55,94 @@ else:
 
         if test_type_id == 1:
             N = 10
-            query = """SELECT DictionaryID FROM Dictionary
-                    left join Pair ON Dictionary.DictionaryID = Pair.DicID
-                    left join Words ON Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
-                    WHERE LangID = ?"""
-            cursor.execute(query, (n_lang, ))
-            n_lang_dict_id = cursor.fetchall()
-            i = 1
-            while i < len(n_lang_dict_id):
-                if n_lang_dict_id[i] == n_lang_dict_id[i-1]:
-                    n_lang_dict_id.pop(i)
-                else:
-                    i = i + 1
-
-            query = """SELECT DictionaryID FROM Dictionary
-                    left join Pair ON Dictionary.DictionaryID = Pair.DicID
-                    left join Words ON Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
-                    WHERE LangID = ?"""
-            cursor.execute(query, (f_lang, ))
-            f_lang_dict_id = cursor.fetchall()
-            i = 1
-            while i < len(f_lang_dict_id):
-                if f_lang_dict_id[i] == f_lang_dict_id[i-1]:
-                    f_lang_dict_id.pop(i)
-                else:
-                    i = i + 1
-
-            nf_dict_id = []
-
-            while i < len(n_lang_dict_id):
-                if n_lang_dict_id[i] == f_lang_dict_id[i]:
-                    nf_dict_id.append(n_lang_dict_id[i])
-                i = i + 1
+            query = """Select ID FROM Pair left join Dictionary
+                    ON Pair.DicID = Dictionary.DictionaryID left join Level
+                    ON Dictionary.LevelID = Level.LevelID
+                    WHERE LevelName = ?"""
+            cursor.execute(query, ("Elementary", ))
 
             words_id = []
-            for element in nf_dict_id:
-                query = """Select ID FROM Pair left join Dictionary
-                        ON Pair.DicID = Dictionary.DictionaryID left join Level
-                        ON Dictionary.LevelID = Level.LevelID
-                        WHERE LevelName = ? AND Dictionary.DictionaryID = ?"""
-                cursor.execute(query, ("Elementary", element))
+            for row in cursor:
+                id = row[0]
+                words_id.append(id)
 
-                for row in cursor:
-                    id = row[0]
-                    words_id.append(id)
-            response["w"] = words_id
-            # WordsForTest = random.sample(words_id, N)
-            #
-            # words_id = []
-            # for element in nf_dict_id:
-            #     query = """Select ID FROM Pair left join Dictionary
-            #             ON Pair.DicID = Dictionary.DictionaryID left join Level
-            #             ON Dictionary.LevelID = Level.LevelID
-            #             WHERE LevelName = ? AND Dictionary.DictionaryID = ?"""
-            #     cursor.execute(query, ("Intermediate", element))
-            #
-            #     for row in cursor:
-            #         id = row[0]
-            #         words_id.append(id)
-            #
-            # WordsForTest.extend(random.sample(words_id, N))
-            #
-            # words_id = []
-            # for element in nf_dict_id:
-            #     query = """Select ID FROM Pair left join Dictionary
-            #             ON Pair.DicID = Dictionary.DictionaryID left join Level
-            #             ON Dictionary.LevelID = Level.LevelID
-            #             WHERE LevelName = ? AND Dictionary.DictionaryID = ?"""
-            #     cursor.execute(query, ("Advanced", element))
-            #
-            #     for row in cursor:
-            #         id = row[0]
-            #         words_id.append(id)
-            #
-            # WordsForTest.extend(random.sample(words_id, N))
-            #
-            # for element in WordsForTest:
-            #     query = "INSERT INTO Test(TestID, TypeID, PairID) VALUES(?, ?, ?)"
-            #     cursor.execute(query, (str(ID), str(test_type_id), str(element)))
-            #
-            # query = """Select Spell, LangID FROM Test
-            #         left join Pair ON Test.PairID = Pair.ID
-            #         left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
-            #         left join TestType On Test.TestID = TestType.TypeID
-            #         WHERE TestID = ?"""
-            # cursor.execute(query, (ID, ))
-            #
-            # rows = cursor.fetchall()
-            #
-            # query = "SELECT Spell FROM Words WHERE Words.LangID = ?"
-            # cursor.execute(query, (n_lang, ))
-            # all_variants = []
-            # for row in cursor:
-            #     variant = row[0]
-            #     all_variants.append(variant)
-            #
-            # words = []
-            # i = 0
-            # if int(f_lang) == int(rows[i][1]):
-            #     while i < len(rows):
-            #         word = {}
-            #         word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
-            #         i = i + 1
-            #         variants = random.sample(all_variants, 3)
-            #         var = rows[i][0]
-            #         variants.append(var)
-            #         random.shuffle(variants)
-            #         word["Answers"] = variants
-            #         i = i + 1
-            #         words.append(word)
-            # else:
-            #     while i < len(rows):
-            #         word = {}
-            #         word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
-            #         i = i + 1
-            #         variants = random.sample(all_variants, 3)
-            #         var = rows[i-1][0]
-            #         variants.append(var)
-            #         random.shuffle(variants)
-            #         word["Answers"] = variants
-            #         i = i + 1
-            #         words.append(word)
-            #
-            # response["TestId"] = ID
-            # response["Questions"] = words
+            WordsForTest = random.sample(words_id, N)
+
+            query = """Select ID FROM Pair left join Dictionary
+                    ON Pair.DicID = Dictionary.DictionaryID left join Level
+                    ON Dictionary.LevelID = Level.LevelID
+                    WHERE LevelName = ?"""
+            cursor.execute(query, ("Intermediate", ))
+
+            words_id = []
+            for row in cursor:
+                id = row[0]
+                words_id.append(id)
+
+            WordsForTest.extend(random.sample(words_id, N))
+
+            query = """Select ID FROM Pair left join Dictionary
+                    ON Pair.DicID = Dictionary.DictionaryID left join Level
+                    ON Dictionary.LevelID = Level.LevelID
+                    WHERE LevelName = ?"""
+            cursor.execute(query, ("Advanced", ))
+
+            words_id = []
+            for row in cursor:
+                id = row[0]
+                words_id.append(id)
+
+            WordsForTest.extend(random.sample(words_id, N))
+
+            for element in WordsForTest:
+                query = "INSERT INTO Test(TestID, TypeID, PairID) VALUES(?, ?, ?)"
+                cursor.execute(query, (str(ID), str(test_type_id), str(element)))
+
+            query = """Select Spell, LangID FROM Test
+                    left join Pair ON Test.PairID = Pair.ID
+                    left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
+                    left join TestType On Test.TestID = TestType.TypeID
+                    WHERE TestID = ?"""
+            cursor.execute(query, (ID, ))
+
+            rows = cursor.fetchall()
+
+            query = "SELECT Spell FROM Words WHERE Words.LangID = ?"
+            cursor.execute(query, (n_lang, ))
+            all_variants = []
+            for row in cursor:
+                variant = row[0]
+                all_variants.append(variant)
+
+            words = []
+            i = 0
+            if int(f_lang) == int(rows[i][1]):
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_variants, 3)
+                    var = rows[i][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
+            else:
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_variants, 3)
+                    var = rows[i-1][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
+
+            response["TestId"] = ID
+            response["Questions"] = words
 
         if test_type_id == 2:
             N = 5
