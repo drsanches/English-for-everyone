@@ -1,23 +1,3 @@
-CREATE TABLE sqlite_sequence(name,seq);
-
-INSERT INTO sqlite_sequence(name, seq) VALUES(0, 9);
-
-INSERT INTO sqlite_sequence(name, seq) VALUES(0, 5);
-
-INSERT INTO sqlite_sequence(name, seq) VALUES(0, 20);
-
-INSERT INTO sqlite_sequence(name, seq) VALUES(0, 1);
-
-INSERT INTO sqlite_sequence(name, seq) VALUES(0, 9);
-
-INSERT INTO sqlite_sequence(name, seq) VALUES(0, 7);
-
-INSERT INTO sqlite_sequence(name, seq) VALUES(0, 1);
-
-INSERT INTO sqlite_sequence(name, seq) VALUES(0, 5);
-
-INSERT INTO sqlite_sequence(name, seq) VALUES(0, 0);
-
 CREATE TABLE `TestType` (
 	`TypeID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	`TypeName`	TEXT NOT NULL,
@@ -33,22 +13,6 @@ CREATE TABLE "Timers" (
 	FOREIGN KEY(`UserID`) REFERENCES `Users`(`UserID`)
 );
 
-INSERT INTO Timers(TimersID, UserID, Count, Time, Days) VALUES(1, 2, 10, 4, 1234567);
-
-INSERT INTO Timers(TimersID, UserID, Count, Time, Days) VALUES(3, 4, 1, 16, 123);
-
-INSERT INTO Timers(TimersID, UserID, Count, Time, Days) VALUES(4, 5, 1, 1620, 123);
-
-INSERT INTO Timers(TimersID, UserID, Count, Time, Days) VALUES(5, 5, 2, 120, 123);
-
-INSERT INTO Timers(TimersID, UserID, Count, Time, Days) VALUES(6, 5, 3, 120, 123);
-
-INSERT INTO Timers(TimersID, UserID, Count, Time, Days) VALUES(7, 5, 3, 120, 123);
-
-INSERT INTO Timers(TimersID, UserID, Count, Time, Days) VALUES(8, 5, 5, 120, 123);
-
-INSERT INTO Timers(TimersID, UserID, Count, Time, Days) VALUES(9, 5, 4, 120, 123);
-
 CREATE TABLE "UserLevel" (
 	`UserID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	`LangID`	INTEGER,
@@ -58,10 +22,6 @@ CREATE TABLE "UserLevel" (
 	FOREIGN KEY(`LangID`) REFERENCES `Languages`(`LangID`)
 );
 
-INSERT INTO UserLevel(UserID, LangID, LevelID) VALUES(4, 3, 3);
-
-INSERT INTO UserLevel(UserID, LangID, LevelID) VALUES(5, 3, 2);
-
 CREATE TABLE "Words" (
 	`WordID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	`LangID`	INTEGER NOT NULL,
@@ -70,54 +30,12 @@ CREATE TABLE "Words" (
 	FOREIGN KEY(`LangID`) REFERENCES `Languages`(`LangID`)
 );
 
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(1, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(2, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(3, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(4, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(5, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(6, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(7, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(8, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(9, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(10, 3, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(11, 4, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(12, 4, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(13, 4, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(14, 4, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(15, 4, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(16, 4, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(17, 4, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(18, 4, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(19, 4, 0, 0);
-
-INSERT INTO Words(WordID, LangID, Spell, Phonetic) VALUES(20, 4, 0, 0);
-
 CREATE TABLE "Dictionary" (
 	`DictionaryID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	`LevelID`	INTEGER,
 	`Theme`	TEXT,
 	FOREIGN KEY(`LevelID`) REFERENCES `Level`(`LevelID`)
 );
-
-INSERT INTO Dictionary(DictionaryID, LevelID, Theme) VALUES(1, 1, 0);
 
 CREATE TABLE "Progress" (
 	`UserID`	INTEGER,
@@ -128,8 +46,6 @@ CREATE TABLE "Progress" (
 	FOREIGN KEY(`FLang`) REFERENCES `Languages`(`LangID`),
 	PRIMARY KEY(`UserID`,`PairID`,`FLang`)
 );
-
-INSERT INTO Progress(UserID, PairID, FLang) VALUES(4, 6, 3);
 
 CREATE TABLE "WordsToLearn" (
 	`ID`	INTEGER,
@@ -142,8 +58,6 @@ CREATE TABLE "WordsToLearn" (
 	PRIMARY KEY(`ID`)
 );
 
-INSERT INTO WordsToLearn(ID, UserID, PairID, LangID) VALUES(1, 4, 6, 3);
-
 CREATE TABLE "Pair" (
 	`ID`	INTEGER,
 	`DicID`	INTEGER,
@@ -155,62 +69,16 @@ CREATE TABLE "Pair" (
 	PRIMARY KEY(`ID`)
 );
 
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(1, 1, 1, 11);
-
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(2, 1, 2, 12);
-
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(3, 1, 3, 13);
-
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(4, 1, 4, 14);
-
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(5, 1, 5, 15);
-
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(6, 1, 6, 16);
-
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(7, 1, 7, 17);
-
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(8, 1, 8, 18);
-
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(9, 1, 9, 19);
-
-INSERT INTO Pair(ID, DicID, Word1ID, Word2ID) VALUES(10, 1, 10, 20);
-
 CREATE TABLE "Languages" (
 	`LangID`	INTEGER PRIMARY KEY AUTOINCREMENT,
 	`LangName`	TEXT NOT NULL
 );
-
-INSERT INTO Languages(LangID, LangName) VALUES(3, 0);
-
-INSERT INTO Languages(LangID, LangName) VALUES(4, 0);
-
-INSERT INTO Languages(LangID, LangName) VALUES(5, 0);
-
-INSERT INTO Languages(LangID, LangName) VALUES(6, 0);
-
-INSERT INTO Languages(LangID, LangName) VALUES(7, 0);
-
-INSERT INTO Languages(LangID, LangName) VALUES(9, 65);
 
 CREATE TABLE "Level" (
 	`LevelID`	INTEGER PRIMARY KEY AUTOINCREMENT,
 	`LevelName`	TEXT NOT NULL,
 	`NeededWords`	INTEGER
 );
-
-INSERT INTO Level(LevelID, LevelName, NeededWords) VALUES(1, 0, 0);
-
-INSERT INTO Level(LevelID, LevelName, NeededWords) VALUES(2, 0, 50);
-
-INSERT INTO Level(LevelID, LevelName, NeededWords) VALUES(3, 0, 150);
-
-INSERT INTO Level(LevelID, LevelName, NeededWords) VALUES(4, 0, 350);
-
-INSERT INTO Level(LevelID, LevelName, NeededWords) VALUES(5, 0, 700);
-
-INSERT INTO Level(LevelID, LevelName, NeededWords) VALUES(6, 0, 1100);
-
-INSERT INTO Level(LevelID, LevelName, NeededWords) VALUES(7, 0, 2000);
 
 CREATE TABLE "Sessions" (
 	`SessionID`	TEXT NOT NULL UNIQUE,
@@ -221,39 +89,11 @@ CREATE TABLE "Sessions" (
 	PRIMARY KEY(`SessionID`)
 );
 
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(938833, 2, 2018, 1);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(0, 2, 2018, 10000);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(8, 2, 2018, 10000);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(2, 2, 2018, 10000);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(1, 2, 2018, 10000);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(0, 2, 2018, 10000);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(0, 2, 2018, 1);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(95400, 2, 2018, 1);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(0, 2, 2018, 1);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(7, 2, 2018, 1);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(35763, 3, 2018, 1);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(4844, 3, 2018, 1);
-
-INSERT INTO Sessions(SessionID, UserID, Started, Expires) VALUES(8355, 4, 2018, 1);
-
 CREATE TABLE "TimeRepeat" (
 	`TimeRepeatID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	`Time`	TEXT,
 	`Number`	INTEGER
 );
-
-INSERT INTO TimeRepeat(TimeRepeatID, Time, Number) VALUES(1, 20, 1);
 
 CREATE TABLE "WordToRepeat" (
 	`ID`	INTEGER,
@@ -281,14 +121,6 @@ CREATE TABLE "Users" (
 	FOREIGN KEY(`FLang`) REFERENCES `Languages`(`LangID`)
 );
 
-INSERT INTO Users(UserID, UserName, UserPassword, Email, NLang, FLang, XP) VALUES(2, 0, 0, 0, 5, 6, 3000);
-
-INSERT INTO Users(UserID, UserName, UserPassword, Email, NLang, FLang, XP) VALUES(3, 0, 0, 0, 4, 3, 20);
-
-INSERT INTO Users(UserID, UserName, UserPassword, Email, NLang, FLang, XP) VALUES(4, 0, 12, 1, 3, 4, 0);
-
-INSERT INTO Users(UserID, UserName, UserPassword, Email, NLang, FLang, XP) VALUES(5, 0, 123456789, 0, 4, 3, 90);
-
 CREATE TABLE "Test" (
 	`TestID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	`TypeID`	INTEGER NOT NULL,
@@ -296,4 +128,571 @@ CREATE TABLE "Test" (
 	FOREIGN KEY(`PairID`) REFERENCES `Pair`(`ID`),
 	FOREIGN KEY(`TypeID`) REFERENCES `TestType`(`TypeID`)
 );
+
+INSERT INTO TestType("TypeID", "TypeName", "TypeQuest") VALUES("1", "0", "1");
+
+INSERT INTO TestType("TypeID", "TypeName", "TypeQuest") VALUES("2", "1", "1");
+
+INSERT INTO TestType("TypeID", "TypeName", "TypeQuest") VALUES("3", "2", "1");
+
+INSERT INTO Timers("TimersID", "UserID", "Count", "Time", "Days") VALUES("1", "2", "10", "4:20", "1234567");
+
+INSERT INTO Timers("TimersID", "UserID", "Count", "Time", "Days") VALUES("6", "5", "3", "120", "123");
+
+INSERT INTO Timers("TimersID", "UserID", "Count", "Time", "Days") VALUES("7", "5", "3", "120", "123");
+
+INSERT INTO Timers("TimersID", "UserID", "Count", "Time", "Days") VALUES("8", "5", "5", "120", "123");
+
+INSERT INTO Timers("TimersID", "UserID", "Count", "Time", "Days") VALUES("9", "5", "4", "120", "123");
+
+INSERT INTO UserLevel("UserID", "LangID", "LevelID") VALUES("5", "3", "2");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("1", "3", "i", "[ aɪ]
+");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("2", "3", "bed", "[ bɛd]
+");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("3", "3", "book", "[ bʊk]
+");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("4", "3", "come", "[ kʌm]
+");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("5", "3", "do", "[ du]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("6", "3", "drink", "[ drɪŋk]
+");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("7", "3", "drive", "[ draɪv]
+");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("8", "3", "eat", "[ it]
+");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("9", "3", "family", "[ ˈfæməli]
+");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("10", "3", "father", "[ ˈfɑðər]
+");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("11", "4", "я", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("12", "4", "кровать", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("13", "4", "книга", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("14", "4", "приходить", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("15", "4", "делать", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("16", "4", "пить", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("17", "4", "водить машину", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("18", "4", "есть", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("19", "4", "семья", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("20", "4", "отец", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("21", "3", "abate", "[əbˈeɪːt]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("22", "3", "abjure", "[əbdʒˈʊəː]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("23", "3", "ambidextrous", "[æmbɪdˈekstrəs]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("24", "3", "aphoristic", "[æfərˈɪstɪk]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("25", "3", "augury", "[ˈɔːgjʊri]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("26", "3", "avaricious", "[ævərˈɪʃəs]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("27", "3", "blandishment", "[blˈændɪʃmənt]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("28", "3", "boor", "[bˈʊəː]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("29", "3", "canonical", "[kənˈɒnɪkl]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("30", "3", "cardinal", "[kˈɑːdɪnl]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("31", "4", "уменьшать", "[ʊmʲɪnʲʂatʲ]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("32", "4", "отказываться", "[ɐtkazᵻvət͡sə]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("33", "4", "ловкий", "[lofkʲɪj]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("34", "4", "афористичный", "[ɐfərʲɪsʲtʲit͡ɕnᵻj]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("35", "4", "предсказание", "[prʲɪt͡skɐzanʲɪjə]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("36", "4", "алчный", "[alt͡ɕnᵻj]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("37", "4", "уговаривание", "[ʊɡɐvarʲɪvənʲɪjə]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("38", "4", "грубиян", "[ɡrʊbʲɪjæn]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("39", "4", "уставной", "[ʊstavnəj]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("40", "4", "важнейший", "[vɐʐnʲejʂᵻj]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("41", "3", "after", "['ɑ:ftə]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("42", "3", "always", "['ɔ:lwəz]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("43", "3", "any", "['eni]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("44", "3", "sun", "[sʌn]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("45", "3", "present", "[preznt]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("46", "3", "participle", "[pˈɑːtɪsɪpl]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("47", "3", "tense", "[tˈens]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("48", "3", "father", "[ˈfɑðər]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("49", "3", "big", "[bɪg]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("50", "3", "my", "[maɪ]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("51", "4", "после", "[poslʲɪ]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("52", "4", "всегда", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("53", "4", "какой-нибудь", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("54", "4", "солнце", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("55", "4", "настоящее время", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("56", "4", "причастие", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("57", "4", "время (граммат)", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("58", "4", "отец", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("59", "4", "большой", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("60", "4", "мой", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("61", "3", "flippers", "[flˈɪpəz]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("62", "3", "clap", "[klˈæp]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("63", "3", "in advance", "[in əd'vɑ:ns]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("64", "3", "affair", "[əˈfɛr]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("65", "3", "appreciate", "[əˈpriʃiˌeɪt]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("66", "3", "anxious", "[ˈæŋkʃəs]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("67", "3", "violent", "[ˈvaɪələnt]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("68", "3", "dedication", "[dɛdɪkˈeɪːʃən]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("69", "3", "signature", "[ˈsɪgnəʧər]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("70", "3", "eager", "[ˈigər]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("71", "4", "ласты", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("72", "4", "хлопать", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("73", "4", "заранее", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("74", "4", "мероприятие", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("75", "4", "оценить", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("76", "4", "беспокойный", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("77", "4", "жестокий", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("78", "4", "самоотдача", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("79", "4", "подпись", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("80", "4", "сильно хотеть", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("81", "3", "scheme", "[skim]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("82", "3", "determined", "[dɪˈtɜrmənd]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("83", "3", "hinder", "[hˈɪndə]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("84", "3", "congestion", "[kəndʒˈestʃən]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("85", "3", "investigate", "[ɪnˈvɛstəˌgeɪt]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("86", "3", "cast", "[kæst]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("87", "3", "split", "[splɪt]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("88", "3", "wharf", "[wˈɔːf]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("89", "3", "annual", "[ˈænjuəl]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("90", "3", "restriction", "[riˈstrɪkʃən]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("91", "4", "замысел", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("92", "4", "настойчивый", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("93", "4", "препятствовать", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("94", "4", "затор", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("95", "4", "проанализировать", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("96", "4", "состав", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("97", "4", "поток", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("98", "4", "пристань", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("99", "4", "ежегодный", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("100", "4", "запрет", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("101", "3", "activity", "[ækˈtɪvəti]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("102", "3", "already", "[ɔlˈrɛdi]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("103", "3", "amount", "[əˈmaʊnt]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("104", "3", "annoy", "[əˈnɔɪ]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("105", "3", "appear", "[əˈpɪr]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("106", "3", "atom", "[ˈætəm]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("107", "3", "author", "[ˈɔθər]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("108", "3", "biography", "[baɪˈɑgrəfi]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("109", "3", "blind", "[blaɪnd]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("110", "3", "brain", "[breɪn]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("111", "4", "деятельность", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("112", "4", "уже", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("113", "4", "количество", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("114", "4", "раздражать", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("115", "4", "появляться", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("116", "4", "атом", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("117", "4", "автор", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("118", "4", "биография", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("119", "4", "слепой", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("120", "4", "мозг", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("121", "3", "waist", "[weɪst]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("122", "3", "swollen", "[swollen]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("123", "3", "unconscious", "[ʌn'kɒnʃəs]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("124", "3", "food poisoning", "[fu:d 'pɔizniŋ]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("125", "3", "bruise", "[bruz]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("126", "3", "chemist", "[ˈkɛmɪst]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("127", "3", "fortunately", "[ˈfɔrʧənətli]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("128", "3", "perhaps", "[pərˈhæps]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("129", "3", "twist", "[twɪst]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("130", "3", "choke", "[ʧəʊk]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("131", "4", "талия", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("132", "4", "опухший", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("133", "4", "в бессознательном состоянии", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("134", "4", "пищевое отравление", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("135", "4", "синяк", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("136", "4", "аптекарь", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("137", "4", "к счастью", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("138", "4", "возможно", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("139", "4", "вывихнуть", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("140", "4", "подавиться едой", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("141", "3", "bonned", "[bˈend]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("142", "3", "booch", "[bˈeətʃ]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("143", "3", "broscience", "[brəʊːsˈaɪənsə]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("144", "3", "budge up", "[bˈʌdʒ ʌp]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("145", "3", "buff", "[bˈʌf]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("146", "3", "bug-eyed", "[bˈʌg ˈaɪd]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("147", "3", "cellfish", "[kˈelfɪʃ]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("148", "3", "chairdrobe", "[tʃhˈeəːdrəʊːb]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("149", "3", "chat up", "[tʃˈæt ʌp]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("150", "3", "cheesed off", "[ tʃˈiːzd ˈɒf]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("151", "4", "ворчать", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("152", "4", "девушка с мужским характером", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("153", "4", "братская наука (мнение друзей, имеющее большое значение)", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("154", "4", "Подвинься!", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("155", "4", "быть в хорошей физической форме", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("156", "4", "с вытаращенными глазами", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("157", "4", "человек, постоянно разговаривающий по мобильному телефону и мешающий окружающим", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("158", "4", "cтул, исполняющий роль шкафа для одежды", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("159", "4", "флиртовать", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("160", "4", "обозлённый", "null");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("161", "3", "codswallop", "[kˈɒdzwɒləp]");
+
+INSERT INTO Words("WordID", "LangID", "Spell", "Phonetic") VALUES("162", "4", "околесица", "null");
+
+INSERT INTO Dictionary("DictionaryID", "LevelID", "Theme") VALUES("1", "1", "Стартовый набор");
+
+INSERT INTO Dictionary("DictionaryID", "LevelID", "Theme") VALUES("2", "2", "Топ 100 слов Elementary");
+
+INSERT INTO Dictionary("DictionaryID", "LevelID", "Theme") VALUES("3", "3", "Топ 100 слов Pre-Intermediate");
+
+INSERT INTO Dictionary("DictionaryID", "LevelID", "Theme") VALUES("4", "4", "Топ 100 слов Intermediate");
+
+INSERT INTO Dictionary("DictionaryID", "LevelID", "Theme") VALUES("5", "5", "Топ 100 слов Upper-Intermediate");
+
+INSERT INTO Dictionary("DictionaryID", "LevelID", "Theme") VALUES("6", "6", "Топ 100 слов Advanced");
+
+INSERT INTO Dictionary("DictionaryID", "LevelID", "Theme") VALUES("7", "7", "Топ 100 слов Proficiency");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("1", "1", "1", "11");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("2", "1", "2", "12");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("3", "1", "3", "13");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("4", "1", "4", "14");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("5", "1", "5", "15");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("6", "1", "6", "16");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("7", "1", "7", "17");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("8", "1", "8", "18");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("9", "1", "9", "19");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("10", "1", "10", "20");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("11", "6", "21", "31");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("12", "6", "22", "32");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("13", "6", "23", "33");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("14", "6", "24", "34");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("15", "6", "25", "35");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("16", "6", "26", "36");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("17", "6", "27", "37");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("18", "6", "28", "38");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("19", "6", "29", "39");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("20", "6", "30", "40");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("21", "2", "41", "51");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("22", "2", "42", "52");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("23", "2", "43", "53");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("24", "2", "44", "54");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("25", "2", "45", "55");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("26", "2", "46", "56");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("27", "2", "47", "57");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("28", "2", "48", "58");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("29", "2", "49", "59");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("30", "2", "50", "60");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("31", "4", "61", "71");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("32", "4", "62", "72");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("33", "4", "63", "73");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("34", "4", "64", "74");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("35", "4", "65", "75");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("36", "4", "66", "76");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("37", "4", "67", "77");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("38", "4", "68", "78");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("39", "4", "69", "79");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("40", "4", "70", "80");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("41", "4", "81", "91");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("42", "4", "82", "92");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("43", "4", "83", "93");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("44", "4", "84", "94");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("45", "4", "85", "95");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("46", "4", "86", "96");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("47", "4", "87", "97");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("48", "4", "88", "98");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("49", "4", "89", "99");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("50", "4", "90", "100");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("51", "3", "101", "111");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("52", "3", "102", "112");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("53", "3", "103", "113");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("54", "3", "104", "114");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("55", "3", "105", "115");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("56", "3", "106", "116");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("57", "3", "107", "117");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("58", "3", "108", "118");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("59", "3", "109", "119");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("60", "3", "110", "120");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("61", "5", "121", "131");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("62", "5", "122", "132");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("63", "5", "123", "133");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("64", "5", "124", "134");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("65", "5", "125", "135");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("66", "5", "126", "136");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("67", "5", "127", "137");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("68", "5", "128", "138");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("69", "5", "129", "139");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("70", "5", "130", "140");
+
+INSERT INTO Pair("ID", "DicID", "Word1ID", "Word2ID") VALUES("71", "7", "161", "162");
+
+INSERT INTO Languages("LangID", "LangName") VALUES("3", "English");
+
+INSERT INTO Languages("LangID", "LangName") VALUES("4", "Russian");
+
+INSERT INTO Languages("LangID", "LangName") VALUES("5", "French");
+
+INSERT INTO Languages("LangID", "LangName") VALUES("6", "German");
+
+INSERT INTO Languages("LangID", "LangName") VALUES("7", "Spanish");
+
+INSERT INTO Languages("LangID", "LangName") VALUES("9", "65+5");
+
+INSERT INTO Level("LevelID", "LevelName", "NeededWords") VALUES("1", "Beginer", "0");
+
+INSERT INTO Level("LevelID", "LevelName", "NeededWords") VALUES("2", "Elementary", "50");
+
+INSERT INTO Level("LevelID", "LevelName", "NeededWords") VALUES("3", "Pre-Intermediate", "150");
+
+INSERT INTO Level("LevelID", "LevelName", "NeededWords") VALUES("4", "Intermediate", "350");
+
+INSERT INTO Level("LevelID", "LevelName", "NeededWords") VALUES("5", "Upper-Intermediate", "700");
+
+INSERT INTO Level("LevelID", "LevelName", "NeededWords") VALUES("6", "Advanced", "1100");
+
+INSERT INTO Level("LevelID", "LevelName", "NeededWords") VALUES("7", "Proficiency", "2000");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("938833ea-0616-4031-a268-97a5ca5485e5", "2", "2018-01-03 00:11:07.405359", "1 day, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("b7afde62-534c-4f84-9f47-d71306c1ca2d", "2", "2018-01-03 00:14:47.306233", "10000 days, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("8c504ec9-2f4f-4169-98be-0a2442bed8fc", "2", "2018-01-03 00:18:43.856102", "10000 days, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("2e2e5f07-9727-4d6f-bc1a-fdd00efdf43e", "2", "2018-01-04 00:53:13.337313", "10000 days, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("1b793ef2-8cd1-45fe-b54f-bd2eecf9924d", "2", "2018-01-04 00:54:03.252574", "10000 days, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("c45bc90a-8d0d-4675-aa9c-373a5f38b70e", "2", "2018-01-04 00:54:29.033175", "10000 days, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("a2c2c9fa-35f7-4872-81b5-3e93658f87d2", "2", "2018-01-04 01:00:17.026204", "1 day, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("095400ba-90a9-4df4-8851-ae5e1717a40c", "2", "2018-01-04 01:11:18.806056", "1 day, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("a545e9f6-43ca-4eea-b9e9-5e144f978239", "2", "2018-01-04 01:14:46.216263", "1 day, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("7d70dd67-313f-4b4c-b540-8d6412516da0", "2", "2018-01-04 01:18:36.698190", "1 day, 0:00:00");
+
+INSERT INTO Sessions("SessionID", "UserID", "Started", "Expires") VALUES("35763f24-7266-4fe5-9770-eace223f03b0", "3", "2018-01-04 01:18:41.991384", "1 day, 0:00:00");
+
+INSERT INTO TimeRepeat("TimeRepeatID", "Time", "Number") VALUES("1", "20", "1");
+
+INSERT INTO TimeRepeat("TimeRepeatID", "Time", "Number") VALUES("2", "3", "54");
+
+INSERT INTO TimeRepeat("TimeRepeatID", "Time", "Number") VALUES("3", "5", "1");
+
+INSERT INTO Users("UserID", "UserName", "UserPassword", "Email", "NLang", "FLang", "XP") VALUES("2", "username1", "password1", "string111@dmail.com", "5", "6", "3000");
+
+INSERT INTO Users("UserID", "UserName", "UserPassword", "Email", "NLang", "FLang", "XP") VALUES("3", "username2", "password1", "email1", "4", "3", "20");
+
+INSERT INTO Users("UserID", "UserName", "UserPassword", "Email", "NLang", "FLang", "XP") VALUES("5", "Владимир", "123456789", "string@dmail.com", "4", "3", "90");
 

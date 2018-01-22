@@ -40,42 +40,55 @@ public class Backup {
             ResultSet allTablesResultSet = statement.executeQuery(sql);
             FileWriter fileWriter = new FileWriter(backupName, false);
 
+            ArrayList<String> tableNames = new ArrayList<String>();
             while (allTablesResultSet.next()) {
-                Statement st = connection.createStatement();
-
-                String restoreQuery = allTablesResultSet.getString("sql") + ";";
-                fileWriter.write(restoreQuery + "\n\n");
-                String tableName = allTablesResultSet.getString("tbl_name");
-
-                sql = "pragma table_info(" + tableName + ");";
-                ResultSet fieldsResultSet = st.executeQuery(sql);
-                String fieldNames = "";
-                int fieldsCount = 0;
-                while (fieldsResultSet.next()) {
-                    String fieldName = fieldsResultSet.getString("name");
-                    fieldNames += fieldName + ", ";
-                    fieldsCount++;
-                }
-                fieldNames = fieldNames.substring(0, fieldNames.length() - 2);
-                fieldsResultSet.close();
-
-                sql = "SELECT * FROM " + tableName + ";";
-                ResultSet valuesResultSet = st.executeQuery(sql);
-                while (valuesResultSet.next()) {
-                    String values = "";
-                    for (int i = 1; i <= fieldsCount; i++) {
-                        values += valuesResultSet.getInt(i) + ", ";
-                    }
-                    values = values.substring(0, values.length() - 2);
-
-                    restoreQuery = "INSERT INTO " + tableName + "(" + fieldNames + ") VALUES(" + values + ");";
+                if (!allTablesResultSet.getString("tbl_name").equals("sqlite_sequence")) {
+                    String restoreQuery = allTablesResultSet.getString("sql") + ";";
                     fileWriter.write(restoreQuery + "\n\n");
+                    String tableName = allTablesResultSet.getString("tbl_name");
+                    tableNames.add(tableName);
+                    System.out.println("Backup of structure of " + tableName + " was done");
                 }
-                System.out.println("Backup of " + tableName + " was done");
-                valuesResultSet.close();
             }
-            allTablesResultSet.close();
 
+            for (int i = 0; i < tableNames.size(); i++) {
+                String tableName = tableNames.get(i);
+
+                if (!tableName.equals("sqlite_sequence")) {
+                    Statement st = connection.createStatement();
+                    sql = "pragma table_info(" + tableName + ");";
+                    ResultSet fieldsResultSet = st.executeQuery(sql);
+                    String fieldNames = "";
+                    int fieldsCount = 0;
+
+                    while (fieldsResultSet.next()) {
+                        String fieldName = fieldsResultSet.getString("name");
+                        fieldNames += "\"" + fieldName + "\", ";
+                        fieldsCount++;
+                    }
+                    fieldNames = fieldNames.substring(0, fieldNames.length() - 2);
+                    fieldsResultSet.close();
+
+                    sql = "SELECT * FROM " + tableName + ";";
+                    ResultSet valuesResultSet = st.executeQuery(sql);
+
+                    while (valuesResultSet.next()) {
+                        String values = "";
+
+                        for (int j = 1; j <= fieldsCount; j++) {
+                            values += "\"" + valuesResultSet.getString(j) + "\", ";
+                        }
+                        values = values.substring(0, values.length() - 2);
+
+                        String restoreQuery = "INSERT INTO " + tableName + "(" + fieldNames + ") VALUES(" + values + ");";
+                        fileWriter.write(restoreQuery + "\n\n");
+                    }
+                    System.out.println("Backup of " + tableName + " was done");
+                    valuesResultSet.close();
+                }
+            }
+
+            allTablesResultSet.close();
             fileWriter.flush();
             System.out.println("Backup was done");
             statement.close();
