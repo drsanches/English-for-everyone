@@ -1,0 +1,21 @@
+﻿{
+	"Theme": "Тема1 (Theme1)",
+	"Level": "Elementary",
+	"NativeLanguage": "Rus",
+	"ForeignLanguage": "Eng",
+	"Words": 
+	[
+		{
+			"NativeWord": "NW1",
+			"NativeTranscription": "[NW1]",
+			"ForeignWord": "FW1",
+			"ForeignTranscription": "[FW1]"
+		},
+		{
+			"NativeWord": "NW2",
+			"NativeTranscription": "[NW2]",
+			"ForeignWord": "FW2",
+			"ForeignTranscription": "[FW2]"
+		},
+	]
+}

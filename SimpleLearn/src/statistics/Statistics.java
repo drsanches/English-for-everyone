@@ -51,8 +51,8 @@ public class Statistics {
                 {
                     JSONObject timer = statistics.getJSONObject(i);
                     System.out.println("    Username: " + timer.getString("Username"));
-                    System.out.println("    XP: " + timer.getInt("XP"));
-                    System.out.println("    Level: " + timer.getInt("Level") + "\n");
+                    System.out.println("    XP: " + timer.getInt("XP") + "\n");
+
                 }
             }
         }
