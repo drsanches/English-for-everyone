@@ -21,7 +21,7 @@ response = {}
 if session_id is None or test_id is None or answers is None:
     response["Status"] = "Failure"
 else:
-    # try:
+    try:
         connection = sqlite3.connect(db_address.get_db_address())
         cursor = connection.cursor()
 
@@ -325,8 +325,8 @@ else:
 
         connection.commit()
         connection.close()
-    # except:
-    #     response["Status"] = "Failure"
+    except:
+        response["Status"] = "Failure"
 
 
 

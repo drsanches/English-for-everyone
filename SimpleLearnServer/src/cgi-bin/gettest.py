@@ -13,8 +13,7 @@ response = {}
 if session_id is None or test_type is None:
     response["Status"] = "Failure"
 else:
-    # try:
-        # Add languages. Which word is word and which is translation?
+    try:
 
         connection = sqlite3.connect(db_address.get_db_address())
         cursor = connection.cursor()
@@ -400,8 +399,8 @@ else:
 
         connection.commit()
         connection.close()
-    # except:
-    #     response["Status"] = "Failure"
+    except:
+        response["Status"] = "Failure"
 
 
 
