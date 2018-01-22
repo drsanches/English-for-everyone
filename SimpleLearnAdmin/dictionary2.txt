@@ -6,16 +6,16 @@
 	"Words": 
 	[
 		{
-			"NativeWord": "NW1",
-			"NativeTranscription": "[NW1]",
-			"ForeignWord": "FW1",
-			"ForeignTranscription": "[FW1]"
+			"NativeWord": "AAA",
+			"NativeTranscription": "[AAA1]",
+			"ForeignWord": "BBB",
+			"ForeignTranscription": "[BBB]"
 		},
 		{
-			"NativeWord": "NW2",
-			"NativeTranscription": "[NW2]",
-			"ForeignWord": "FW2",
-			"ForeignTranscription": "[FW2]"
-		},
+			"NativeWord": "AAA",
+			"NativeTranscription": "[AAA2]",
+			"ForeignWord": "CCC",
+			"ForeignTranscription": "[CCC]"
+		}
 	]
 }

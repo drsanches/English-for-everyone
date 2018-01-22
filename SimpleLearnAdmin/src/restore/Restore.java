@@ -1,5 +1,7 @@
 package restore;
 
+import dbaddress.DBAddress;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
@@ -14,24 +16,22 @@ public class Restore {
         if (args.length == 0) {
             System.out.print("Backup pathname: ");
             String backupName = (new Scanner(System.in)).nextLine();
-            System.out.print("DB pathname: ");
-            String dbName = (new Scanner(System.in)).nextLine();
-            sqlRestore(backupName, dbName);
+            sqlRestore(backupName);
         }
-        else if (args.length == 2) {
+        else if (args.length == 1) {
             String backupName = args[0];
-            String dbName = args[1];
-            sqlRestore(backupName, dbName);
+            sqlRestore(backupName);
         }
         else {
             System.out.println("Incorrect count of arguments.");
         }
     }
 
-    private static void sqlRestore(String backupName, String dbName) {
+    private static void sqlRestore(String backupPath) {
         try {
+            String dbPath = DBAddress.getAddress();
 
-            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(backupName)));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(backupPath)));
             String restoreSQL = "";
             String line;
             while ((line = reader.readLine()) != null)
@@ -39,7 +39,7 @@ public class Restore {
             reader.close();
 
             Class.forName("org.sqlite.JDBC");
-            Connection connection = DriverManager.getConnection("jdbc:sqlite:" + dbName);
+            Connection connection = DriverManager.getConnection("jdbc:sqlite:" + dbPath);
             Statement statement = connection.createStatement();
 
             String runnableSQL = "";

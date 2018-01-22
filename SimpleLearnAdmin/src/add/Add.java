@@ -1,5 +1,6 @@
 package add;
 
+import dbaddress.DBAddress;
 import org.json.*;
 import java.io.*;
 import java.sql.*;
@@ -10,20 +11,19 @@ public class Add {
         if (args.length == 0) {
             System.out.print("Path to the dictionary: ");
             String filePath = (new Scanner(System.in)).nextLine();
-            System.out.print("Path to the DB: ");
-            String dbPath = (new Scanner(System.in)).nextLine();
-            addDictionaryFile(filePath, dbPath);
-        } else if (args.length == 2) {
+            addDictionaryFile(filePath);
+        } else if (args.length == 1) {
             String filePath = args[0];
-            String dbPath = args[1];
-            addDictionaryFile(filePath, dbPath);
+            addDictionaryFile(filePath);
         } else {
             System.out.println("Incorrect count of arguments.");
         }
     }
 
-    private static void addDictionaryFile(String filePath, String dbPath) {
+    private static void addDictionaryFile(String filePath) {
         try {
+            String dbPath = DBAddress.getAddress();
+
             JSONObject jsonDictionary = readJsonFromFile(filePath);
             String theme = jsonDictionary.getString("Theme");
             String level = jsonDictionary.getString("Level");
@@ -34,6 +34,7 @@ public class Add {
             Connection connection = DriverManager.getConnection("jdbc:sqlite:" + dbPath);
             PreparedStatement pstmt = null;
 
+            //Inserting of dictionary
             String sql = "INSERT INTO Dictionary(LevelID, Theme)\n" +
                     "SELECT LevelID, ?\n" +
                     "FROM Level\n" +
@@ -43,6 +44,7 @@ public class Add {
             pstmt.setString(2, level);
             pstmt.executeUpdate();
 
+            //Taking id of dictionary
             sql = "SELECT DictionaryID FROM Dictionary " +
                     "LEFT JOIN Level ON Dictionary.LevelID = Level.LevelID " +
                     "WHERE Theme = ? AND LevelName = ?;";
@@ -53,6 +55,7 @@ public class Add {
             String dictionaryId = resultSet.getString(1);
 
             JSONArray words = (JSONArray) jsonDictionary.getJSONArray("Words");
+
             for (int i = 0; i < words.length(); i++) {
                 JSONObject word = words.getJSONObject(i);
                 String nativeWord = word.getString("NativeWord");
@@ -60,22 +63,43 @@ public class Add {
                 String foreignWord = word.getString("ForeignWord");
                 String foreignTranscription = word.getString("ForeignTranscription");
 
-                sql = "INSERT INTO Words(LangID, Spell, Phonetic)\n" +
-                        "SELECT LangID, ?, ?\n" +
-                        "FROM Languages\n" +
-                        "WHERE LangName = ?;";
+                //Checking for doubles for native word
+                sql = "SELECT WordID FROM Words WHERE Spell = ? AND Phonetic = ?;";
                 pstmt = connection.prepareStatement(sql);
                 pstmt.setString(1, nativeWord);
                 pstmt.setString(2, nativeTranscription);
-                pstmt.setString(3, nativeLanguage);
-                pstmt.executeUpdate();
+                resultSet = pstmt.executeQuery();
+                if (!resultSet.next()) {
+                    sql = "INSERT INTO Words(LangID, Spell, Phonetic)\n" +
+                            "SELECT LangID, ?, ?\n" +
+                            "FROM Languages\n" +
+                            "WHERE LangName = ?;";
+                    pstmt = connection.prepareStatement(sql);
+                    pstmt.setString(1, nativeWord);
+                    pstmt.setString(2, nativeTranscription);
+                    pstmt.setString(3, nativeLanguage);
+                    pstmt.executeUpdate();
+                }
 
+                //Checking for doubles for foreign word
+                sql = "SELECT WordID FROM Words WHERE Spell = ? AND Phonetic = ?;";
                 pstmt = connection.prepareStatement(sql);
                 pstmt.setString(1, foreignWord);
                 pstmt.setString(2, foreignTranscription);
-                pstmt.setString(3, foreignLanguage);
-                pstmt.executeUpdate();
+                resultSet = pstmt.executeQuery();
+                if (!resultSet.next()) {
+                    sql = "INSERT INTO Words(LangID, Spell, Phonetic)\n" +
+                            "SELECT LangID, ?, ?\n" +
+                            "FROM Languages\n" +
+                            "WHERE LangName = ?;";
+                    pstmt = connection.prepareStatement(sql);
+                    pstmt.setString(1, foreignWord);
+                    pstmt.setString(2, foreignTranscription);
+                    pstmt.setString(3, foreignLanguage);
+                    pstmt.executeUpdate();
+                }
 
+                //Taking id of native word
                 sql = "SELECT WordID FROM Words WHERE Spell = ? AND Phonetic = ?;";
                 pstmt = connection.prepareStatement(sql);
                 pstmt.setString(1, nativeWord);
@@ -83,21 +107,32 @@ public class Add {
                 resultSet = pstmt.executeQuery();
                 String nativeWordId = resultSet.getString(1);
 
+                //Taking id of foreign word
                 pstmt = connection.prepareStatement(sql);
                 pstmt.setString(1, foreignWord);
                 pstmt.setString(2, foreignTranscription);
                 resultSet = pstmt.executeQuery();
                 String foreignWordId = resultSet.getString(1);
 
-                sql = "INSERT INTO Pair(DicID, Word1ID, Word2ID) VALUES(?, ?, ?)";
+                //Checking for doubles for pair
+                sql = "SELECT ID FROM Pair WHERE DicID = ? AND Word1ID = ? AND Word2ID = ?;";
                 pstmt = connection.prepareStatement(sql);
                 pstmt.setString(1, dictionaryId);
                 pstmt.setString(2, nativeWordId);
-                pstmt.setString(3, foreignWordId);
-                pstmt.executeUpdate();
+                pstmt.setString(2, foreignWordId);
+                resultSet = pstmt.executeQuery();
+                if (!resultSet.next()) {
+                    sql = "INSERT INTO Pair(DicID, Word1ID, Word2ID) VALUES(?, ?, ?);";
+                    pstmt = connection.prepareStatement(sql);
+                    pstmt.setString(1, dictionaryId);
+                    pstmt.setString(2, nativeWordId);
+                    pstmt.setString(3, foreignWordId);
+                    pstmt.executeUpdate();
+                }
             }
             pstmt.close();
             connection.close();
+            System.out.println("The dictionary was added.");
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
         }

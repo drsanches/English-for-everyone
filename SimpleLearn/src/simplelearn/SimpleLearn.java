@@ -94,7 +94,7 @@ public class SimpleLearn {
         System.out.println("login            - Description: description;\n"
                 + "                   Arguments:   Username Password RememberMe(true / false);");
         System.out.println("setconfig        - Description: description;\n"
-                + "                   Arguments:   SessionId NativeLanguage ForeignLanguage Level;");
+                + "                   Arguments:   SessionId NativeLanguage ForeignLanguage;");
         System.out.println("getinfo          - Description: description;\n"
                 + "                   Arguments:   SessionId;");
         System.out.println("gettimers        - Description: description;\n"
