@@ -1,0 +1,522 @@
+{
+	"ForeignWord": "﻿ability",
+	"ForeignTranscription": "[əˈbɪləti]",
+	"NativeWord": "физическая возможность",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "about to do",
+	"ForeignTranscription": "[əbˈaʊːt tə dˈuː]",
+	"NativeWord": "собираться что-то сделать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "absolutely",
+	"ForeignTranscription": "[ˌæbsəˈlutli]",
+	"NativeWord": "безусловно, абсолютно, совершенно",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "accept",
+	"ForeignTranscription": "[ækˈsɛpt]",
+	"NativeWord": "принимать, принять",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "act",
+	"ForeignTranscription": "[ækt]",
+	"NativeWord": "действовать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "actually",
+	"ForeignTranscription": "[ˈækʧuəli]",
+	"NativeWord": "на самом деле",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "allow",
+	"ForeignTranscription": "[əˈlaʊ]",
+	"NativeWord": "позволять, позволять; разрешать, разрешить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "amount",
+	"ForeignTranscription": "[əˈmaʊnt]",
+	"NativeWord": "количество",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "amusing",
+	"ForeignTranscription": "[əmjˈuːzɪŋ]",
+	"NativeWord": "забавный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "basic",
+	"ForeignTranscription": "[ˈbeɪsɪk]",
+	"NativeWord": "главный, базовый, основной, базовый, основной, основной",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "be used to",
+	"ForeignTranscription": "[bi jˈuːst tˈuː]",
+	"NativeWord": "быть привыкшим к чему-либо",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "behave",
+	"ForeignTranscription": "[bɪˈheɪv]",
+	"NativeWord": "вести себя, вести себя",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "believe",
+	"ForeignTranscription": "[bɪˈliv]",
+	"NativeWord": "верить, верить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "break up",
+	"ForeignTranscription": "[breɪk ʌp]",
+	"NativeWord": "расставаться, прекращать, расставаться, расходиться, прекращать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "burn",
+	"ForeignTranscription": "[bɜrn]",
+	"NativeWord": "обжечься, гореть, гореть, пылать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "calm",
+	"ForeignTranscription": "[kɑm]",
+	"NativeWord": "спокойный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "can afford",
+	"ForeignTranscription": "[kən əfˈɔːd]",
+	"NativeWord": "позволить себе",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "care",
+	"ForeignTranscription": "[kɛr]",
+	"NativeWord": "беспокоиться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "change mind",
+	"ForeignTranscription": "[tʃˈeɪːndʒ mˈaɪnd]",
+	"NativeWord": "изменять мнение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "complain",
+	"ForeignTranscription": "[kəmˈpleɪn]",
+	"NativeWord": "жаловаться, жаловаться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "complete",
+	"ForeignTranscription": "[kəmˈplit]",
+	"NativeWord": "полный, целый, законченный, завершённый, полный, заканчивать, завершать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "connect",
+	"ForeignTranscription": "[kəˈnɛkt]",
+	"NativeWord": "соединять, соединиться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "curious",
+	"ForeignTranscription": "[ˈkjʊriəs]",
+	"NativeWord": "любознательный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "damage",
+	"ForeignTranscription": "[ˈdamɪdʒ]",
+	"NativeWord": "повреждать, вред, повредить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "decision",
+	"ForeignTranscription": "[dɪˈsɪʒ(ə)n]",
+	"NativeWord": "решение, решение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "decrease",
+	"ForeignTranscription": "[ˈdiˌkris]",
+	"NativeWord": "понижаться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "delicious",
+	"ForeignTranscription": "[dɪˈlɪʃəs]",
+	"NativeWord": "очень вкусный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "delighted",
+	"ForeignTranscription": "[dɪlˈaɪtɪd]",
+	"NativeWord": "восторженный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "demand",
+	"ForeignTranscription": "[dɪˈmænd]",
+	"NativeWord": "требовать, спрос",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "develop",
+	"ForeignTranscription": "[dɪˈvɛləp]",
+	"NativeWord": "развивать, развивать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "divide",
+	"ForeignTranscription": "[dɪˈvaɪd]",
+	"NativeWord": "делить, разделить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "efficient",
+	"ForeignTranscription": "[ɪˈfɪʃənt]",
+	"NativeWord": "эффективный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "effort",
+	"ForeignTranscription": "[ˈɛfət]",
+	"NativeWord": "усилие, попытка; достижение, усилие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "end up",
+	"ForeignTranscription": "[ɛnd ʌp]",
+	"NativeWord": "заканчиваться, закончить, дождаться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "engaged",
+	"ForeignTranscription": "[ɛnˈgeɪʤd]",
+	"NativeWord": "занятый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "enormous",
+	"ForeignTranscription": "[ɪˈnɔrməs]",
+	"NativeWord": "огромный, огромный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "experience",
+	"ForeignTranscription": "[ɪkˈspɪriəns]",
+	"NativeWord": "(жизненный) опыт, опыт",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "extraordinary",
+	"ForeignTranscription": "[ɪkˈstrɔrdəˌnɛri]",
+	"NativeWord": "экстраординарный, выдающийся",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "extremely",
+	"ForeignTranscription": "[ɛkˈstrimli]",
+	"NativeWord": "чрезвычайно, очень; чрезвычайно",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fall down",
+	"ForeignTranscription": "[fɔːl daʊn]",
+	"NativeWord": "падать, упасть, рухнуть, падать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "feeling",
+	"ForeignTranscription": "[ˈfilɪŋ]",
+	"NativeWord": "чувство, чувство",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fetch",
+	"ForeignTranscription": "[fˈetʃ]",
+	"NativeWord": "приносить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "finally",
+	"ForeignTranscription": "[ˈfaɪnəli]",
+	"NativeWord": "в конце концов, наконец, наконец",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "flavour",
+	"ForeignTranscription": "[ˈfleɪvə]",
+	"NativeWord": "аромат",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "follow",
+	"ForeignTranscription": "[ˈfɑloʊ]",
+	"NativeWord": "следовать, следовать, сопровождать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "forget",
+	"ForeignTranscription": "[fərˈgɛt]",
+	"NativeWord": "забывать, забыть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fully",
+	"ForeignTranscription": "[ˈfʊli]",
+	"NativeWord": "полностью",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "gain",
+	"ForeignTranscription": "[geɪn]",
+	"NativeWord": "получать, зарабатывать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "get in",
+	"ForeignTranscription": "[gɛt ɪn]",
+	"NativeWord": "входить, пройти на выборах, поступить (в учебное заведение)",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "go away",
+	"ForeignTranscription": "[gəʊ əˈweɪ]",
+	"NativeWord": "уходить прочь, заканчиваться, прекращаться, уходить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "habit",
+	"ForeignTranscription": "[ˈhabɪt]",
+	"NativeWord": "привычка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hang on",
+	"ForeignTranscription": "[haŋ ɒn]",
+	"NativeWord": "ждать, упорствовать, ждать (у телефона)",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hang out",
+	"ForeignTranscription": "[hæŋ aʊt]",
+	"NativeWord": "тусоваться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hardly",
+	"ForeignTranscription": "[ˈhɑrdli]",
+	"NativeWord": "едва, едва ли",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "imagine",
+	"ForeignTranscription": "[ɪˈmæʤən]",
+	"NativeWord": "представлять себе, воображать, представить себе",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "impossible",
+	"ForeignTranscription": "[ɪmˈpɑsəbəl]",
+	"NativeWord": "невозможный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "improve",
+	"ForeignTranscription": "[ɪmˈpruv]",
+	"NativeWord": "совершенствовать (-ся), улучшать, улучшить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "increase",
+	"ForeignTranscription": "[ˈɪnˌkris]",
+	"NativeWord": "возрастать, увеличиваться, повышаться, возрастать, увеличиться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "independent",
+	"ForeignTranscription": "[ˌɪndɪˈpɛndənt]",
+	"NativeWord": "независимый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "involve",
+	"ForeignTranscription": "[ɪnˈvɒlv]",
+	"NativeWord": "вовлекать, привлекать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "issue",
+	"ForeignTranscription": "[ˈɪʃu]",
+	"NativeWord": "вопрос, проблема, дело",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "look like",
+	"ForeignTranscription": "[lˈʊk lˈaɪk]",
+	"NativeWord": "выглядеть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "main",
+	"ForeignTranscription": "[meɪn]",
+	"NativeWord": "главный; важнейший, основной; абсолютный, основной, главный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "make friends",
+	"ForeignTranscription": "[mˈeɪːk frˈendz]",
+	"NativeWord": "подружиться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "marvellous",
+	"ForeignTranscription": "[mˈɑːvləs]",
+	"NativeWord": "великолепный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mean",
+	"ForeignTranscription": "[min]",
+	"NativeWord": "иметь в виду, значить, жалкий, неприятный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mention",
+	"ForeignTranscription": "[ˈmɛnʃən]",
+	"NativeWord": "упоминать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "necessary",
+	"ForeignTranscription": "[ˈnɛsəˌsɛri]",
+	"NativeWord": "необходимый, необходимо",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "notice",
+	"ForeignTranscription": "[ˈnoʊtəs]",
+	"NativeWord": "замечать, уведомление",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "obvious",
+	"ForeignTranscription": "[ˈɑbviəs]",
+	"NativeWord": "очевидный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "offer",
+	"ForeignTranscription": "[ˈɔfər]",
+	"NativeWord": "предлагать, предлагать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "own",
+	"ForeignTranscription": "[oʊn]",
+	"NativeWord": "владеть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "possible",
+	"ForeignTranscription": "[ˈpɑsəbəl]",
+	"NativeWord": "вероятный, возможный, возможный, вероятный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "promise",
+	"ForeignTranscription": "[ˈprɑməs]",
+	"NativeWord": "обещать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "quality",
+	"ForeignTranscription": "[ˈkwɑləti]",
+	"NativeWord": "качество",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "quantity",
+	"ForeignTranscription": "[ˈkwɑntəti]",
+	"NativeWord": "количество",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "quite",
+	"ForeignTranscription": "[kwaɪt]",
+	"NativeWord": "вполне, совершенно, вполне, достаточно, вполне, почти",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "recognize",
+	"ForeignTranscription": "[ˈrɛkəgˌnaɪz]",
+	"NativeWord": "узнавать, узнавать кого-либо, узнавать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "recommend",
+	"ForeignTranscription": "[ˌrɛkəˈmɛnd]",
+	"NativeWord": "рекомендовать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "regret",
+	"ForeignTranscription": "[rɪˈɡret]",
+	"NativeWord": "сожалеть, сожаление",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "remind",
+	"ForeignTranscription": "[riˈmaɪnd]",
+	"NativeWord": "напоминать, напомнить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "similar",
+	"ForeignTranscription": "[ˈsɪmələr]",
+	"NativeWord": "похожий, подобный",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "suggest",
+	"ForeignTranscription": "[səgˈʤɛst]",
+	"NativeWord": "предлагать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "support",
+	"ForeignTranscription": "[səˈpɔrt]",
+	"NativeWord": "поддерживать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "take place",
+	"ForeignTranscription": "[teɪk pleɪs]",
+	"NativeWord": "происходить, происходить, случаться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "terribly",
+	"ForeignTranscription": "[tˈerəbli]",
+	"NativeWord": "очень",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "typically",
+	"ForeignTranscription": "[ˈtɪpɪkli]",
+	"NativeWord": "типично",
+	"NativeTranscription": "[ NODATA ]"
+},

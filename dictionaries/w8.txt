@@ -1,0 +1,3900 @@
+{
+	"ForeignWord": "﻿agency",
+	"ForeignTranscription": "[ˈeɪʤənsi]",
+	"NativeWord": "агентство",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "box",
+	"ForeignTranscription": "[bɑks]",
+	"NativeWord": "коробка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "defence",
+	"ForeignTranscription": "[dɪˈfɛns]",
+	"NativeWord": "защита",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "division",
+	"ForeignTranscription": "[dɪˈvɪʒən]",
+	"NativeWord": "подразделение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "dog",
+	"ForeignTranscription": "[dɔg]",
+	"NativeWord": "собака",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "eagle",
+	"ForeignTranscription": "[ˈigəl]",
+	"NativeWord": "орел",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "engine",
+	"ForeignTranscription": "[ˈɛnʤən]",
+	"NativeWord": "двигатель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "male",
+	"ForeignTranscription": "[mˈeɪːl]",
+	"NativeWord": "мужчина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "meeting",
+	"ForeignTranscription": "[ˈmitɪŋ]",
+	"NativeWord": "встреча",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "proof",
+	"ForeignTranscription": "[pruf]",
+	"NativeWord": "доказательство",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "shore",
+	"ForeignTranscription": "[ʃɔr]",
+	"NativeWord": "берег",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tourist",
+	"ForeignTranscription": "[ˈtʊrəst]",
+	"NativeWord": "турист",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "accident",
+	"ForeignTranscription": "[ˈæksədənt]",
+	"NativeWord": "несчастный случай",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "account",
+	"ForeignTranscription": "[əˈkaʊnt]",
+	"NativeWord": "счёт, счет в банке",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "action",
+	"ForeignTranscription": "[ˈækʃən]",
+	"NativeWord": "действие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "activity",
+	"ForeignTranscription": "[ækˈtɪvəti]",
+	"NativeWord": "деятельность, деятельность",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "addition",
+	"ForeignTranscription": "[əˈdɪʃən]",
+	"NativeWord": "дополнение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "address",
+	"ForeignTranscription": "[ˈæˌdrɛs]",
+	"NativeWord": "адрес",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "adult",
+	"ForeignTranscription": "[əˈdʌlt]",
+	"NativeWord": "взрослый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "adventure",
+	"ForeignTranscription": "[ædˈvɛnʧər]",
+	"NativeWord": "приключение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "advert",
+	"ForeignTranscription": "[ædˌvɜrt]",
+	"NativeWord": "объявление",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "aftershave",
+	"ForeignTranscription": "[ˈɑːftəʃeɪv]",
+	"NativeWord": "лосьон после бритья",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "age",
+	"ForeignTranscription": "[eɪʤ]",
+	"NativeWord": "возраст, возраст",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "agreement",
+	"ForeignTranscription": "[əˈgrimənt]",
+	"NativeWord": "соглашение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "aim",
+	"ForeignTranscription": "[eɪm]",
+	"NativeWord": "цель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "alphabet",
+	"ForeignTranscription": "[ˈalfəbɛt]",
+	"NativeWord": "алфавит",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "amount",
+	"ForeignTranscription": "[əˈmaʊnt]",
+	"NativeWord": "количество",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "anatomy",
+	"ForeignTranscription": "[əˈnætəmi]",
+	"NativeWord": "анатомия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "anger",
+	"ForeignTranscription": "[ˈæŋgər]",
+	"NativeWord": "злость, гнев, гнев",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "animal",
+	"ForeignTranscription": "[ˈænəməl]",
+	"NativeWord": "животное",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "architecture",
+	"ForeignTranscription": "[ˈɑrkəˌtɛkʧər]",
+	"NativeWord": "архитектура, архитектура",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "army",
+	"ForeignTranscription": "[ˈɑrmi]",
+	"NativeWord": "армия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "arrival",
+	"ForeignTranscription": "[əˈraɪvəl]",
+	"NativeWord": "прибытие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "art",
+	"ForeignTranscription": "[ɑrt]",
+	"NativeWord": "искусство",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "article",
+	"ForeignTranscription": "['ɑːtɪkl]",
+	"NativeWord": "статья (в газете, журнале), статья",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "artist",
+	"ForeignTranscription": "[ˈɑrtəst]",
+	"NativeWord": "художник",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "atmosphere",
+	"ForeignTranscription": "[ˈætməˌsfɪr]",
+	"NativeWord": "атмосфера",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "attention",
+	"ForeignTranscription": "[əˈtɛnʃən]",
+	"NativeWord": "внимание",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bachelor",
+	"ForeignTranscription": "[ˈbæʧələr]",
+	"NativeWord": "холостяк",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bag",
+	"ForeignTranscription": "[bæg]",
+	"NativeWord": "сумка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ball",
+	"ForeignTranscription": "[bɔl]",
+	"NativeWord": "шар",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bargain",
+	"ForeignTranscription": "[ˈbɑrgən]",
+	"NativeWord": "выгодная покупка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bat",
+	"ForeignTranscription": "[bæt]",
+	"NativeWord": "летучая мышь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "beach",
+	"ForeignTranscription": "[biʧ]",
+	"NativeWord": "пляж",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "beauty",
+	"ForeignTranscription": "[ˈbjuti]",
+	"NativeWord": "красота",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "behaviour",
+	"ForeignTranscription": "[bɪˈheɪvyər]",
+	"NativeWord": "поведение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "belief",
+	"ForeignTranscription": "[bɪˈlif]",
+	"NativeWord": "вера",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "biography",
+	"ForeignTranscription": "[baɪˈɑgrəfi]",
+	"NativeWord": "биография",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bird",
+	"ForeignTranscription": "[bɜrd]",
+	"NativeWord": "птица",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "blood",
+	"ForeignTranscription": "[blʌd]",
+	"NativeWord": "кровь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "board",
+	"ForeignTranscription": "[bɔrd]",
+	"NativeWord": "доска, правление",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "boat",
+	"ForeignTranscription": "[boʊt]",
+	"NativeWord": "лодка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bone",
+	"ForeignTranscription": "[boʊn]",
+	"NativeWord": "кость, кость",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bottle",
+	"ForeignTranscription": "['bɔtl]",
+	"NativeWord": "бутылка, бутылка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "boy",
+	"ForeignTranscription": "[bɔɪ]",
+	"NativeWord": "мальчик",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bracelet",
+	"ForeignTranscription": "[ˈbreɪslət]",
+	"NativeWord": "браслет",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "brain",
+	"ForeignTranscription": "[breɪn]",
+	"NativeWord": "мозг",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "branch",
+	"ForeignTranscription": "[brænʧ]",
+	"NativeWord": "ветвь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "breath",
+	"ForeignTranscription": "[brɛθ]",
+	"NativeWord": "дыхание, дыхание",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "brick",
+	"ForeignTranscription": "[brɪk]",
+	"NativeWord": "кирпич",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bride",
+	"ForeignTranscription": "[braɪd]",
+	"NativeWord": "невеста",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bridge",
+	"ForeignTranscription": "[brɪʤ]",
+	"NativeWord": "мост",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "briefcase",
+	"ForeignTranscription": "[brˈiːfkɛɪːs]",
+	"NativeWord": "портфель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "brochure",
+	"ForeignTranscription": "[broʊˈʃʊr]",
+	"NativeWord": "брошюра",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bubble",
+	"ForeignTranscription": "[ˈbʌbəl]",
+	"NativeWord": "пузырь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "burglar",
+	"ForeignTranscription": "[ˈbɜrglər]",
+	"NativeWord": "грабитель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "bush",
+	"ForeignTranscription": "[bʊʃ]",
+	"NativeWord": "куст",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "button",
+	"ForeignTranscription": "[ˈbʌtən]",
+	"NativeWord": "кнопка, пуговица; кнопка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cage",
+	"ForeignTranscription": "[keɪʤ]",
+	"NativeWord": "клетка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "calendar",
+	"ForeignTranscription": "[ˈkæləndər]",
+	"NativeWord": "календарь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "call",
+	"ForeignTranscription": "[kɔ:l]",
+	"NativeWord": "звонок, звонить, вызывать, телефонный звонок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "camel",
+	"ForeignTranscription": "[ˈkæməl]",
+	"NativeWord": "верблюд",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "campaign",
+	"ForeignTranscription": "[kæmˈpeɪn]",
+	"NativeWord": "кампания",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "campsite",
+	"ForeignTranscription": "[ˈkæmpˌsaɪt]",
+	"NativeWord": "палаточный лагерь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "capital",
+	"ForeignTranscription": "[ˈkæpətəl]",
+	"NativeWord": "капитал",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "career",
+	"ForeignTranscription": "[kəˈrɪr]",
+	"NativeWord": "карьера",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cargo",
+	"ForeignTranscription": "[ˈkɑrˌgoʊ]",
+	"NativeWord": "груз",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "carnival",
+	"ForeignTranscription": "[ˈkɑrnəvəl]",
+	"NativeWord": "карнавал",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cartoon",
+	"ForeignTranscription": "[kɑrˈtun]",
+	"NativeWord": "мультфильм",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "castle",
+	"ForeignTranscription": "[ˈkæsəl]",
+	"NativeWord": "замок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "catalogue",
+	"ForeignTranscription": "[ˈkætəˌlɔg]",
+	"NativeWord": "каталог",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cathedral",
+	"ForeignTranscription": "[kəθˈiːdrl]",
+	"NativeWord": "собор",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "celebrity",
+	"ForeignTranscription": "[səˈlɛbrɪti]",
+	"NativeWord": "знаменитость",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "centre",
+	"ForeignTranscription": "[ˈsɛntər]",
+	"NativeWord": "центр",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "century",
+	"ForeignTranscription": "[ˈsɛnʧəri]",
+	"NativeWord": "век, столетие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ceremony",
+	"ForeignTranscription": "[ˈsɛrəˌmoʊni]",
+	"NativeWord": "церемония",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "chain",
+	"ForeignTranscription": "[ʧeɪn]",
+	"NativeWord": "цепь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "champion",
+	"ForeignTranscription": "[ˈʧæmpiən]",
+	"NativeWord": "чемпион",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "chance",
+	"ForeignTranscription": "[ʧæns]",
+	"NativeWord": "шанс, возможность, шанс",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "channel",
+	"ForeignTranscription": "[ˈʧænəl]",
+	"NativeWord": "канал",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "chapter",
+	"ForeignTranscription": "[ˈʧæptər]",
+	"NativeWord": "глава",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "charity",
+	"ForeignTranscription": "['ʧærɪtɪ]",
+	"NativeWord": "благотворительность",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "chat",
+	"ForeignTranscription": "[ʧæt]",
+	"NativeWord": "беседа, беседовать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cheque book",
+	"ForeignTranscription": "[tʃɛk bʊk]",
+	"NativeWord": "чековая книжка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "chess",
+	"ForeignTranscription": "[ʧɛs]",
+	"NativeWord": "шахматы",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "child",
+	"ForeignTranscription": "[ʧaɪld]",
+	"NativeWord": "ребёнок, ребёнок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "childhood",
+	"ForeignTranscription": "[ˈʧaɪldˌhʊd]",
+	"NativeWord": "детство",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "chimney",
+	"ForeignTranscription": "[ˈʧɪmni]",
+	"NativeWord": "дымоход",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "church",
+	"ForeignTranscription": "[tʃˈɜːtʃ]",
+	"NativeWord": "церковь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cigar",
+	"ForeignTranscription": "[sɪˈgɑː]",
+	"NativeWord": "сигара",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cigarette",
+	"ForeignTranscription": "[ˌsɪgəˈrɛt]",
+	"NativeWord": "сигарета",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cinema",
+	"ForeignTranscription": "[ˈsɪnəmə]",
+	"NativeWord": "кинотеатр",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "circle",
+	"ForeignTranscription": "[ˈsɜrkəl]",
+	"NativeWord": "круг, круг",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "classroom",
+	"ForeignTranscription": "[ˈklæsˌrum]",
+	"NativeWord": "классная комната",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cliff",
+	"ForeignTranscription": "[klɪf]",
+	"NativeWord": "Утес",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "climate",
+	"ForeignTranscription": "[ˈklaɪmət]",
+	"NativeWord": "климат",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "clock",
+	"ForeignTranscription": "[klɑk]",
+	"NativeWord": "часы",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "coach",
+	"ForeignTranscription": "[koʊʧ]",
+	"NativeWord": "тренер",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "coast",
+	"ForeignTranscription": "[koʊst]",
+	"NativeWord": "морское побережье",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "coin",
+	"ForeignTranscription": "[kɔɪn]",
+	"NativeWord": "монета",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "colour",
+	"ForeignTranscription": "[ˈkʌlə]",
+	"NativeWord": "цвет",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "comedy",
+	"ForeignTranscription": "[ˈkɑmədi]",
+	"NativeWord": "комедия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "communication",
+	"ForeignTranscription": "[kəmˌjunəˈkeɪʃən]",
+	"NativeWord": "общение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "community",
+	"ForeignTranscription": "[kəmjˈuːnɪti]",
+	"NativeWord": "сообщество",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "company",
+	"ForeignTranscription": "[ˈkʌmpəni]",
+	"NativeWord": "компания",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "complaint",
+	"ForeignTranscription": "[kəmˈpleɪnt]",
+	"NativeWord": "жалоба",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "computer",
+	"ForeignTranscription": "[kəmˈpjutər]",
+	"NativeWord": "компьютер",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "concert",
+	"ForeignTranscription": "[ˈkɑnsɜrt]",
+	"NativeWord": "концерт",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "continent",
+	"ForeignTranscription": "[ˈkɑntənənt]",
+	"NativeWord": "континент",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cosmetics",
+	"ForeignTranscription": "[kɑzˈmɛtɪks]",
+	"NativeWord": "косметика",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "country",
+	"ForeignTranscription": "[ˈkʌntri]",
+	"NativeWord": "страна",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "couple",
+	"ForeignTranscription": "[ˈkʌpəl]",
+	"NativeWord": "пара",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "court",
+	"ForeignTranscription": "[kɔrt]",
+	"NativeWord": "суд",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cow",
+	"ForeignTranscription": "[kaʊ]",
+	"NativeWord": "корова",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "credit",
+	"ForeignTranscription": "[ˈkrɛdət]",
+	"NativeWord": "кредит",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "crime",
+	"ForeignTranscription": "[kraɪm]",
+	"NativeWord": "преступление, преступление",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "crisis",
+	"ForeignTranscription": "[ˈkraɪsəs]",
+	"NativeWord": "кризис",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "crops",
+	"ForeignTranscription": "[krɑps]",
+	"NativeWord": "зерновые культуры",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "crossword",
+	"ForeignTranscription": "[ˈkrɔˌswɜrd]",
+	"NativeWord": "кроссворд",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "crowd",
+	"ForeignTranscription": "[kraʊd]",
+	"NativeWord": "толпа",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "crown",
+	"ForeignTranscription": "[kraʊn]",
+	"NativeWord": "корона",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "culture",
+	"ForeignTranscription": "[ˈkʌlʧər]",
+	"NativeWord": "культура",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "currency",
+	"ForeignTranscription": "[ˈkɜrənsi]",
+	"NativeWord": "валюта",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "cursor",
+	"ForeignTranscription": "[ˈkɜrsər]",
+	"NativeWord": "курсор",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "customs",
+	"ForeignTranscription": "[ˈkʌstəmz]",
+	"NativeWord": "таможня",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "danger",
+	"ForeignTranscription": "[ˈdeɪnʤər]",
+	"NativeWord": "опасность",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "dawn",
+	"ForeignTranscription": "[dɔn]",
+	"NativeWord": "рассвет",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "day",
+	"ForeignTranscription": "[deɪ]",
+	"NativeWord": "день, день",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "death",
+	"ForeignTranscription": "[dɛθ]",
+	"NativeWord": "смерть, смерть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "debt",
+	"ForeignTranscription": "[dɛt]",
+	"NativeWord": "долг",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "decision",
+	"ForeignTranscription": "[dɪˈsɪʒ(ə)n]",
+	"NativeWord": "решение, решение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "deer",
+	"ForeignTranscription": "[dɪr]",
+	"NativeWord": "олень",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "degree",
+	"ForeignTranscription": "[dɪˈgri]",
+	"NativeWord": "степень, степень",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "delight",
+	"ForeignTranscription": "[dɪˈlaɪt]",
+	"NativeWord": "восхищение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "delivery",
+	"ForeignTranscription": "[dɪˈlɪvəri]",
+	"NativeWord": "поставка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "democracy",
+	"ForeignTranscription": "[dɪˈmɑkrəsi]",
+	"NativeWord": "демократия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "departure",
+	"ForeignTranscription": "[dɪˈpɑrʧər]",
+	"NativeWord": "отъезд",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "design",
+	"ForeignTranscription": "[dɪˈzaɪn]",
+	"NativeWord": "замысел, проект, дизайн, придумывать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "detail",
+	"ForeignTranscription": "[dɪˈteɪl]",
+	"NativeWord": "деталь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "development",
+	"ForeignTranscription": "[dɪˈvɛləpmənt]",
+	"NativeWord": "развитие, развитие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "diagram",
+	"ForeignTranscription": "[ˈdaɪəˌgræm]",
+	"NativeWord": "диаграмма",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "dialogue",
+	"ForeignTranscription": "[ˈdaɪəˌlɔg]",
+	"NativeWord": "диалог",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "disaster",
+	"ForeignTranscription": "[dɪˈzæstər]",
+	"NativeWord": "бедствие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "disco",
+	"ForeignTranscription": "[ˈdɪskoʊ]",
+	"NativeWord": "дискотека",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "discovery",
+	"ForeignTranscription": "[dɪˈskʌvəri]",
+	"NativeWord": "открытие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "disease",
+	"ForeignTranscription": "[dɪˈziz]",
+	"NativeWord": "болезнь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "disgust",
+	"ForeignTranscription": "[dɪsˈɡʌst]",
+	"NativeWord": "отвращение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "disk",
+	"ForeignTranscription": "[dɪsk]",
+	"NativeWord": "диск",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "distance",
+	"ForeignTranscription": "[ˈdɪstəns]",
+	"NativeWord": "расстояние, расстояние",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "doll",
+	"ForeignTranscription": "[dɑl]",
+	"NativeWord": "кукла",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "dolphin",
+	"ForeignTranscription": "[ˈdɑlfən]",
+	"NativeWord": "дельфин",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "donkey",
+	"ForeignTranscription": "[ˈdɒŋki]",
+	"NativeWord": "осел",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "door",
+	"ForeignTranscription": "[dɔ:r]",
+	"NativeWord": "дверь, дверь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "dot",
+	"ForeignTranscription": "[dɑt]",
+	"NativeWord": "точка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "drug",
+	"ForeignTranscription": "[drʌg]",
+	"NativeWord": "лекарство, медикамент",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "duck",
+	"ForeignTranscription": "[dʌk]",
+	"NativeWord": "утка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "duckling",
+	"ForeignTranscription": "[ˈdʌklɪŋ]",
+	"NativeWord": "утёнок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "dust",
+	"ForeignTranscription": "[dʌst]",
+	"NativeWord": "пыль",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "earth",
+	"ForeignTranscription": "[ɜrθ]",
+	"NativeWord": "Земля, земля",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "echo",
+	"ForeignTranscription": "[ˈɛkoʊ]",
+	"NativeWord": "эхо",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "eclipse",
+	"ForeignTranscription": "[ɪˈklɪps]",
+	"NativeWord": "затмение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "economics",
+	"ForeignTranscription": "[ˌɛkəˈnɑmɪks]",
+	"NativeWord": "экономика",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "edge",
+	"ForeignTranscription": "[ɛʤ]",
+	"NativeWord": "край",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "edition",
+	"ForeignTranscription": "[əˈdɪʃən]",
+	"NativeWord": "выпуск",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "education",
+	"ForeignTranscription": "[ˌɛʤəˈkeɪʃən]",
+	"NativeWord": "образование, образование",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "effort",
+	"ForeignTranscription": "[ˈɛfət]",
+	"NativeWord": "усилие, попытка; достижение, усилие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "election",
+	"ForeignTranscription": "[ɪˈlɛkʃən]",
+	"NativeWord": "выборы",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "element",
+	"ForeignTranscription": "[ˈɛləmənt]",
+	"NativeWord": "элемент",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "elephant",
+	"ForeignTranscription": "[ˈɛləfənt]",
+	"NativeWord": "слон",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "email",
+	"ForeignTranscription": "[iˈmeɪl]",
+	"NativeWord": "электронная почта",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "emergency",
+	"ForeignTranscription": "[ɪˈmɜrʤənsi]",
+	"NativeWord": "чрезвычайная ситуация",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "emotion",
+	"ForeignTranscription": "[ɪˈməʊʃ(ə)n]",
+	"NativeWord": "эмоция",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "energy",
+	"ForeignTranscription": "[ˈɛnərʤi]",
+	"NativeWord": "энергия, энергия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "envelope",
+	"ForeignTranscription": "[ˈɛnvəˌloʊp]",
+	"NativeWord": "конверт",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "equipment",
+	"ForeignTranscription": "[ɪˈkwɪpmənt]",
+	"NativeWord": "оборудование",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "evening",
+	"ForeignTranscription": "[ˈivnɪŋ]",
+	"NativeWord": "вечер",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "exam",
+	"ForeignTranscription": "[ɪgˈzæm]",
+	"NativeWord": "экзамен",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "example",
+	"ForeignTranscription": "[ɪgˈzæmpəl]",
+	"NativeWord": "пример, пример",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "exhibition",
+	"ForeignTranscription": "[ˌɛksəˈbɪʃən]",
+	"NativeWord": "выставка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "expert",
+	"ForeignTranscription": "[ˈɛkspərt]",
+	"NativeWord": "эксперт",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fact",
+	"ForeignTranscription": "[fækt]",
+	"NativeWord": "факт, факт",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fame",
+	"ForeignTranscription": "[feɪm]",
+	"NativeWord": "известность",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fantasy",
+	"ForeignTranscription": "[ˈfæntəsi]",
+	"NativeWord": "фэнтези",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fashion",
+	"ForeignTranscription": "[ˈfæʃən]",
+	"NativeWord": "мода",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fault",
+	"ForeignTranscription": "[fɔlt]",
+	"NativeWord": "недостаток",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "feature",
+	"ForeignTranscription": "[ˈfiʧər]",
+	"NativeWord": "особенность, особенность",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fee",
+	"ForeignTranscription": "[fi]",
+	"NativeWord": "гонорар, плата, вознаграждение, гонорар",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "feeling",
+	"ForeignTranscription": "[ˈfilɪŋ]",
+	"NativeWord": "чувство, чувство",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fence",
+	"ForeignTranscription": "[fɛns]",
+	"NativeWord": "забор",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ferry",
+	"ForeignTranscription": "[ˈfɛri]",
+	"NativeWord": "паром",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fiction",
+	"ForeignTranscription": "[ˈfɪkʃən]",
+	"NativeWord": "художественная литература",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "file",
+	"ForeignTranscription": "[faɪl]",
+	"NativeWord": "файл",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "film",
+	"ForeignTranscription": "[fɪlm]",
+	"NativeWord": "фильм",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fire",
+	"ForeignTranscription": "[ˈfaɪər]",
+	"NativeWord": "увольнять, огонь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "firm",
+	"ForeignTranscription": "[fɜrm]",
+	"NativeWord": "фирма",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fish",
+	"ForeignTranscription": "[fɪʃ]",
+	"NativeWord": "рыба",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fitness",
+	"ForeignTranscription": "[ˈfɪtnəs]",
+	"NativeWord": "хорошая физическая форма",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "flag",
+	"ForeignTranscription": "[flæg]",
+	"NativeWord": "флаг",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "flash",
+	"ForeignTranscription": "[flæʃ]",
+	"NativeWord": "вспышка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "flat",
+	"ForeignTranscription": "[flæt]",
+	"NativeWord": "квартира, плоскость",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "flavour",
+	"ForeignTranscription": "[ˈfleɪvə]",
+	"NativeWord": "аромат",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "flight",
+	"ForeignTranscription": "[flaɪt]",
+	"NativeWord": "полет",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "flower",
+	"ForeignTranscription": "[ˈflaʊər]",
+	"NativeWord": "цветок, цветок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "food",
+	"ForeignTranscription": "[fud]",
+	"NativeWord": "еда",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "foot",
+	"ForeignTranscription": "[fʊt]",
+	"NativeWord": "ступня, нога",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "football",
+	"ForeignTranscription": "[ˈfʊtˌbɔl]",
+	"NativeWord": "футбол",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "force",
+	"ForeignTranscription": "[fɔrs]",
+	"NativeWord": "заставлять, принуждать, сила, сила",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "forecast",
+	"ForeignTranscription": "[ˈfɔːkɑːst]",
+	"NativeWord": "прогноз",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "forest",
+	"ForeignTranscription": "[ˈfɔrəst]",
+	"NativeWord": "лес",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "freedom",
+	"ForeignTranscription": "[ˈfridəm]",
+	"NativeWord": "свобода",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "friend",
+	"ForeignTranscription": "[frɛnd]",
+	"NativeWord": "друг, друг",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fruit",
+	"ForeignTranscription": "[frut]",
+	"NativeWord": "фрукты",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "funeral",
+	"ForeignTranscription": "[ˈfjunərəl]",
+	"NativeWord": "похороны",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "fur",
+	"ForeignTranscription": "[fɜr]",
+	"NativeWord": "мех",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "furniture",
+	"ForeignTranscription": "[ˈfɜrnɪʧər]",
+	"NativeWord": "мебель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "future",
+	"ForeignTranscription": "[ˈfjuʧər]",
+	"NativeWord": "будущее",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "game",
+	"ForeignTranscription": "[geɪm]",
+	"NativeWord": "игра, игра",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "garden",
+	"ForeignTranscription": "[ˈɡɑːd(ə)n]",
+	"NativeWord": "сад",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "geography",
+	"ForeignTranscription": "[ʤiˈɑgrəfi]",
+	"NativeWord": "география",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ghost",
+	"ForeignTranscription": "[goʊst]",
+	"NativeWord": "призрак",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "gift",
+	"ForeignTranscription": "[gɪft]",
+	"NativeWord": "подарок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "giraffe",
+	"ForeignTranscription": "[ʤəˈræf]",
+	"NativeWord": "жираф",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "girl",
+	"ForeignTranscription": "[gɜ:rl]",
+	"NativeWord": "девочка, девочка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "girlfriend",
+	"ForeignTranscription": "[ˈgɜrlˌfrɛnd]",
+	"NativeWord": "подруга",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "glass",
+	"ForeignTranscription": "[glæs]",
+	"NativeWord": "стеклянный, стакан, стекло",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "glasses",
+	"ForeignTranscription": "[ˈglæsəz]",
+	"NativeWord": "очки",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "goldfish",
+	"ForeignTranscription": "[ˈgoʊldˌfɪʃ]",
+	"NativeWord": "золотая рыбка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "golf",
+	"ForeignTranscription": "[gɑlf]",
+	"NativeWord": "гольф",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "grammar",
+	"ForeignTranscription": "[ˈgræmər]",
+	"NativeWord": "грамматика",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "grape",
+	"ForeignTranscription": "[greɪp]",
+	"NativeWord": "виноград",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "grass",
+	"ForeignTranscription": "[græs]",
+	"NativeWord": "трава",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "group",
+	"ForeignTranscription": "[grup]",
+	"NativeWord": "группа, группа (людей, предметов)",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "guard",
+	"ForeignTranscription": "[gɑrd]",
+	"NativeWord": "охрана",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "guidebook",
+	"ForeignTranscription": "[ˈgaɪdˌbʊk]",
+	"NativeWord": "путеводитель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "guitar",
+	"ForeignTranscription": "[gɪˈtɑr]",
+	"NativeWord": "гитара",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "gun",
+	"ForeignTranscription": "[gʌn]",
+	"NativeWord": "оружие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "gym",
+	"ForeignTranscription": "[ʤɪm]",
+	"NativeWord": "спортзал",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "haircut",
+	"ForeignTranscription": "[ˈhɛrˌkʌt]",
+	"NativeWord": "стрижка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "half",
+	"ForeignTranscription": "[hæf]",
+	"NativeWord": "половина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hammer",
+	"ForeignTranscription": "[ˈhæmər]",
+	"NativeWord": "молоток, молоток",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hand",
+	"ForeignTranscription": "[hænd]",
+	"NativeWord": "рука (кисть), рука",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "handbag",
+	"ForeignTranscription": "[ˈhændbæg]",
+	"NativeWord": "сумочка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hanger",
+	"ForeignTranscription": "[ˈhaŋə]",
+	"NativeWord": "вешалка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "happiness",
+	"ForeignTranscription": "[ˈhæpinəs]",
+	"NativeWord": "счастье",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "harm",
+	"ForeignTranscription": "[hɑrm]",
+	"NativeWord": "вред",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "head",
+	"ForeignTranscription": "[hˈed]",
+	"NativeWord": "голова, голова",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "health",
+	"ForeignTranscription": "[hɛlθ]",
+	"NativeWord": "здоровье",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "heart",
+	"ForeignTranscription": "[hɑrt]",
+	"NativeWord": "сердце, сердце",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "heaven",
+	"ForeignTranscription": "[ˈhɛvən]",
+	"NativeWord": "небеса",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "height",
+	"ForeignTranscription": "[haɪt]",
+	"NativeWord": "высота",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "help",
+	"ForeignTranscription": "[hɛlp]",
+	"NativeWord": "помощь, помогать, помощь, помогать, помощь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hen",
+	"ForeignTranscription": "[hɛn]",
+	"NativeWord": "курица",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hero",
+	"ForeignTranscription": "[ˈhɪroʊ]",
+	"NativeWord": "герой",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hill",
+	"ForeignTranscription": "[hɪl]",
+	"NativeWord": "холм",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hobby",
+	"ForeignTranscription": "[ˈhɑbi]",
+	"NativeWord": "хобби",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "holiday",
+	"ForeignTranscription": "[ˈhɑləˌdeɪ]",
+	"NativeWord": "отпуск, каникулы, праздник",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "home",
+	"ForeignTranscription": "[hoʊm]",
+	"NativeWord": "дом, дом, жилище, дом",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hook",
+	"ForeignTranscription": "[hʊk]",
+	"NativeWord": "крюк",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "horoscope",
+	"ForeignTranscription": "[ˈhɒrəskəʊp]",
+	"NativeWord": "гороскоп",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "horror",
+	"ForeignTranscription": "[ˈhɔrər]",
+	"NativeWord": "ужас",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "horse",
+	"ForeignTranscription": "[hɔrs]",
+	"NativeWord": "лошадь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hour",
+	"ForeignTranscription": "[ˈaʊər]",
+	"NativeWord": "час, час",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "housewife",
+	"ForeignTranscription": "[ˈhaʊswaɪf]",
+	"NativeWord": "домохозяйка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "housework",
+	"ForeignTranscription": "[ˈhaʊˌswɜrk]",
+	"NativeWord": "работа по дому",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "humour",
+	"ForeignTranscription": "[ˈhjumər]",
+	"NativeWord": "юмор",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hunger",
+	"ForeignTranscription": "[ˈhʌŋgər]",
+	"NativeWord": "голод",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hunter",
+	"ForeignTranscription": "[ˈhʌntər]",
+	"NativeWord": "охотник",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "husband",
+	"ForeignTranscription": "[ˈhʌzbənd]",
+	"NativeWord": "муж",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "hymn",
+	"ForeignTranscription": "[hɪm]",
+	"NativeWord": "гимн",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "idea",
+	"ForeignTranscription": "[aɪˈdiə]",
+	"NativeWord": "идея, идея, мысль, идея",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "image",
+	"ForeignTranscription": "[ˈɪməʤ]",
+	"NativeWord": "изображение, изображение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "inch",
+	"ForeignTranscription": "[ɪnʧ]",
+	"NativeWord": "дюйм",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "income",
+	"ForeignTranscription": "[ˈɪnˌkʌm]",
+	"NativeWord": "доход",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "industry",
+	"ForeignTranscription": "[ˈɪndəstri]",
+	"NativeWord": "промышленность",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "infant",
+	"ForeignTranscription": "[ˈɪnfənt]",
+	"NativeWord": "младенец",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "information",
+	"ForeignTranscription": "[ˌɪnfərˈmeɪʃən]",
+	"NativeWord": "информация, информация",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ink",
+	"ForeignTranscription": "[ɪŋk]",
+	"NativeWord": "чернила",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "insect",
+	"ForeignTranscription": "[ˈɪnsɛkt]",
+	"NativeWord": "насекомое, насекомое",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "inside",
+	"ForeignTranscription": "[ɪnˈsaɪd]",
+	"NativeWord": "внутри, внутрь, в (о месте), внутри, внутри, в помещении",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "inspector",
+	"ForeignTranscription": "[ɪnˈspɛktər]",
+	"NativeWord": "инспектор",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "insurance",
+	"ForeignTranscription": "[ɪnˈʃʊrəns]",
+	"NativeWord": "страховка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "intention",
+	"ForeignTranscription": "[ɪnˈtɛnʧən]",
+	"NativeWord": "намерение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "internet",
+	"ForeignTranscription": "[ˈɪntərˌnɛt]",
+	"NativeWord": "Интернет",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "interview",
+	"ForeignTranscription": "[ˈɪntərˌvju]",
+	"NativeWord": "интервью",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "invention",
+	"ForeignTranscription": "[ɪnˈvɛnʃən]",
+	"NativeWord": "изобретение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "island",
+	"ForeignTranscription": "[ˈaɪlənd]",
+	"NativeWord": "остров",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "jazz",
+	"ForeignTranscription": "[ʤæz]",
+	"NativeWord": "джаз",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "jeans",
+	"ForeignTranscription": "[ʤinz]",
+	"NativeWord": "джинсы",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "jet",
+	"ForeignTranscription": "[ʤɛt]",
+	"NativeWord": "самолет",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "jewellery",
+	"ForeignTranscription": "[ˈʤuːəlri]",
+	"NativeWord": "драгоценности",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "job",
+	"ForeignTranscription": "[ʤɑb]",
+	"NativeWord": "работа",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "joke",
+	"ForeignTranscription": "[ʤoʊk]",
+	"NativeWord": "шутка, шутить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "joy",
+	"ForeignTranscription": "[ʤɔɪ]",
+	"NativeWord": "радость",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "jug",
+	"ForeignTranscription": "[ʤʌg]",
+	"NativeWord": "кувшин",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "juice",
+	"ForeignTranscription": "[ʤus]",
+	"NativeWord": "сок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "keyboard",
+	"ForeignTranscription": "[ˈkiˌbɔrd]",
+	"NativeWord": "клавиатура",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "king",
+	"ForeignTranscription": "[kɪŋ]",
+	"NativeWord": "король",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "kite",
+	"ForeignTranscription": "[kaɪt]",
+	"NativeWord": "бумажный змей",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "kitten",
+	"ForeignTranscription": "[ˈkɪtn]",
+	"NativeWord": "котёнок, котенок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "knife",
+	"ForeignTranscription": "[naɪf]",
+	"NativeWord": "нож",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "koala",
+	"ForeignTranscription": "[koʊˈɑlə]",
+	"NativeWord": "коала",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ladder",
+	"ForeignTranscription": "[ˈlædər]",
+	"NativeWord": "лестница",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "lady",
+	"ForeignTranscription": "[ˈleɪdi]",
+	"NativeWord": "леди, леди, госпожа",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "lake",
+	"ForeignTranscription": "[leɪk]",
+	"NativeWord": "озеро",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "lamb",
+	"ForeignTranscription": "[læm]",
+	"NativeWord": "ягнёнок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "land",
+	"ForeignTranscription": "[lænd]",
+	"NativeWord": "земля",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "language",
+	"ForeignTranscription": "[ˈlæŋgwəʤ]",
+	"NativeWord": "язык, язык",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "laugh",
+	"ForeignTranscription": "[læf]",
+	"NativeWord": "смех, смеяться",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "law",
+	"ForeignTranscription": "[lɔ]",
+	"NativeWord": "закон",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "layer",
+	"ForeignTranscription": "[ˈleɪər]",
+	"NativeWord": "слой",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "leg",
+	"ForeignTranscription": "[lɛg]",
+	"NativeWord": "нога (от бедра до ступни), нога",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "legend",
+	"ForeignTranscription": "[lˈedʒənd]",
+	"NativeWord": "легенда",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "leisure",
+	"ForeignTranscription": "[ˈlɛʒər]",
+	"NativeWord": "досуг",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "length",
+	"ForeignTranscription": "[lɛŋkθ]",
+	"NativeWord": "длина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "leopard",
+	"ForeignTranscription": "[ˈlɛpərd]",
+	"NativeWord": "леопард",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "letter",
+	"ForeignTranscription": "[ˈlɛtər]",
+	"NativeWord": "письмо, письмо",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "level",
+	"ForeignTranscription": "[ˈlɛvəl]",
+	"NativeWord": "уровень, уровень",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "library",
+	"ForeignTranscription": "[ˈlaɪˌbrɛri]",
+	"NativeWord": "библиотека",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "life",
+	"ForeignTranscription": "[laɪf]",
+	"NativeWord": "жизнь, жизнь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "lifetime",
+	"ForeignTranscription": "[ˈlaɪfˌtaɪm]",
+	"NativeWord": "целая жизнь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "light",
+	"ForeignTranscription": "[laɪt]",
+	"NativeWord": "свет, лёгкий, светлый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "limit",
+	"ForeignTranscription": "[ˈlɪmət]",
+	"NativeWord": "предел, граница",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "line",
+	"ForeignTranscription": "[laɪn]",
+	"NativeWord": "линия, линия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "lion",
+	"ForeignTranscription": "[ˈlaɪən]",
+	"NativeWord": "лев",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "list",
+	"ForeignTranscription": "[lɪst]",
+	"NativeWord": "список",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "literature",
+	"ForeignTranscription": "[ˈlɪtərəʧər]",
+	"NativeWord": "литература",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "location",
+	"ForeignTranscription": "[loʊˈkeɪʃən]",
+	"NativeWord": "местоположение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "lorry",
+	"ForeignTranscription": "[ˈlɒri]",
+	"NativeWord": "грузовик",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "lottery",
+	"ForeignTranscription": "[ˈlɑtəri]",
+	"NativeWord": "лотерея",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "love",
+	"ForeignTranscription": "[lʌv]",
+	"NativeWord": "любовь, любить, любовь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "luck",
+	"ForeignTranscription": "[lʌk]",
+	"NativeWord": "удача, везение, удача",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "luggage",
+	"ForeignTranscription": "[lˈʌgɪdʒ]",
+	"NativeWord": "багаж",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "magazine",
+	"ForeignTranscription": "[ˈmægəˌzin]",
+	"NativeWord": "журнал",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mail",
+	"ForeignTranscription": "[meɪl]",
+	"NativeWord": "почта",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "make-up",
+	"ForeignTranscription": "[ˈmeɪkʌp]",
+	"NativeWord": "макияж",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "map",
+	"ForeignTranscription": "[mæp]",
+	"NativeWord": "карта",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "marital status",
+	"ForeignTranscription": "[ˈmarɪt(ə)l ˈsteɪtəs]",
+	"NativeWord": "Семейное положение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mark",
+	"ForeignTranscription": "[mɑːrk]",
+	"NativeWord": "отмечать, штамповать, марка, отметить",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "market",
+	"ForeignTranscription": "[ˈmɑrkət]",
+	"NativeWord": "рынок, рынок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "marriage",
+	"ForeignTranscription": "[mˈærɪdʒ]",
+	"NativeWord": "брак",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "material",
+	"ForeignTranscription": "[məˈtɪriəl]",
+	"NativeWord": "материал, материал",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "meal",
+	"ForeignTranscription": "[mil]",
+	"NativeWord": "еда",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "meat",
+	"ForeignTranscription": "[mit]",
+	"NativeWord": "мясо",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "media",
+	"ForeignTranscription": "[ˈmidiə]",
+	"NativeWord": "средства массовой информации",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "medicine",
+	"ForeignTranscription": "[ˈmɛdəsən]",
+	"NativeWord": "медицина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "melon",
+	"ForeignTranscription": "[ˈmɛlən]",
+	"NativeWord": "дыня",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "member",
+	"ForeignTranscription": "[ˈmɛmbər]",
+	"NativeWord": "участник",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "memory",
+	"ForeignTranscription": "[ˈmɛməri]",
+	"NativeWord": "память, память",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "menu",
+	"ForeignTranscription": "[ˈmɛnju]",
+	"NativeWord": "меню",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "message",
+	"ForeignTranscription": "[mˈesɪdʒ]",
+	"NativeWord": "сообщение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "method",
+	"ForeignTranscription": "[ˈmɛθəd]",
+	"NativeWord": "метод, способ, метод",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "metre",
+	"ForeignTranscription": "[ˈmiːtə]",
+	"NativeWord": "метр",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "midday",
+	"ForeignTranscription": "[mɪdˈdeɪ]",
+	"NativeWord": "полдень",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "middle",
+	"ForeignTranscription": "[ˈmɪdəl]",
+	"NativeWord": "середина, средний",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "midnight",
+	"ForeignTranscription": "[ˈmɪdˌnaɪt]",
+	"NativeWord": "полночь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mile",
+	"ForeignTranscription": "[maɪl]",
+	"NativeWord": "миля",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "moment",
+	"ForeignTranscription": "[ˈmoʊmənt]",
+	"NativeWord": "момент, миг, момент",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "money",
+	"ForeignTranscription": "[ˈmʌni]",
+	"NativeWord": "деньги, деньги, деньги",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "monkey",
+	"ForeignTranscription": "[ˈmʌŋki]",
+	"NativeWord": "обезьяна",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "monster",
+	"ForeignTranscription": "[ˈmɑnstər]",
+	"NativeWord": "монстр",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "month",
+	"ForeignTranscription": "[mʌnθ]",
+	"NativeWord": "месяц, месяц",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "monument",
+	"ForeignTranscription": "[ˈmɑnjumənt]",
+	"NativeWord": "памятник",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mood",
+	"ForeignTranscription": "[mud]",
+	"NativeWord": "настроение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "moon",
+	"ForeignTranscription": "[muːn]",
+	"NativeWord": "Луна",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "morning",
+	"ForeignTranscription": "[ˈmɔrnɪŋ]",
+	"NativeWord": "утро, утро",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mosque",
+	"ForeignTranscription": "[mɒsk]",
+	"NativeWord": "мечеть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mountain",
+	"ForeignTranscription": "['mauntɪn]",
+	"NativeWord": "гора, гора",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "mouse",
+	"ForeignTranscription": "[maʊs]",
+	"NativeWord": "мышь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "movie",
+	"ForeignTranscription": "[ˈmuvi]",
+	"NativeWord": "фильм, кино",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "murder",
+	"ForeignTranscription": "[ˈmɜrdər]",
+	"NativeWord": "убийство, убийство",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "museum",
+	"ForeignTranscription": "[mjuˈziəm]",
+	"NativeWord": "музей",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "music",
+	"ForeignTranscription": "[ˈmjuzɪk]",
+	"NativeWord": "музыка, музыка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "name",
+	"ForeignTranscription": "[neɪm]",
+	"NativeWord": "имя, имя",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "nature",
+	"ForeignTranscription": "[ˈneɪʧər]",
+	"NativeWord": "природа, природа",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "necklace",
+	"ForeignTranscription": "[ˈnɛkləs]",
+	"NativeWord": "ожерелье",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "neighbour",
+	"ForeignTranscription": "[ˈneɪbə]",
+	"NativeWord": "сосед",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "net",
+	"ForeignTranscription": "[nɛt]",
+	"NativeWord": "сеть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "news",
+	"ForeignTranscription": "[nuːz]",
+	"NativeWord": "новости, новости",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "newsagent",
+	"ForeignTranscription": "[ˈnjuːzˌeɪʤ(ə)nt]",
+	"NativeWord": "газетный киоскер",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "newspaper",
+	"ForeignTranscription": "[ˈnuzˌpeɪpər]",
+	"NativeWord": "газета",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "night",
+	"ForeignTranscription": "[naɪt]",
+	"NativeWord": "ночь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "nightclub",
+	"ForeignTranscription": "[ˈnaɪtklʌb]",
+	"NativeWord": "ночной клуб",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "nightlife",
+	"ForeignTranscription": "[ˈnaɪtˌlaɪf]",
+	"NativeWord": "ночная жизнь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "nightmare",
+	"ForeignTranscription": "[ˈnaɪtˌmɛr]",
+	"NativeWord": "кошмар",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "noise",
+	"ForeignTranscription": "[nɔɪz]",
+	"NativeWord": "шум, шум",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "note",
+	"ForeignTranscription": "[noʊt]",
+	"NativeWord": "обращать внимание, отметить, заметка, запись",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "notebook",
+	"ForeignTranscription": "[ˈnoʊtˌbʊk]",
+	"NativeWord": "ноутбук",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "novel",
+	"ForeignTranscription": "[ˈnɑvəl]",
+	"NativeWord": "роман",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "object",
+	"ForeignTranscription": "[ˈɑbʤɛkt]",
+	"NativeWord": "предмет, объект",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ocean",
+	"ForeignTranscription": "[ˈoʊʃən]",
+	"NativeWord": "океан, океан",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "office",
+	"ForeignTranscription": "[ˈɔfəs]",
+	"NativeWord": "офис",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "opera",
+	"ForeignTranscription": "[ˈɑprə]",
+	"NativeWord": "опера",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "operation",
+	"ForeignTranscription": "[ˌɑpəˈreɪʃən]",
+	"NativeWord": "операция",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "opinion",
+	"ForeignTranscription": "[əˈpɪnjən]",
+	"NativeWord": "мнение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "orphan",
+	"ForeignTranscription": "[ˈɔrfən]",
+	"NativeWord": "сирота",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pack",
+	"ForeignTranscription": "[pæk]",
+	"NativeWord": "пачка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "packet",
+	"ForeignTranscription": "[ˈpækət]",
+	"NativeWord": "пакет",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "page",
+	"ForeignTranscription": "[peɪʤ]",
+	"NativeWord": "страница, страница",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "palace",
+	"ForeignTranscription": "[ˈpæləs]",
+	"NativeWord": "дворец",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "paper",
+	"ForeignTranscription": "[ˈpeɪpər]",
+	"NativeWord": "бумага",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "parcel",
+	"ForeignTranscription": "[ˈpɑːrsl]",
+	"NativeWord": "посылка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "parent",
+	"ForeignTranscription": "[ˈpɛrənt]",
+	"NativeWord": "родитель, родитель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "passage",
+	"ForeignTranscription": "[ˈpæsəʤ]",
+	"NativeWord": "проход",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "passenger",
+	"ForeignTranscription": "[ˈpæsənʤər]",
+	"NativeWord": "пассажир",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "passport",
+	"ForeignTranscription": "[ˈpæˌspɔrt]",
+	"NativeWord": "паспорт",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pastime",
+	"ForeignTranscription": "[ˈpæˌstaɪm]",
+	"NativeWord": "времяпрепровождение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "path",
+	"ForeignTranscription": "[pæθ]",
+	"NativeWord": "путь, тропинка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "payment",
+	"ForeignTranscription": "[ˈpeɪmənt]",
+	"NativeWord": "оплата",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pc",
+	"ForeignTranscription": "[ˈpiˈsi]",
+	"NativeWord": "персональный компьютер",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "peace",
+	"ForeignTranscription": "[pis]",
+	"NativeWord": "мир, мир",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pen",
+	"ForeignTranscription": "[pɛn]",
+	"NativeWord": "ручка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "penalty",
+	"ForeignTranscription": "[ˈpɛnəlti]",
+	"NativeWord": "штраф",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pencil",
+	"ForeignTranscription": "[ˈpɛnsəl]",
+	"NativeWord": "карандаш, карандаш",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "penguin",
+	"ForeignTranscription": "[ˈpɛŋgwən]",
+	"NativeWord": "пингвин",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pension",
+	"ForeignTranscription": "[ˈpɛnʃən]",
+	"NativeWord": "пенсия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pensioner",
+	"ForeignTranscription": "[ˈpɛnʃ(ə)nə]",
+	"NativeWord": "пенсионер",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "period",
+	"ForeignTranscription": "[ˈpɪriəd]",
+	"NativeWord": "период, период",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pet",
+	"ForeignTranscription": "[pɛt]",
+	"NativeWord": "домашнее животное",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "petrol",
+	"ForeignTranscription": "[ˈpɛtrəl]",
+	"NativeWord": "бензин",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "phone",
+	"ForeignTranscription": "[foʊn]",
+	"NativeWord": "телефон, звонить, телефон",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "photo",
+	"ForeignTranscription": "[ˈfoʊˌtoʊ]",
+	"NativeWord": "фотография",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "phrase",
+	"ForeignTranscription": "[freɪz]",
+	"NativeWord": "фраза",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "piano",
+	"ForeignTranscription": "[piˈænoʊ]",
+	"NativeWord": "фортепьяно",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "picnic",
+	"ForeignTranscription": "[ˈpɪkˌnɪk]",
+	"NativeWord": "пикник",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "picture",
+	"ForeignTranscription": "[ˈpɪkʧər]",
+	"NativeWord": "картина, картина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pie",
+	"ForeignTranscription": "[paɪ]",
+	"NativeWord": "пирог, пирог",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pig",
+	"ForeignTranscription": "[pɪg]",
+	"NativeWord": "свинья",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pigeon",
+	"ForeignTranscription": "[ˈpɪʤən]",
+	"NativeWord": "голубь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pill",
+	"ForeignTranscription": "[pɪl]",
+	"NativeWord": "таблетка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pillow",
+	"ForeignTranscription": "[ˈpɪloʊ]",
+	"NativeWord": "подушка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pilot",
+	"ForeignTranscription": "[ˈpaɪlət]",
+	"NativeWord": "пилот",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pipe",
+	"ForeignTranscription": "[paɪp]",
+	"NativeWord": "труба",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "place",
+	"ForeignTranscription": "[pleɪs]",
+	"NativeWord": "место, размещать, место",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "plan",
+	"ForeignTranscription": "[plæn]",
+	"NativeWord": "план",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "planet",
+	"ForeignTranscription": "[ˈplænət]",
+	"NativeWord": "планета",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "plant",
+	"ForeignTranscription": "[plænt]",
+	"NativeWord": "растение, завод",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "platform",
+	"ForeignTranscription": "[ˈplætˌfɔrm]",
+	"NativeWord": "платформа",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pleasure",
+	"ForeignTranscription": "[ˈplɛʒər]",
+	"NativeWord": "удовольствие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "poem",
+	"ForeignTranscription": "[ˈpoʊəm]",
+	"NativeWord": "стихотворение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "poetry",
+	"ForeignTranscription": "[ˈpoʊətri]",
+	"NativeWord": "поэзия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "poison",
+	"ForeignTranscription": "[ˈpɔɪzn]",
+	"NativeWord": "яд",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pollution",
+	"ForeignTranscription": "[pəˈluʃən]",
+	"NativeWord": "загрязнение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "power",
+	"ForeignTranscription": "[ˈpaʊər]",
+	"NativeWord": "власть, сила, мощь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "practice",
+	"ForeignTranscription": "[ˈpraktɪs]",
+	"NativeWord": "практика",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "premiere",
+	"ForeignTranscription": "[prɛˈmɪr]",
+	"NativeWord": "премьера",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "printer",
+	"ForeignTranscription": "[ˈprɪntər]",
+	"NativeWord": "принтер",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "prison",
+	"ForeignTranscription": "[ˈprɪzən]",
+	"NativeWord": "тюрьма",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "prize",
+	"ForeignTranscription": "[praɪz]",
+	"NativeWord": "приз",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "problem",
+	"ForeignTranscription": "[ˈprɑbləm]",
+	"NativeWord": "проблема, проблема",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "product",
+	"ForeignTranscription": "[ˈprɑdəkt]",
+	"NativeWord": "продукт, продукт",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "profile",
+	"ForeignTranscription": "[ˈproʊˌfaɪl]",
+	"NativeWord": "профиль",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "programme",
+	"ForeignTranscription": "[ˈproʊˌgræm]",
+	"NativeWord": "программа",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "project",
+	"ForeignTranscription": "[ˈprɑʤɛkt]",
+	"NativeWord": "проект, проект",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pub",
+	"ForeignTranscription": "[pʌb]",
+	"NativeWord": "паб",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "pupil",
+	"ForeignTranscription": "[ˈpjupəl]",
+	"NativeWord": "ученик",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "puppy",
+	"ForeignTranscription": "[ˈpʌpi]",
+	"NativeWord": "щенок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "purpose",
+	"ForeignTranscription": "[ˈpɜrpəs]",
+	"NativeWord": "цель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "puzzle",
+	"ForeignTranscription": "[ˈpʌzəl]",
+	"NativeWord": "загадка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "qualification",
+	"ForeignTranscription": "[ˌkwɑləfəˈkeɪʃən]",
+	"NativeWord": "квалификация",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "queen",
+	"ForeignTranscription": "[kwin]",
+	"NativeWord": "королева",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "queue",
+	"ForeignTranscription": "[kju]",
+	"NativeWord": "очередь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "radio",
+	"ForeignTranscription": "[ˈreɪdiˌoʊ]",
+	"NativeWord": "радио",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "railway",
+	"ForeignTranscription": "[ˈreɪlˌweɪ]",
+	"NativeWord": "железная дорога",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "river",
+	"ForeignTranscription": "[ˈrɪvər]",
+	"NativeWord": "река, река",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "road",
+	"ForeignTranscription": "[roʊd]",
+	"NativeWord": "дорога",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "role",
+	"ForeignTranscription": "[roʊl]",
+	"NativeWord": "роль",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "roman",
+	"ForeignTranscription": "[ˈroʊmən]",
+	"NativeWord": "римлянин",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "roof",
+	"ForeignTranscription": "[ruf]",
+	"NativeWord": "крыша",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "room",
+	"ForeignTranscription": "[rum]",
+	"NativeWord": "комната",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "root",
+	"ForeignTranscription": "[rut]",
+	"NativeWord": "корень",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "rope",
+	"ForeignTranscription": "[roʊp]",
+	"NativeWord": "веревка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "rose",
+	"ForeignTranscription": "[roʊz]",
+	"NativeWord": "роза",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "route",
+	"ForeignTranscription": "[rut]",
+	"NativeWord": "маршрут, маршрут",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "routine",
+	"ForeignTranscription": "[ruˈtin]",
+	"NativeWord": "рутина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "row",
+	"ForeignTranscription": "[roʊ]",
+	"NativeWord": "ряд",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "rubber",
+	"ForeignTranscription": "[ˈrʌbər]",
+	"NativeWord": "резина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "rubbish",
+	"ForeignTranscription": "[ˈrʌbɪʃ]",
+	"NativeWord": "мусор",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "rug",
+	"ForeignTranscription": "[rʌg]",
+	"NativeWord": "коврик",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "rugby",
+	"ForeignTranscription": "[ˈrʌgbi]",
+	"NativeWord": "регби",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "safety",
+	"ForeignTranscription": "[ˈseɪfti]",
+	"NativeWord": "безопасность",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sand",
+	"ForeignTranscription": "[sænd]",
+	"NativeWord": "песок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sauna",
+	"ForeignTranscription": "[ˈsɔnə]",
+	"NativeWord": "сауна",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "saxophone",
+	"ForeignTranscription": "[ˈsæksəfəʊn]",
+	"NativeWord": "саксофон",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "scenery",
+	"ForeignTranscription": "[ˈsinəri]",
+	"NativeWord": "пейзаж",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "science",
+	"ForeignTranscription": "[ˈsaɪəns]",
+	"NativeWord": "наука, наука",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "scientist",
+	"ForeignTranscription": "[ˈsaɪəntɪst]",
+	"NativeWord": "ученый",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "scissors",
+	"ForeignTranscription": "[ˈsɪzərz]",
+	"NativeWord": "ножницы",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "score",
+	"ForeignTranscription": "[skɔr]",
+	"NativeWord": "счет в игре",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "screen",
+	"ForeignTranscription": "[skrin]",
+	"NativeWord": "экран",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sculpture",
+	"ForeignTranscription": "[ˈskʌlpʧər]",
+	"NativeWord": "скульптура",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "seaside",
+	"ForeignTranscription": "[ˈsiːsʌɪd]",
+	"NativeWord": "морское побережье",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "season",
+	"ForeignTranscription": "[ˈsizən]",
+	"NativeWord": "сезон",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "secret",
+	"ForeignTranscription": "[ˈsikrət]",
+	"NativeWord": "секрет, тайна",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sentence",
+	"ForeignTranscription": "[ˈsɛntəns]",
+	"NativeWord": "предложение, предложение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sex",
+	"ForeignTranscription": "[sɛks]",
+	"NativeWord": "пол",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "shampoo",
+	"ForeignTranscription": "[ʃamˈpuː]",
+	"NativeWord": "шампунь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "shape",
+	"ForeignTranscription": "[ʃeɪp]",
+	"NativeWord": "форма, форма",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "shark",
+	"ForeignTranscription": "[ʃɑrk]",
+	"NativeWord": "акула",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sheep",
+	"ForeignTranscription": "[ʃip]",
+	"NativeWord": "овцы",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sheet",
+	"ForeignTranscription": "[ʃit]",
+	"NativeWord": "простыня, лист",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "shelf",
+	"ForeignTranscription": "[ʃɛlf]",
+	"NativeWord": "полка, полка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ship",
+	"ForeignTranscription": "[ʃɪp]",
+	"NativeWord": "корабль, судно",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "shorts",
+	"ForeignTranscription": "[ʃɔrts]",
+	"NativeWord": "шорты",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sidewalk",
+	"ForeignTranscription": "[ˈsaɪˌdwɔk]",
+	"NativeWord": "тротуар",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sight",
+	"ForeignTranscription": "[saɪt]",
+	"NativeWord": "зрение, вид",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sign",
+	"ForeignTranscription": "[saɪn]",
+	"NativeWord": "знак, знак, символ",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "signal",
+	"ForeignTranscription": "[ˈsɪgnəl]",
+	"NativeWord": "сигнал",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "signature",
+	"ForeignTranscription": "[ˈsɪgnəʧər]",
+	"NativeWord": "подпись",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "singer",
+	"ForeignTranscription": "[ˈsɪŋər]",
+	"NativeWord": "певец",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "situation",
+	"ForeignTranscription": "[ˌsɪʧuˈeɪʃən]",
+	"NativeWord": "ситуация",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "size",
+	"ForeignTranscription": "[saɪz]",
+	"NativeWord": "размер",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "skill",
+	"ForeignTranscription": "[skɪl]",
+	"NativeWord": "умение, мастерство, навык",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sky",
+	"ForeignTranscription": "[skaɪ]",
+	"NativeWord": "небо",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "slope",
+	"ForeignTranscription": "[sloʊp]",
+	"NativeWord": "наклон",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "snack",
+	"ForeignTranscription": "[snæk]",
+	"NativeWord": "лёгкая закуска",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "snail",
+	"ForeignTranscription": "[sneɪl]",
+	"NativeWord": "улитка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "snake",
+	"ForeignTranscription": "[sneɪk]",
+	"NativeWord": "змея",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "soap",
+	"ForeignTranscription": "[soʊp]",
+	"NativeWord": "мыло",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "society",
+	"ForeignTranscription": "[səˈsaɪəti]",
+	"NativeWord": "общество",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "son",
+	"ForeignTranscription": "[sʌn]",
+	"NativeWord": "сын",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "song",
+	"ForeignTranscription": "[sɔŋ]",
+	"NativeWord": "песня, песня",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sort",
+	"ForeignTranscription": "[sɔrt]",
+	"NativeWord": "разновидность, сортировать, распределять",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "soul",
+	"ForeignTranscription": "[soʊl]",
+	"NativeWord": "душа",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sound",
+	"ForeignTranscription": "[saʊnd]",
+	"NativeWord": "звук",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "souvenir",
+	"ForeignTranscription": "[ˌsuvəˈnɪr]",
+	"NativeWord": "подарок",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "space",
+	"ForeignTranscription": "[speɪs]",
+	"NativeWord": "пространство, пространство",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "speech",
+	"ForeignTranscription": "[spiʧ]",
+	"NativeWord": "речь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "speed",
+	"ForeignTranscription": "[spid]",
+	"NativeWord": "скорость, скорость",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "spelling",
+	"ForeignTranscription": "[ˈspɛlɪŋ]",
+	"NativeWord": "правописание",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "spider",
+	"ForeignTranscription": "[ˈspaɪdər]",
+	"NativeWord": "паук",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "spoon",
+	"ForeignTranscription": "[spuːn]",
+	"NativeWord": "ложка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "spoonful",
+	"ForeignTranscription": "[ˈspuːnfʊl]",
+	"NativeWord": "полная ложка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "spot",
+	"ForeignTranscription": "[spɑt]",
+	"NativeWord": "пятно",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "square",
+	"ForeignTranscription": "[skwɛr]",
+	"NativeWord": "квадрат",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "squirrel",
+	"ForeignTranscription": "[ˈskwərəl]",
+	"NativeWord": "белка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "stage",
+	"ForeignTranscription": "[steɪʤ]",
+	"NativeWord": "стадия, подмостки, сцена",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "stamp",
+	"ForeignTranscription": "[stæmp]",
+	"NativeWord": "печать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "star",
+	"ForeignTranscription": "[stɑr]",
+	"NativeWord": "звезда",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "start",
+	"ForeignTranscription": "[stɑrt]",
+	"NativeWord": "начинать, начать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "state",
+	"ForeignTranscription": "[steɪt]",
+	"NativeWord": "состояние, заявлять, государство",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "statement",
+	"ForeignTranscription": "[ˈsteɪtmənt]",
+	"NativeWord": "утверждение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "stationery",
+	"ForeignTranscription": "[ˈsteɪʃəˌnɛri]",
+	"NativeWord": "канцелярские товары",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "statue",
+	"ForeignTranscription": "[ˈstæˌʧu]",
+	"NativeWord": "статуя",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "storm",
+	"ForeignTranscription": "[stɔrm]",
+	"NativeWord": "шторм",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "story",
+	"ForeignTranscription": "[ˈstɔri]",
+	"NativeWord": "история, рассказ, история",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "structure",
+	"ForeignTranscription": "[ˈstrʌkʧər]",
+	"NativeWord": "структура",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "subject",
+	"ForeignTranscription": "[ˈsʌbʤɪkt]",
+	"NativeWord": "тема, предмет",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "subway",
+	"ForeignTranscription": "[ˈsʌˌbweɪ]",
+	"NativeWord": "метро",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sugar",
+	"ForeignTranscription": "[ˈʃʊgər]",
+	"NativeWord": "сахар",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sunflower",
+	"ForeignTranscription": "[ˈsʌnˌflaʊər]",
+	"NativeWord": "подсолнух",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "sunglasses",
+	"ForeignTranscription": "[ˈsʌnˌglæsɪz]",
+	"NativeWord": "темные очки",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "surface",
+	"ForeignTranscription": "[ˈsɜrfəs]",
+	"NativeWord": "поверхность, поверхность",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "surgery",
+	"ForeignTranscription": "[ˈsɜrʤəri]",
+	"NativeWord": "хирургия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "surname",
+	"ForeignTranscription": "[ˈsɜrˌneɪm]",
+	"NativeWord": "фамилия",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "survey",
+	"ForeignTranscription": "[ˈsɜrˌveɪ]",
+	"NativeWord": "обзор",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "swimming pool",
+	"ForeignTranscription": "[ˈswɪmɪŋ puːl]",
+	"NativeWord": "бассейн",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "syllable",
+	"ForeignTranscription": "[ˈsɪləbəl]",
+	"NativeWord": "слог",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "symbol",
+	"ForeignTranscription": "[ˈsɪmbəl]",
+	"NativeWord": "символ",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "system",
+	"ForeignTranscription": "[ˈsɪstəm]",
+	"NativeWord": "система, система",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tail",
+	"ForeignTranscription": "[teɪl]",
+	"NativeWord": "хвост",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "target",
+	"ForeignTranscription": "[ˈtɑrgət]",
+	"NativeWord": "цель, цель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "task",
+	"ForeignTranscription": "[]",
+	"NativeWord": "tɑːsk",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tax",
+	"ForeignTranscription": "[tæks]",
+	"NativeWord": "налог",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "teacher",
+	"ForeignTranscription": "[ˈtiʧər]",
+	"NativeWord": "учитель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "team",
+	"ForeignTranscription": "[tim]",
+	"NativeWord": "команда, команда",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tear",
+	"ForeignTranscription": "[tɛr]",
+	"NativeWord": "рвать, слеза",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "teenager",
+	"ForeignTranscription": "[ˈtiːneɪdʒər]",
+	"NativeWord": "подросток",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "temperature",
+	"ForeignTranscription": "[ˈtɛmprəʧər]",
+	"NativeWord": "температура",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "temple",
+	"ForeignTranscription": "[ˈtɛmpəl]",
+	"NativeWord": "висок, храм",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tennis",
+	"ForeignTranscription": "[ˈtɛnəs]",
+	"NativeWord": "теннис, теннис",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tent",
+	"ForeignTranscription": "[tɛnt]",
+	"NativeWord": "палатка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "term",
+	"ForeignTranscription": "[tɜrm]",
+	"NativeWord": "срок, термин",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "territory",
+	"ForeignTranscription": "[ˈtɛrɪˌtɔri]",
+	"NativeWord": "территория",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "terror",
+	"ForeignTranscription": "[ˈtɛrər]",
+	"NativeWord": "террор",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "terrorist",
+	"ForeignTranscription": "[ˈtɛrərɪst]",
+	"NativeWord": "террорист",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "text",
+	"ForeignTranscription": "[tɛkst]",
+	"NativeWord": "текст",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "theatre",
+	"ForeignTranscription": "[ˈθiətər]",
+	"NativeWord": "театр",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "theme",
+	"ForeignTranscription": "[θim]",
+	"NativeWord": "тема",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "thief",
+	"ForeignTranscription": "[θiːf]",
+	"NativeWord": "вор",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "thing",
+	"ForeignTranscription": "[θɪŋ]",
+	"NativeWord": "вещь, вещь",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "thought",
+	"ForeignTranscription": "[θɔt]",
+	"NativeWord": "мысль",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ticket",
+	"ForeignTranscription": "[ˈtɪkət]",
+	"NativeWord": "билет",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "ticket office",
+	"ForeignTranscription": "[ˈtɪkət ˈɔfəs]",
+	"NativeWord": "касса",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tiger",
+	"ForeignTranscription": "[ˈtaɪgər]",
+	"NativeWord": "тигр",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "time",
+	"ForeignTranscription": "[taɪm]",
+	"NativeWord": "время, время",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "title",
+	"ForeignTranscription": "[ˈtaɪtəl]",
+	"NativeWord": "название",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tobacco",
+	"ForeignTranscription": "[təˈbæˌkoʊ]",
+	"NativeWord": "табак",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tool",
+	"ForeignTranscription": "[tul]",
+	"NativeWord": "инструмент, (рабочий) инструмент",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "toothpaste",
+	"ForeignTranscription": "[ˈtuːθpeɪst]",
+	"NativeWord": "зубная паста",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "top",
+	"ForeignTranscription": "[tɑp]",
+	"NativeWord": "верхушка, первое место",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "touch",
+	"ForeignTranscription": "[tʌʧ]",
+	"NativeWord": "прикосновение, касаться, прикасаться, трогать",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tour",
+	"ForeignTranscription": "[tʊr]",
+	"NativeWord": "тур",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "toy",
+	"ForeignTranscription": "[tɔɪ]",
+	"NativeWord": "игрушка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "track",
+	"ForeignTranscription": "[træk]",
+	"NativeWord": "след",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tradition",
+	"ForeignTranscription": "[trəˈdɪʃən]",
+	"NativeWord": "традиция",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "train",
+	"ForeignTranscription": "[treɪn]",
+	"NativeWord": "поезд",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "transport",
+	"ForeignTranscription": "[ˈtrænspɔrt]",
+	"NativeWord": "транспорт",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "traveller",
+	"ForeignTranscription": "[ˈtrævələr]",
+	"NativeWord": "путешественник",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "treasure",
+	"ForeignTranscription": "[ˈtrɛʒər]",
+	"NativeWord": "сокровище",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "treatment",
+	"ForeignTranscription": "[ˈtritmənt]",
+	"NativeWord": "обращение",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tree",
+	"ForeignTranscription": "[tri]",
+	"NativeWord": "дерево, дерево",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "triangle",
+	"ForeignTranscription": "[ˈtraɪˌæŋgəl]",
+	"NativeWord": "треугольник",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "trip",
+	"ForeignTranscription": "[trɪp]",
+	"NativeWord": "путешествие, поездка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "truth",
+	"ForeignTranscription": "[truθ]",
+	"NativeWord": "правда, правда",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tulip",
+	"ForeignTranscription": "[ˈtuləp]",
+	"NativeWord": "тюльпан",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "tunnel",
+	"ForeignTranscription": "[ˈtʌnəl]",
+	"NativeWord": "туннель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "turkey",
+	"ForeignTranscription": "[ˈtɜrki]",
+	"NativeWord": "индейка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "umbrella",
+	"ForeignTranscription": "[ʌmbrˈelə]",
+	"NativeWord": "зонтик",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "vacation",
+	"ForeignTranscription": "[veɪˈkeɪʃən]",
+	"NativeWord": "каникулы",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "valley",
+	"ForeignTranscription": "[ˈvæli]",
+	"NativeWord": "долина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "van",
+	"ForeignTranscription": "[væn]",
+	"NativeWord": "фургон",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "variety",
+	"ForeignTranscription": "[vəˈraɪəti]",
+	"NativeWord": "разнообразие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "vase",
+	"ForeignTranscription": "[veɪs]",
+	"NativeWord": "ваза, ваза",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "vegetarian",
+	"ForeignTranscription": "[ˌvɛʤəˈtɛriən]",
+	"NativeWord": "вегетарианец",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "video",
+	"ForeignTranscription": "[ˈvɪdioʊ]",
+	"NativeWord": "видео",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "view",
+	"ForeignTranscription": "[vju]",
+	"NativeWord": "вид, пейзаж, вид",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "violence",
+	"ForeignTranscription": "[ˈvaɪələns]",
+	"NativeWord": "насилие",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "violin",
+	"ForeignTranscription": "[vaɪəˈlɪn]",
+	"NativeWord": "скрипка",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "visitor",
+	"ForeignTranscription": "[ˈvɪzətər]",
+	"NativeWord": "посетитель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "vitamin",
+	"ForeignTranscription": "[ˈvaɪtəmən]",
+	"NativeWord": "витамин",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "voice",
+	"ForeignTranscription": "[vɔɪs]",
+	"NativeWord": "голос, голос",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "wall",
+	"ForeignTranscription": "[wɔl]",
+	"NativeWord": "стена",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "war",
+	"ForeignTranscription": "[wɔr]",
+	"NativeWord": "война",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "waterfall",
+	"ForeignTranscription": "[ˈwɔːtəfɔːl]",
+	"NativeWord": "водопад",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "weather",
+	"ForeignTranscription": "[ˈwɛðər]",
+	"NativeWord": "погода, погода",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "web",
+	"ForeignTranscription": "[wɛb]",
+	"NativeWord": "сеть",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "website",
+	"ForeignTranscription": "[ˈwɛbˌsaɪt]",
+	"NativeWord": "веб-сайт",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "weekday",
+	"ForeignTranscription": "[ˈwiːkdeɪ]",
+	"NativeWord": "будний день",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "weekend",
+	"ForeignTranscription": "[ˈwiˌkɛnd]",
+	"NativeWord": "выходные",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "whale",
+	"ForeignTranscription": "[weɪl]",
+	"NativeWord": "кит",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "widow",
+	"ForeignTranscription": "[ˈwɪdəʊ]",
+	"NativeWord": "вдова",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "wife",
+	"ForeignTranscription": "[waɪf]",
+	"NativeWord": "жена, жена, жена",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "wildlife",
+	"ForeignTranscription": "[ˈwaɪlˌdlaɪf]",
+	"NativeWord": "дикая природа",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "wind",
+	"ForeignTranscription": "[wɪnd]",
+	"NativeWord": "ветер",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "winner",
+	"ForeignTranscription": "[ˈwɪnər]",
+	"NativeWord": "победитель",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "woman",
+	"ForeignTranscription": "[ˈwʊmən]",
+	"NativeWord": "женщина, женщина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "world",
+	"ForeignTranscription": "[wˈɜːld]",
+	"NativeWord": "мир",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "www",
+	"ForeignTranscription": "[dʌbljuːdʌbljuːˈdʌbljuː]",
+	"NativeWord": "Всемирная паутина",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "year",
+	"ForeignTranscription": "[jɪr]",
+	"NativeWord": "год, год, год",
+	"NativeTranscription": "[ NODATA ]"
+},
+{
+	"ForeignWord": "youth",
+	"ForeignTranscription": "[juθ]",
+	"NativeWord": "молодёжь",
+	"NativeTranscription": "[ NODATA ]"
+},

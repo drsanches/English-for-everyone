@@ -10,8 +10,8 @@ public class SimpleLearnAdmin {
     public static void main(String[] args){
 //        Only for debug
         args = new String[2];
-        args[0] = "backup";
-        args[1] = "dictionary1.txt";
+        args[0] = "delete";
+        args[1] = "word";
 
         String commandName = "";
         String[] commandArgs = new String[0];
@@ -30,13 +30,13 @@ public class SimpleLearnAdmin {
                     Add.add(commandArgs);
                     break;
             case "del":
-                    Delete.delete();
+                    Delete.delete(commandArgs);
                     break;
             case "backup":
                     Backup.backup(commandArgs);
                     break;
             case "restore":
-                    Restore.restore();
+                    Restore.restore(commandArgs);
                     break;
             case "help":
                     help();
@@ -45,7 +45,7 @@ public class SimpleLearnAdmin {
                     help();
                     break;
             default: 
-                    System.out.println("Uncorrect command. Use command help or /? to see help");
+                    System.out.println("Incorrect command. Use command help or /? to see help");
         }
     }
     
