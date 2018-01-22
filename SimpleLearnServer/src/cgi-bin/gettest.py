@@ -13,7 +13,7 @@ response = {}
 if session_id is None or test_type is None:
     response["Status"] = "Failure"
 else:
-    # try:
+    try:
         # Add languages. Which word is word and which is translation?
 
         connection = sqlite3.connect(db_address.get_db_address())
@@ -218,27 +218,34 @@ else:
                 t = t.split()
                 words_id.append(word)
                 time.append(t)
+
             i = 0
             now = datetime.datetime.now()
-            delta = []
+            id_needed_to_remove = []
             for element in time:
                 if int(time[i][2]) > now.year:
-                    obj = words_id.pop(i)
-                    obj = time.pop(i)
+                    id_needed_to_remove.append(i)
                 else:
                     if int(time[i][2]) == now.year:
                         if int(time[i][1]) > now.month:
-                            delta.append(int(time[i][1]) - now.month)
-                            obj = words_id.pop(i)
-                            obj = time.pop(i)
+                            id_needed_to_remove.append(i)
                         else:
                             if int(time[i][1]) == now.month:
                                 if int(time[i][0]) > now.day:
-                                    obj = words_id.pop(i)
-                                    obj = time.pop(i)
+                                    id_needed_to_remove.append(i)
+                i = i + 1
+            id_needed_to_remove.sort()
+            id_needed_to_remove.reverse()
+
+            i = 0
+            for element in id_needed_to_remove:
+                words_id.pop(id_needed_to_remove[i])
                 i = i + 1
 
-            WordsForTest = random.sample(words_id, N)
+            if len(words_id) <= N:
+                WordsForTest = words_id
+            else:
+                WordsForTest = random.sample(words_id, N)
 
             for element in WordsForTest:
                 query = "INSERT INTO Test(TestID, TypeID, PairID) VALUES(?, ?, ?)"
@@ -307,8 +314,8 @@ else:
         connection.commit()
         connection.close()
         response["Status"] = "Success"
-    # except:
-    #     response["Status"] = "Failure"
+    except:
+        response["Status"] = "Failure"
 
 
 
