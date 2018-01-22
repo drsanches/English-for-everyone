@@ -2,6 +2,7 @@ import cgi
 import json
 import sqlite3
 import db_address
+import random
 
 form = cgi.FieldStorage()
 session_id = form.getvalue("SessionId")
@@ -12,6 +13,8 @@ if session_id is None or test_type is None:
     response["Status"] = "Failure"
 else:
     # try:
+        # Add languages. Which word is word and which is translation?
+
         connection = sqlite3.connect(db_address.get_db_address())
         cursor = connection.cursor()
 
@@ -20,54 +23,191 @@ else:
         if len(cursor.fetchall()) != 1:
             raise Exception()
 
-        query = """SELECT UserID, FLang FROM Users
+        query = """SELECT UserID, FLang, NLang FROM Users
                 WHERE UserID = (SELECT UserID FROM Sessions WHERE SessionID = ?)"""
         cursor.execute(query, (session_id, ))
 
         for row in cursor:
             user_id = row[0]
             f_lang = row[1]
+            n_lang = row[2]
 
-        if test_type == "1":
-            query = """Select ID FROM Pair left join Dictionary 
-                    ON Pair.DicID = Dictionary.DictionaryID left join Level 
+        query = "SELECT TypeID FROM TestType WHERE TypeName = ?"
+        cursor.execute(query, (test_type, ))
+        test_type_id = cursor.fetchone()[0]
+
+        query = "SELECT * FROM Test"
+        cursor.execute(query, ())
+        rows = cursor.fetchall()
+        if len(rows) == 0:
+            ID = 1
+        else:
+            row = rows[len(rows)-1]
+            ID = row[0] + 1
+
+        if test_type_id == 1:
+            N = 10
+            query = """Select ID FROM Pair left join Dictionary
+                    ON Pair.DicID = Dictionary.DictionaryID left join Level
                     ON Dictionary.LevelID = Level.LevelID WHERE LevelName = ?"""
-            cursor.execute(query, ("Beginer", ))
+            cursor.execute(query, ("Elementary", ))
 
             words_id = []
             for row in cursor:
                 id = row[0]
                 words_id.append(id)
 
-            #     to do: random function
+            WordsForTest = random.sample(words_id, N)
 
-            i = 1
-            for element in words_id:
+            query = """Select ID FROM Pair left join Dictionary
+                    ON Pair.DicID = Dictionary.DictionaryID left join Level
+                    ON Dictionary.LevelID = Level.LevelID WHERE LevelName = ?"""
+            cursor.execute(query, ("Intermediate", ))
+
+            words_id = []
+            for row in cursor:
+                id = row[0]
+                words_id.append(id)
+
+            WordsForTest.extend(random.sample(words_id, N))
+
+            query = """Select ID FROM Pair left join Dictionary
+                    ON Pair.DicID = Dictionary.DictionaryID left join Level
+                    ON Dictionary.LevelID = Level.LevelID WHERE LevelName = ?"""
+            cursor.execute(query, ("Advanced", ))
+
+            words_id = []
+            for row in cursor:
+                id = row[0]
+                words_id.append(id)
+
+            WordsForTest.extend(random.sample(words_id, N))
+
+            for element in WordsForTest:
                 query = "INSERT INTO Test(TestID, TypeID, PairID) VALUES(?, ?, ?)"
-                cursor.execute(query, (str(i), str(test_type), str(element)))
-            #     We have test_type or test_type_id?
+                cursor.execute(query, (str(ID), str(test_type_id), str(element)))
 
-            query = """Select Spell FROM Test 
+            query = """Select Spell FROM Test
                     left join Pair ON Test.PairID = Pair.ID
-                    left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID 
+                    left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
                     left join TestType On Test.TestID = TestType.TypeID
                     WHERE TestID = ?"""
-            cursor.execute(query, (test_type, ))
+            cursor.execute(query, (ID, ))
 
             words = []
             i = 0
             rows = cursor.fetchall()
+
+            query = "SELECT Spell FROM Words WHERE Words.LangID = ?"
+            cursor.execute(query, (n_lang, ))
+            all_variants = []
+            for row in cursor:
+                variant = row[0]
+                all_variants.append(variant)
+
+
             while i < len(rows):
                 word = {}
-                word["Word"] = rows[i][0]
+                word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
                 i = i + 1
-                word["Transcription"] = rows[i][0]
+                variants = random.sample(all_variants, 3)
+                var = rows[i][0]
+                variants.append(var)
+                random.shuffle(variants)
+                word["Answers"] = variants
                 i = i + 1
                 words.append(word)
-            response["Pairs"] = words
 
+            response["TestId"] = ID
+            response["Questions"] = words
 
-            response["DFGHJKL"] = str(rows)
+        if test_type_id == 2:
+            N = 5
+
+            query = """SELECT PairID FROM
+                    WordsToLearn left join Sessions
+                    ON WordsToLearn.UserID = Sessions.UserID
+                    WHERE Sessions.SessionID = ?"""
+            cursor.execute(query, (session_id, ))
+
+            words_id = []
+            for row in cursor:
+                id = row[0]
+                words_id.append(id)
+
+            WordsForTest = random.sample(words_id, N)
+
+            for element in WordsForTest:
+                query = "INSERT INTO Test(TestID, TypeID, PairID) VALUES(?, ?, ?)"
+                cursor.execute(query, (str(ID), str(test_type_id), str(element)))
+
+                query = "SELECT Spell FROM Words WHERE Words.LangID = ?"
+            cursor.execute(query, (n_lang, ))
+            all_native_variants = []
+            for row in cursor:
+                variant = row[0]
+                all_native_variants.append(variant)
+
+            query = "SELECT Spell FROM Words WHERE Words.LangID = ?"
+            cursor.execute(query, (f_lang, ))
+            all_foreign_variants = []
+            for row in cursor:
+                variant = row[0]
+                all_foreign_variants.append(variant)
+
+            query = """Select Spell FROM Test
+                    left join Pair ON Test.PairID = Pair.ID
+                    left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
+                    left join TestType On Test.TestID = TestType.TypeID
+                    WHERE TestID = ?"""
+            cursor.execute(query, (ID, ))
+
+            words = []
+            i = 0
+            rows = cursor.fetchall()
+
+            while i < len(rows):
+                word = {}
+                word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
+                i = i + 1
+                variants = random.sample(all_native_variants, 3)
+                var = rows[i][0]
+                variants.append(var)
+                random.shuffle(variants)
+                word["Answers"] = variants
+                i = i + 1
+                words.append(word)
+
+            i = 0
+            while i < len(rows):
+                word = {}
+                word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
+                i = i + 1
+                variants = random.sample(all_foreign_variants, 3)
+                var = rows[i-1][0]
+                variants.append(var)
+                random.shuffle(variants)
+                word["Answers"] = variants
+                i = i + 1
+                words.append(word)
+
+            i = 0
+            while i < len(rows):
+                word = {}
+                word["Question"] = "Напишите перевод слова/выражения " + rows[i][0]
+                i = i + 2
+                words.append(word)
+
+            response["TestId"] = ID
+            response["Questions"] = words
+
+        if test_type_id == 3:
+            N = 5
+
+            query = """SELECT PairID FROM WordsToRepeat 
+                    left join Sessions ON WordsToLearn.UserID = Sessions.UserID 
+                    left join TimeRepeat ON WordToRepeat.TimeToRepeatID = TimeRepeat.TimeRepeatID
+                    WHERE Sessions.SessionID ="""
 
         connection.commit()
         connection.close()
