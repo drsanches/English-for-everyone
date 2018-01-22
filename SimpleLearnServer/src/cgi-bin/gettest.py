@@ -3,6 +3,7 @@ import json
 import sqlite3
 import db_address
 import random
+import datetime
 
 form = cgi.FieldStorage()
 session_id = form.getvalue("SessionId")
@@ -194,7 +195,7 @@ else:
             i = 0
             while i < len(rows):
                 word = {}
-                word["Question"] = "Напишите перевод слова/выражения " + rows[i][0]
+                word["Question"] = "Напишите перевод слова/выражения " + rows[i+1][0]
                 i = i + 2
                 words.append(word)
 
@@ -204,10 +205,104 @@ else:
         if test_type_id == 3:
             N = 5
 
-            query = """SELECT PairID FROM WordsToRepeat 
-                    left join Sessions ON WordsToLearn.UserID = Sessions.UserID 
-                    left join TimeRepeat ON WordToRepeat.TimeToRepeatID = TimeRepeat.TimeRepeatID
-                    WHERE Sessions.SessionID ="""
+            query = """SELECT PairID, Time FROM WordToRepeat 
+                    left join Sessions ON WordToRepeat.UserID = Sessions.UserID 
+                    WHERE Sessions.SessionID = ?"""
+            cursor.execute(query, (session_id, ))
+
+            words_id = []
+            time = []
+            for row in cursor:
+                word = row[0]
+                t = row[1]
+                t = t.split()
+                words_id.append(word)
+                time.append(t)
+            i = 0
+            now = datetime.datetime.now()
+            delta = []
+            for element in time:
+                if int(time[i][2]) > now.year:
+                    obj = words_id.pop(i)
+                    obj = time.pop(i)
+                else:
+                    if int(time[i][2]) == now.year:
+                        if int(time[i][1]) > now.month:
+                            delta.append(int(time[i][1]) - now.month)
+                            obj = words_id.pop(i)
+                            obj = time.pop(i)
+                        else:
+                            if int(time[i][1]) == now.month:
+                                if int(time[i][0]) > now.day:
+                                    obj = words_id.pop(i)
+                                    obj = time.pop(i)
+                i = i + 1
+
+            WordsForTest = random.sample(words_id, N)
+
+            for element in WordsForTest:
+                query = "INSERT INTO Test(TestID, TypeID, PairID) VALUES(?, ?, ?)"
+                cursor.execute(query, (str(ID), str(test_type_id), str(element)))
+
+            query = "SELECT Spell FROM Words WHERE Words.LangID = ?"
+            cursor.execute(query, (n_lang, ))
+            all_native_variants = []
+            for row in cursor:
+                variant = row[0]
+                all_native_variants.append(variant)
+
+            query = "SELECT Spell FROM Words WHERE Words.LangID = ?"
+            cursor.execute(query, (f_lang, ))
+            all_foreign_variants = []
+            for row in cursor:
+                variant = row[0]
+                all_foreign_variants.append(variant)
+
+            query = """Select Spell FROM Test
+                    left join Pair ON Test.PairID = Pair.ID
+                    left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
+                    left join TestType On Test.TestID = TestType.TypeID
+                    WHERE TestID = ?"""
+            cursor.execute(query, (ID, ))
+
+            words = []
+            i = 0
+            rows = cursor.fetchall()
+
+            while i < len(rows):
+                word = {}
+                word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
+                i = i + 1
+                variants = random.sample(all_native_variants, 3)
+                var = rows[i][0]
+                variants.append(var)
+                random.shuffle(variants)
+                word["Answers"] = variants
+                i = i + 1
+                words.append(word)
+
+            i = 0
+            while i < len(rows):
+                word = {}
+                word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
+                i = i + 1
+                variants = random.sample(all_foreign_variants, 3)
+                var = rows[i-1][0]
+                variants.append(var)
+                random.shuffle(variants)
+                word["Answers"] = variants
+                i = i + 1
+                words.append(word)
+
+            i = 0
+            while i < len(rows):
+                word = {}
+                word["Question"] = "Напишите перевод слова/выражения " + rows[i+1][0]
+                i = i + 2
+                words.append(word)
+
+            response["TestId"] = ID
+            response["Questions"] = words
 
         connection.commit()
         connection.close()
