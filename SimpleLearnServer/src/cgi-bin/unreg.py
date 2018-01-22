@@ -28,8 +28,6 @@ else:
             cursor.execute(query, (str(user_id),))
             query = "DELETE FROM WordsToLearn WHERE UserID = ?"
             cursor.execute(query, (str(user_id),))
-            query = "DELETE FROM Progress WHERE UserID = ?"
-            cursor.execute(query, (str(user_id),))
             query = "DELETE FROM WordToRepeat WHERE UserID = ?"
             cursor.execute(query, (str(user_id),))
 

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SimpleLearn:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3e56a6-fc3d-4382-9a28-5dacdd33b9a9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -10,48 +15,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SimpleLearn" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SimpleLearn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/simplelearn/SimpleLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="445">
+              <caret line="97" column="75" lean-forward="true" selection-start-line="97" selection-start-column="75" selection-end-line="97" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statistics/Statistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getStatistics#0;class#Statistics#0" expanded="false" />
-                <element signature="method#serverGetStatistics#0;class#Statistics#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Timers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/timers/Timers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#printSetTimerResponse#0;class#Timers#0" expanded="false" />
-                <element signature="method#deleteTimer#0;class#Timers#0" expanded="false" />
-                <element signature="method#serverDeleteTimer#0;class#Timers#0" expanded="false" />
-                <element signature="method#printDelTimerResponse#0;class#Timers#0" expanded="false" />
-                <element signature="method#getTimers#0;class#Timers#0" expanded="false" />
-                <element signature="method#serverGetTimers#0;class#Timers#0" expanded="false" />
-                <element signature="method#printGetTimersResponse#0;class#Timers#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -89,7 +64,6 @@
         <option value="$PROJECT_DIR$/src/serveraddress/ServerAdress.java" />
         <option value="$PROJECT_DIR$/src/serveraddress/serverAddress.txt" />
         <option value="$PROJECT_DIR$/src/registration/Registration.java" />
-        <option value="$PROJECT_DIR$/src/configurations/Configurations.java" />
         <option value="$PROJECT_DIR$/src/login/Login.java" />
         <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/logout/Logout.java" />
@@ -97,13 +71,14 @@
         <option value="$PROJECT_DIR$/src/lesson/Lesson.java" />
         <option value="$PROJECT_DIR$/src/serveraddress/ServerAddress.java" />
         <option value="$PROJECT_DIR$/src/unregistration/Unregistration.java" />
-        <option value="$PROJECT_DIR$/src/simplelearn/SimpleLearn.java" />
         <option value="$PROJECT_DIR$/src/timers/Timers.java" />
         <option value="$PROJECT_DIR$/src/statistics/Statistics.java" />
+        <option value="$PROJECT_DIR$/src/configurations/Configurations.java" />
+        <option value="$PROJECT_DIR$/src/simplelearn/SimpleLearn.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-38" />
     <option name="y" value="9" />
     <option name="width" value="1378" />
@@ -140,6 +115,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,36 +129,31 @@
             <path>
               <item name="SimpleLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SimpleLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="statistics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="timers" type="462c0819:PsiDirectoryNode" />
+              <item name="serveraddress" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
@@ -296,7 +270,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -307,18 +281,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22349103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22349103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16691843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17371601" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.336478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17371601" sideWeight="0.50570965" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -337,7 +311,131 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="SimpleLearn" type="b2602c69:ProjectViewProjectNode" />
+        <item name="SimpleLearn" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="SimpleLearn" type="b2602c69:ProjectViewProjectNode" />
+        <item name="SimpleLearn" type="462c0819:PsiDirectoryNode" />
+        <item name="libs" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/timers/Timers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#printSetTimerResponse#0;class#Timers#0" expanded="false" />
+            <element signature="method#deleteTimer#0;class#Timers#0" expanded="false" />
+            <element signature="method#serverDeleteTimer#0;class#Timers#0" expanded="false" />
+            <element signature="method#printDelTimerResponse#0;class#Timers#0" expanded="false" />
+            <element signature="method#getTimers#0;class#Timers#0" expanded="false" />
+            <element signature="method#serverGetTimers#0;class#Timers#0" expanded="false" />
+            <element signature="method#printGetTimersResponse#0;class#Timers#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simplelearn/SimpleLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="76" column="66" lean-forward="true" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#getTest#0;class#Test#0" expanded="false" />
+            <element signature="method#serverGetTest#0;class#Test#0" expanded="false" />
+            <element signature="method#printGetTestResponse#0;class#Test#0" expanded="false" />
+            <element signature="method#serverGradeTestResults#0;class#Test#0" expanded="false" />
+            <element signature="method#printGradeTestResultsResponse#0;class#Test#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/statistics/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#getStatistics#0;class#Statistics#0" expanded="false" />
+            <element signature="method#serverGetStatistics#0;class#Statistics#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timers/Timers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#printSetTimerResponse#0;class#Timers#0" expanded="false" />
+            <element signature="method#deleteTimer#0;class#Timers#0" expanded="false" />
+            <element signature="method#serverDeleteTimer#0;class#Timers#0" expanded="false" />
+            <element signature="method#printDelTimerResponse#0;class#Timers#0" expanded="false" />
+            <element signature="method#getTimers#0;class#Timers#0" expanded="false" />
+            <element signature="method#serverGetTimers#0;class#Timers#0" expanded="false" />
+            <element signature="method#printGetTimersResponse#0;class#Timers#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simplelearn/SimpleLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/statistics/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#getStatistics#0;class#Statistics#0" expanded="false" />
+            <element signature="method#serverGetStatistics#0;class#Statistics#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timers/Timers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#printSetTimerResponse#0;class#Timers#0" expanded="false" />
+            <element signature="method#deleteTimer#0;class#Timers#0" expanded="false" />
+            <element signature="method#serverDeleteTimer#0;class#Timers#0" expanded="false" />
+            <element signature="method#printDelTimerResponse#0;class#Timers#0" expanded="false" />
+            <element signature="method#getTimers#0;class#Timers#0" expanded="false" />
+            <element signature="method#serverGetTimers#0;class#Timers#0" expanded="false" />
+            <element signature="method#printGetTimersResponse#0;class#Timers#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/simplelearn/SimpleLearn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -353,7 +451,7 @@
         <state relative-caret-position="336">
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#printSetTimerResponse#0;class#Timers#0" expanded="false" />
             <element signature="method#deleteTimer#0;class#Timers#0" expanded="false" />
             <element signature="method#serverDeleteTimer#0;class#Timers#0" expanded="false" />
@@ -370,7 +468,7 @@
         <state relative-caret-position="288">
           <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#getStatistics#0;class#Statistics#0" expanded="false" />
             <element signature="method#serverGetStatistics#0;class#Statistics#0" expanded="false" />
           </folding>
@@ -392,7 +490,7 @@
         <state relative-caret-position="288">
           <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#printSetTimerResponse#0;class#Timers#0" expanded="false" />
             <element signature="method#deleteTimer#0;class#Timers#0" expanded="false" />
             <element signature="method#serverDeleteTimer#0;class#Timers#0" expanded="false" />
@@ -428,12 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#Login#0" expanded="false" />
-            <element signature="method#serverLogin#0;class#Login#0" expanded="false" />
-            <element signature="method#printLoginResponse#0;class#Login#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -441,12 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#registration#0;class#Registration#0" expanded="false" />
-            <element signature="method#serverRegistration#0;class#Registration#0" expanded="false" />
-            <element signature="method#printRegistrationResponse#0;class#Registration#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,12 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setConfigurations#0;class#Configurations#0" expanded="false" />
-            <element signature="method#serverSetConfigurations#0;class#Configurations#0" expanded="false" />
-            <element signature="method#printSetConfigurationsResponse#0;class#Configurations#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,12 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#Login#0" expanded="false" />
-            <element signature="method#serverLogin#0;class#Login#0" expanded="false" />
-            <element signature="method#printLoginResponse#0;class#Login#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -490,12 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#registration#0;class#Registration#0" expanded="false" />
-            <element signature="method#serverRegistration#0;class#Registration#0" expanded="false" />
-            <element signature="method#printRegistrationResponse#0;class#Registration#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,12 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setConfigurations#0;class#Configurations#0" expanded="false" />
-            <element signature="method#serverSetConfigurations#0;class#Configurations#0" expanded="false" />
-            <element signature="method#printSetConfigurationsResponse#0;class#Configurations#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,12 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#registration#0;class#Registration#0" expanded="false" />
-            <element signature="method#serverRegistration#0;class#Registration#0" expanded="false" />
-            <element signature="method#printRegistrationResponse#0;class#Registration#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,12 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
           <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#Login#0" expanded="false" />
-            <element signature="method#serverLogin#0;class#Login#0" expanded="false" />
-            <element signature="method#printLoginResponse#0;class#Login#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -562,12 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#registration#0;class#Registration#0" expanded="false" />
-            <element signature="method#serverRegistration#0;class#Registration#0" expanded="false" />
-            <element signature="method#printRegistrationResponse#0;class#Registration#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,12 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#registration#0;class#Registration#0" expanded="false" />
-            <element signature="method#serverRegistration#0;class#Registration#0" expanded="false" />
-            <element signature="method#printRegistrationResponse#0;class#Registration#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,25 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#logout#0;class#Logout#0" expanded="false" />
-            <element signature="method#serverLogout#0;class#Logout#0" expanded="false" />
-            <element signature="method#printLogoutResponse#0;class#Logout#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registration/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#registration#0;class#Registration#0" expanded="false" />
-            <element signature="method#serverRegistration#0;class#Registration#0" expanded="false" />
-            <element signature="method#printRegistrationResponse#0;class#Registration#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,25 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#Login#0" expanded="false" />
-            <element signature="method#serverLogin#0;class#Login#0" expanded="false" />
-            <element signature="method#printLoginResponse#0;class#Login#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/configurations/Configurations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setConfigurations#0;class#Configurations#0" expanded="false" />
-            <element signature="method#serverSetConfigurations#0;class#Configurations#0" expanded="false" />
-            <element signature="method#printSetConfigurationsResponse#0;class#Configurations#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,19 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getInformation#0;class#Information#0" expanded="false" />
-            <element signature="method#serverGetInformation#0;class#Information#0" expanded="false" />
-            <element signature="method#printGetInformationResponse#0;class#Information#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serveraddress/ServerAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -727,28 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getLesson#0;class#Lesson#0" expanded="false" />
-            <element signature="method#serverGetLesson#0;class#Lesson#0" expanded="false" />
-            <element signature="method#printGetLessonResponse#0;class#Lesson#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getTest#0;class#Test#0" expanded="false" />
-            <element signature="method#serverGetTest#0;class#Test#0" expanded="false" />
-            <element signature="method#printGetTestResponse#0;class#Test#0" expanded="false" />
-            <element signature="method#gradeTestResults#0;class#Test#0" expanded="false" />
-            <element signature="method#serverGradeTestResults#0;class#Test#0" expanded="false" />
-            <element signature="method#printGradeTestResultsResponse#0;class#Test#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,12 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#unregistration#0;class#Unregistration#0" expanded="false" />
-            <element signature="method#serverUnregistration#0;class#Unregistration#0" expanded="false" />
-            <element signature="method#printUnregistrationResponse#0;class#Unregistration#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,7 +729,7 @@
         <state relative-caret-position="336">
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#printSetTimerResponse#0;class#Timers#0" expanded="false" />
             <element signature="method#deleteTimer#0;class#Timers#0" expanded="false" />
             <element signature="method#serverDeleteTimer#0;class#Timers#0" expanded="false" />
@@ -784,20 +743,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/statistics/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#getStatistics#0;class#Statistics#0" expanded="false" />
             <element signature="method#serverGetStatistics#0;class#Statistics#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="76" column="66" lean-forward="false" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#getTest#0;class#Test#0" expanded="false" />
+            <element signature="method#serverGetTest#0;class#Test#0" expanded="false" />
+            <element signature="method#printGetTestResponse#0;class#Test#0" expanded="false" />
+            <element signature="method#serverGradeTestResults#0;class#Test#0" expanded="false" />
+            <element signature="method#printGradeTestResultsResponse#0;class#Test#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/configurations/Configurations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="27" column="64" lean-forward="true" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serveraddress/ServerAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/simplelearn/SimpleLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="445">
+          <caret line="97" column="75" lean-forward="true" selection-start-line="97" selection-start-column="75" selection-end-line="97" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -810,10 +818,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>SimpleLearn:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -873,6 +883,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -880,6 +891,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>java-json</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

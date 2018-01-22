@@ -16,31 +16,27 @@ public class Configurations {
             String nativeLanguage = (new Scanner(System.in)).nextLine();
             System.out.print("Foreign language: ");
             String foreignLanguage = (new Scanner(System.in)).nextLine();
-            System.out.print("Level: ");
-            int level = Integer.parseInt((new Scanner(System.in)).nextLine());
-            serverSetConfigurations(sessionId, nativeLanguage, foreignLanguage, level);
+            serverSetConfigurations(sessionId, nativeLanguage, foreignLanguage);
         }
-        else if (args.length == 4) {
+        else if (args.length == 3) {
             String sessionId = args[0];
             String nativeLanguage = args[1];
             String foreignLanguage = args[2];
-            int level = Integer.parseInt(args[3]);
-            serverSetConfigurations(sessionId, nativeLanguage, foreignLanguage, level);
+            serverSetConfigurations(sessionId, nativeLanguage, foreignLanguage);
         }
         else {
             System.out.println("Incorrect count of arguments.");
         }
     }
 
-    private static void serverSetConfigurations(String sessionId, String nativeLanguage, String foreignLanguage, int level) {
+    private static void serverSetConfigurations(String sessionId, String nativeLanguage, String foreignLanguage) {
         try {
             String url = ServerAddress.getAddress("setconfig.py");
             HttpResponse<JsonNode> jsonResponse = Unirest.post(url)
                     .header("content-type", "application/x-www-form-urlencoded")
                     .body("SessionId=" + sessionId
                             + "&NativeLanguage=" + nativeLanguage
-                            + "&ForeignLanguage=" + foreignLanguage
-                            + "&Level=" + level)
+                            + "&ForeignLanguage=" + foreignLanguage)
                     .asJson();
 
             printSetConfigurationsResponse(jsonResponse.getBody().getObject());

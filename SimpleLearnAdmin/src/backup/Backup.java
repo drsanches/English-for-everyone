@@ -1,5 +1,7 @@
 package backup;
 
+import dbaddress.DBAddress;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.sql.Connection;
@@ -13,32 +15,31 @@ public class Backup {
 
     public static void backup(String args[]) {
         if (args.length == 0) {
-            System.out.print("DB pathname: ");
-            String dbName = (new Scanner(System.in)).nextLine();
             System.out.print("Backup pathname: ");
             String backupName = (new Scanner(System.in)).nextLine();
-            sqlBackup(dbName, backupName);
+            sqlBackup(backupName);
         }
-        else if (args.length == 2) {
-            String dbName = args[0];
-            String backupName = args[1];
-            sqlBackup(dbName, backupName);
+        else if (args.length == 1) {
+            String backupName = args[0];
+            sqlBackup(backupName);
         }
         else {
             System.out.println("Incorrect count of arguments.");
         }
     }
 
-    private static void sqlBackup(String dbName, String backupName) {
+    private static void sqlBackup(String backupPath) {
         Connection connection = null;
         try {
+            String dbPath = DBAddress.getAddress();
+
             Class.forName("org.sqlite.JDBC");
-            connection = DriverManager.getConnection("jdbc:sqlite:" + dbName);
+            connection = DriverManager.getConnection("jdbc:sqlite:" + dbPath);
             Statement statement = connection.createStatement();
 
             String sql = "SELECT * FROM sqlite_master WHERE type = 'table';";
             ResultSet allTablesResultSet = statement.executeQuery(sql);
-            FileWriter fileWriter = new FileWriter(backupName, false);
+            FileWriter fileWriter = new FileWriter(backupPath, false);
 
             ArrayList<String> tableNames = new ArrayList<String>();
             while (allTablesResultSet.next()) {

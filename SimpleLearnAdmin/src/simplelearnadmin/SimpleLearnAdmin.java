@@ -9,10 +9,9 @@ public class SimpleLearnAdmin {
     
     public static void main(String[] args){
 //        Only for debug
-        args = new String[3];
+        args = new String[2];
         args[0] = "add";
         args[1] = "dictionary2.txt";
-        args[2] = "../DB/SimpleLearnBD2.db";
 
         String commandName = "";
         String[] commandArgs = new String[0];
@@ -53,9 +52,13 @@ public class SimpleLearnAdmin {
     public static void help() {
         System.out.println("\n----------SimpleLearn for admins----------");
         System.out.println("Available commands:");
-        System.out.println("add - Add a new dictionary to the system;");
-        System.out.println("del - Description of del;");
-        System.out.println("backup - Description of backup;");
-        System.out.println("restore - Description of restore.");
+        System.out.println("add              - Description: description;\n"
+                + "                   Arguments:   DictionaryPathname;");
+        System.out.println("del              - Description: description;\n"
+                + "                   Arguments:   DeletingWordSpell;");
+        System.out.println("backup           - Description: description;\n"
+                + "                   Arguments:   BackupPathname;");
+        System.out.println("restore          - Description: description;\n"
+                + "                   Arguments:   BackupPathname.");
     }
 }
