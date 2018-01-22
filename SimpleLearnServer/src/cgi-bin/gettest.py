@@ -13,11 +13,12 @@ response = {}
 if session_id is None or test_type is None:
     response["Status"] = "Failure"
 else:
-    try:
+    # try:
         # Add languages. Which word is word and which is translation?
 
         connection = sqlite3.connect(db_address.get_db_address())
         cursor = connection.cursor()
+        response["Status"] = "Success"
 
         query = "SELECT * FROM Sessions WHERE Sessions.SessionID = ?"
         cursor.execute(query, (session_id,))
@@ -46,8 +47,19 @@ else:
             row = rows[len(rows)-1]
             ID = row[0] + 1
 
+        query = """SELECT LevelID FROM UserLevel
+                WHERE UserID = ? AND LangID = ? """
+        cursor.execute(query, (user_id, f_lang))
+        if len(cursor.fetchall()) == 0:
+            test_type_id = 1
+
         if test_type_id == 1:
             N = 10
+            query = """SELECT DictionaryID FROM Dictionary
+                    left join Pair ON Dictionary.DictionaryID = Pair.DicID
+                    left join Words ON Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
+                    WHERE LangID = ?"""
+
             query = """Select ID FROM Pair left join Dictionary
                     ON Pair.DicID = Dictionary.DictionaryID left join Level
                     ON Dictionary.LevelID = Level.LevelID WHERE LevelName = ?"""
@@ -88,15 +100,13 @@ else:
                 query = "INSERT INTO Test(TestID, TypeID, PairID) VALUES(?, ?, ?)"
                 cursor.execute(query, (str(ID), str(test_type_id), str(element)))
 
-            query = """Select Spell FROM Test
+            query = """Select Spell, LangID FROM Test
                     left join Pair ON Test.PairID = Pair.ID
                     left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
                     left join TestType On Test.TestID = TestType.TypeID
                     WHERE TestID = ?"""
             cursor.execute(query, (ID, ))
 
-            words = []
-            i = 0
             rows = cursor.fetchall()
 
             query = "SELECT Spell FROM Words WHERE Words.LangID = ?"
@@ -106,18 +116,32 @@ else:
                 variant = row[0]
                 all_variants.append(variant)
 
-
-            while i < len(rows):
-                word = {}
-                word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
-                i = i + 1
-                variants = random.sample(all_variants, 3)
-                var = rows[i][0]
-                variants.append(var)
-                random.shuffle(variants)
-                word["Answers"] = variants
-                i = i + 1
-                words.append(word)
+            words = []
+            i = 0
+            if int(f_lang) == int(rows[i][1]):
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_variants, 3)
+                    var = rows[i][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
+            else:
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_variants, 3)
+                    var = rows[i-1][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
 
             response["TestId"] = ID
             response["Questions"] = words
@@ -156,7 +180,7 @@ else:
                 variant = row[0]
                 all_foreign_variants.append(variant)
 
-            query = """Select Spell FROM Test
+            query = """Select Spell, LangID FROM Test
                     left join Pair ON Test.PairID = Pair.ID
                     left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
                     left join TestType On Test.TestID = TestType.TypeID
@@ -166,38 +190,70 @@ else:
             words = []
             i = 0
             rows = cursor.fetchall()
+            if int(f_lang) == int(rows[i][1]):
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_native_variants, 3)
+                    var = rows[i][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
 
-            while i < len(rows):
-                word = {}
-                word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
-                i = i + 1
-                variants = random.sample(all_native_variants, 3)
-                var = rows[i][0]
-                variants.append(var)
-                random.shuffle(variants)
-                word["Answers"] = variants
-                i = i + 1
-                words.append(word)
+                i = 0
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_foreign_variants, 3)
+                    var = rows[i-1][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
 
-            i = 0
-            while i < len(rows):
-                word = {}
-                word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
-                i = i + 1
-                variants = random.sample(all_foreign_variants, 3)
-                var = rows[i-1][0]
-                variants.append(var)
-                random.shuffle(variants)
-                word["Answers"] = variants
-                i = i + 1
-                words.append(word)
+                i = 0
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Напишите перевод слова/выражения " + rows[i+1][0]
+                    i = i + 2
+                    words.append(word)
+            else:
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_native_variants, 3)
+                    var = rows[i-1][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
 
-            i = 0
-            while i < len(rows):
-                word = {}
-                word["Question"] = "Напишите перевод слова/выражения " + rows[i+1][0]
-                i = i + 2
-                words.append(word)
+                i = 0
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_foreign_variants, 3)
+                    var = rows[i][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
+
+                i = 0
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Напишите перевод слова/выражения " + rows[i][0]
+                    i = i + 2
+                    words.append(word)
 
             response["TestId"] = ID
             response["Questions"] = words
@@ -265,7 +321,7 @@ else:
                 variant = row[0]
                 all_foreign_variants.append(variant)
 
-            query = """Select Spell FROM Test
+            query = """Select Spell, LangID FROM Test
                     left join Pair ON Test.PairID = Pair.ID
                     left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
                     left join TestType On Test.TestID = TestType.TypeID
@@ -276,46 +332,78 @@ else:
             i = 0
             rows = cursor.fetchall()
 
-            while i < len(rows):
-                word = {}
-                word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
-                i = i + 1
-                variants = random.sample(all_native_variants, 3)
-                var = rows[i][0]
-                variants.append(var)
-                random.shuffle(variants)
-                word["Answers"] = variants
-                i = i + 1
-                words.append(word)
+            if int(f_lang) == int(rows[i][1]):
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_native_variants, 3)
+                    var = rows[i][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
 
-            i = 0
-            while i < len(rows):
-                word = {}
-                word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
-                i = i + 1
-                variants = random.sample(all_foreign_variants, 3)
-                var = rows[i-1][0]
-                variants.append(var)
-                random.shuffle(variants)
-                word["Answers"] = variants
-                i = i + 1
-                words.append(word)
+                i = 0
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_foreign_variants, 3)
+                    var = rows[i-1][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
 
-            i = 0
-            while i < len(rows):
-                word = {}
-                word["Question"] = "Напишите перевод слова/выражения " + rows[i+1][0]
-                i = i + 2
-                words.append(word)
+                i = 0
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Напишите перевод слова/выражения " + rows[i+1][0]
+                    i = i + 2
+                    words.append(word)
+            else:
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i+1][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_native_variants, 3)
+                    var = rows[i-1][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
+
+                i = 0
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Как переводится слово/выражение " + rows[i][0] + "?"
+                    i = i + 1
+                    variants = random.sample(all_foreign_variants, 3)
+                    va5r = rows[i][0]
+                    variants.append(var)
+                    random.shuffle(variants)
+                    word["Answers"] = variants
+                    i = i + 1
+                    words.append(word)
+
+                i = 0
+                while i < len(rows):
+                    word = {}
+                    word["Question"] = "Напишите перевод слова/выражения " + rows[i][0]
+                    i = i + 2
+                    words.append(word)
 
             response["TestId"] = ID
             response["Questions"] = words
 
         connection.commit()
         connection.close()
-        response["Status"] = "Success"
-    except:
-        response["Status"] = "Failure"
+    # except:
+    #     response["Status"] = "Failure"
 
 
 
