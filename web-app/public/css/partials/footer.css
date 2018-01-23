@@ -1,0 +1,7 @@
+footer {
+  background: #4a70ed;
+  min-height: 80px; }
+  footer p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 30px; }
