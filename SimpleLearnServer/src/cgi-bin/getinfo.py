@@ -26,6 +26,8 @@ else:
         cursor.execute(query, (session_id,))
 
         response["Status"] = "Success"
+
+# 		TODO: Script should return only one user, not array
         users = []
 
         for row in cursor:

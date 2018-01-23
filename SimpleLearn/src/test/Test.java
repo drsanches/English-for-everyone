@@ -13,18 +13,18 @@ public class Test {
             System.out.print("Session id: ");
             String sessionId = (new Scanner(System.in)).nextLine();
             System.out.print("Type: ");
-            String type = (new Scanner(System.in)).nextLine();
+            int type = Integer.parseInt((new Scanner(System.in)).nextLine());
             serverGetTest(sessionId, type);
         } else if (args.length == 2) {
             String sessionId = args[0];
-            String type = args[1];
+            int type = Integer.parseInt(args[1]);
             serverGetTest(sessionId, type);
         } else {
             System.out.println("Incorrect count of arguments.");
         }
     }
 
-    private static void serverGetTest(String sessionId, String type) {
+    private static void serverGetTest(String sessionId, int type) {
         try {
             String url = ServerAddress.getAddress("gettest.py");
             HttpResponse<JsonNode> jsonResponse = Unirest.post(url)

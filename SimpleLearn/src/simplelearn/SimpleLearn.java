@@ -17,10 +17,12 @@ public class SimpleLearn {
     public static void main(String[] args) {
 
 //        Only for debug
-        args = new String[2];
-        args[0] = "getinfo";
-        for (int i = 1; i < args.length; i++)
-            args[i] = Integer.toString(i);
+//        args = new String[2];
+//        args[0] = "getstat";
+//        args[1] = "35763f24-7266-4fe5-9770-eace223f03b0";
+
+//        for (int i = 1; i < args.length; i++)
+//            args[i] = Integer.toString(i);
 
         String commandName = "";
         String[] commandArgs = new String[0];

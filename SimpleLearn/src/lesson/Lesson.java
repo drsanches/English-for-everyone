@@ -12,31 +12,23 @@ public class Lesson {
         if (args.length == 0) {
             System.out.print("Session id: ");
             String sessionId = (new Scanner(System.in)).nextLine();
-            System.out.print("Test id: ");
-            int testId = Integer.parseInt((new Scanner(System.in)).nextLine());
-            System.out.print("Type: ");
-            String type = (new Scanner(System.in)).nextLine();
-            serverGetLesson(sessionId, testId, type);
+            serverGetLesson(sessionId);
         }
-        else if (args.length == 3) {
+        else if (args.length == 1) {
             String sessionId = args[0];
-            int testId = Integer.parseInt(args[1]);
-            String type = args[2];
-            serverGetLesson(sessionId, testId, type);
+            serverGetLesson(sessionId);
         }
         else {
             System.out.println("Incorrect count of arguments.");
         }
     }
 
-    private static void serverGetLesson(String sessionId, int testId, String type) {
+    private static void serverGetLesson(String sessionId) {
         try {
             String url = ServerAddress.getAddress("getlesson.py");
             HttpResponse<JsonNode> jsonResponse = Unirest.post(url)
                     .header("content-type", "application/x-www-form-urlencoded")
-                    .body("SessionId=" + sessionId
-                            + "&TestId=" + testId
-                            + "&Type=" + type)
+                    .body("SessionId=" + sessionId)
                     .asJson();
 
             printGetLessonResponse(jsonResponse.getBody().getObject());
@@ -59,8 +51,10 @@ public class Lesson {
                 {
                     JSONObject pair = lesson.getJSONObject(i);
                     System.out.println("Pair " + i + ": ");
-                    System.out.println("    Word: " + pair.getString("NativeWord"));
-                    System.out.println("    Translation: " + pair.getString("ForeignWord"));
+                    System.out.println("    Word: " + pair.getString("NativeWordSpell"));
+                    System.out.println("          " + pair.getString("NativeWordTranscription"));
+                    System.out.println("    Translation: " + pair.getString("ForeignWordSpell"));
+                    System.out.println("                 " + pair.getString("ForeignWordTranscription"));
                 }
             }
         }

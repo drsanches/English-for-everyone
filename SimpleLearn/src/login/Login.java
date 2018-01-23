@@ -48,6 +48,14 @@ public class Login {
         try {
             String status = response.getString("Status");
             System.out.println("Status: " + status);
+            if (status.equals("Success")) {
+                String sessionId = response.getString("SessionId");
+                String startTime = response.getString("StartTime");
+                String expiryPeriod = response.getString("ExpiryPeriod");
+                System.out.println("Session id: " + sessionId);
+                System.out.println("Start time: " + startTime);
+                System.out.println("Expiry period: " + expiryPeriod);
+            }
         }
         catch (Exception e) {
             System.out.println("Error: " + e.toString());

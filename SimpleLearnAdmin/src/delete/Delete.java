@@ -39,8 +39,10 @@ public class Delete {
             ResultSet allPairsResultSet = pstmt.executeQuery();
 
             System.out.println("Words: ");
+            boolean isWordsExist = false;
 
             while (allPairsResultSet.next()) {
+                isWordsExist = true;
                 String pairId = allPairsResultSet.getString(1);
 
                 sql = "Select ID, Spell, Phonetic FROM  Pair\n" +
@@ -54,43 +56,48 @@ public class Delete {
                 System.out.println(pairId + ": " + word + " - " + transcription);
             }
 
-            System.out.print("Select the number of the word to be deleted: ");
-            int deletingPairId = Integer.parseInt((new Scanner(System.in)).nextLine());
+            if (isWordsExist) {
+                System.out.print("Select the number of the word to be deleted: ");
+                int deletingPairId = Integer.parseInt((new Scanner(System.in)).nextLine());
 
-            sql = "DELETE FROM WordsToLearn WHERE PairID = ?;";
-            pstmt = connection.prepareStatement(sql);
-            pstmt.setInt(1, deletingPairId);
-            pstmt.executeUpdate();
+                sql = "DELETE FROM WordsToLearn WHERE PairID = ?;";
+                pstmt = connection.prepareStatement(sql);
+                pstmt.setInt(1, deletingPairId);
+                pstmt.executeUpdate();
 
-            sql = "DELETE FROM WordToRepeat WHERE PairID = ?;";
-            pstmt = connection.prepareStatement(sql);
-            pstmt.setInt(1, deletingPairId);
-            pstmt.executeUpdate();
+                sql = "DELETE FROM WordToRepeat WHERE PairID = ?;";
+                pstmt = connection.prepareStatement(sql);
+                pstmt.setInt(1, deletingPairId);
+                pstmt.executeUpdate();
 
-            sql = "Select Word1ID, Word2ID FROM  Pair\n" +
-                    "LEFT JOIN Words ON Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID \n" +
-                    "WHERE ID = ?;";
-            pstmt = connection.prepareStatement(sql);
-            pstmt.setInt(1, deletingPairId);
-            ResultSet pairResultSet = pstmt.executeQuery();
-            String word1Id = pairResultSet.getString(1);
-            String word2Id = pairResultSet.getString(2);
+                sql = "Select Word1ID, Word2ID FROM  Pair\n" +
+                        "LEFT JOIN Words ON Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID \n" +
+                        "WHERE ID = ?;";
+                pstmt = connection.prepareStatement(sql);
+                pstmt.setInt(1, deletingPairId);
+                ResultSet pairResultSet = pstmt.executeQuery();
+                String word1Id = pairResultSet.getString(1);
+                String word2Id = pairResultSet.getString(2);
 
-            sql = "DELETE FROM Words WHERE WordID = ?;";
-            pstmt = connection.prepareStatement(sql);
-            pstmt.setString(1, word1Id);
-            pstmt.executeUpdate();
+                sql = "DELETE FROM Words WHERE WordID = ?;";
+                pstmt = connection.prepareStatement(sql);
+                pstmt.setString(1, word1Id);
+                pstmt.executeUpdate();
 
-            sql = "DELETE FROM Words WHERE WordID = ?;";
-            pstmt = connection.prepareStatement(sql);
-            pstmt.setString(1, word2Id);
-            pstmt.executeUpdate();
+                sql = "DELETE FROM Words WHERE WordID = ?;";
+                pstmt = connection.prepareStatement(sql);
+                pstmt.setString(1, word2Id);
+                pstmt.executeUpdate();
 
-            sql = "DELETE FROM Pair WHERE ID = ?;";
-            pstmt = connection.prepareStatement(sql);
-            pstmt.setInt(1, deletingPairId);
-            pstmt.executeUpdate();
-
+                sql = "DELETE FROM Pair WHERE ID = ?;";
+                pstmt = connection.prepareStatement(sql);
+                pstmt.setInt(1, deletingPairId);
+                pstmt.executeUpdate();
+            }
+            else {
+                System.out.println("none");
+                System.out.println("The database does not contain this word.");
+            }
             pstmt.close();
             connection.close();
         } catch (Exception e) {

@@ -44,18 +44,23 @@ public class Information {
             System.out.println("Status: " + status);
 
             if (status.equals("Success")) {
-                JSONObject information = response.getJSONObject("Information");
-                System.out.println("Username: " + information.getString("Username"));
-                System.out.println("Native language: " + information.getString("NativeLanguage"));
-                System.out.println("XP: " + information.getInt("XP"));
+                JSONArray information = response.getJSONArray("Information");
 
-                JSONArray languages = information.getJSONArray("Languages");
-                System.out.println("Learning languages:");
+                for (int i = 0; i < information.length(); i++) {
+                    JSONObject inf = information.getJSONObject(i);
+                    System.out.println("Username: " + inf.getString("Username"));
+                    System.out.println("Native language: " + inf.getString("NativeLanguage"));
+                    System.out.println("XP: " + inf.getInt("XP"));
 
-                for (int i = 0; i < languages.length(); i++)
-                {
-                    JSONObject language = languages.getJSONObject(i);
-                    System.out.println("    " + language.getString("Language") + " - " + language.getInt("Level") + " level");
+                    JSONArray languages = inf.getJSONArray("Languages");
+                    System.out.println("Learning languages:");
+
+                    for (int j = 0; j < languages.length(); j++)
+                    {
+                        JSONObject language = languages.getJSONObject(j);
+                        System.out.println("    " + language.getString("Language") + " - " + language.getString("Level") + " level");
+                    }
+                    System.out.println();
                 }
             }
         }

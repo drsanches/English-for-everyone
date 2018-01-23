@@ -217,6 +217,7 @@ else:
                 while i < len(rows):
                     word = {}
                     word["Question"] = "Напишите перевод слова/выражения " + rows[i+1][0]
+                    word["Answers"] = []
                     i = i + 2
                     words.append(word)
             else:
@@ -249,6 +250,7 @@ else:
                 while i < len(rows):
                     word = {}
                     word["Question"] = "Напишите перевод слова/выражения " + rows[i][0]
+                    word["Answers"] = []
                     i = i + 2
                     words.append(word)
 
@@ -359,6 +361,7 @@ else:
                 while i < len(rows):
                     word = {}
                     word["Question"] = "Напишите перевод слова/выражения " + rows[i+1][0]
+                    word["Answers"] = []
                     i = i + 2
                     words.append(word)
             else:
@@ -391,6 +394,7 @@ else:
                 while i < len(rows):
                     word = {}
                     word["Question"] = "Напишите перевод слова/выражения " + rows[i][0]
+                    word["Answers"] = []
                     i = i + 2
                     words.append(word)
 

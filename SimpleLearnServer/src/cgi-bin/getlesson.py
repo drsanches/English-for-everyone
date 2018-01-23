@@ -52,12 +52,12 @@ else:
                 pair = {}
                 for row in rows:
                     if row[0] == WordsForLesson[i-1] and row[1] != int(lang):
-                        pair["ForeignWord Spell"] = row[2]
-                        pair["ForeignWord Phonetic"] = row[3]
+                        pair["ForeignWordSpell"] = row[2]
+                        pair["ForeignWordTranscription"] = row[3]
                     else:
                         if row[0] == WordsForLesson[i-1] and row[1] == int(lang):
-                            pair["NativeWord Spell"] = row[2]
-                            pair["NativeWord Phonetic"] = row[3]
+                            pair["NativeWordSpell"] = row[2]
+                            pair["NativeWordTranscription"] = row[3]
                 lesson.append(pair)
             response["Lesson"] = lesson
 

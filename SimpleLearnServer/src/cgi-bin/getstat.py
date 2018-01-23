@@ -27,7 +27,7 @@ else:
 
         for row in cursor:
             s = {}
-            s["UserName"] = row[0]
+            s["Username"] = row[0]
             s["XP"] = row[1]
             stat.append(s)
 
