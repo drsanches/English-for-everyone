@@ -47,7 +47,9 @@ else:
 
         query = "SELECT LevelID FROM UserLevel WHERE UserID = ? AND LangID = ?"
         cursor.execute(query, (user_id, f_lang))
-        level_id = cursor.fetchone()[0]
+
+        for row in cursor:
+            level_id = row[0]
 
         if test_type_id == 1:
             query = "SELECT PairID FROM Test WHERE TestID = ? AND TypeID = ?"
