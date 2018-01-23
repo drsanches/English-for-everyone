@@ -29,7 +29,6 @@ else:
                 id = row[0]
                 words_id.append(id)
             WordsForLesson = random.sample(words_id, 5)
-            response["l"] = WordsForLesson
 
             query = "SELECT NLang, FLang, Sessions.UserID FROM Users left join Sessions ON Users.UserID = Sessions.UserID WHERE SessionID = ?"
             cursor.execute(query, (session_id,))
