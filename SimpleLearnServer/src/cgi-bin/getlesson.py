@@ -7,12 +7,10 @@ import random
 form = cgi.FieldStorage()
 
 session_id = form.getvalue("SessionId")
-test_id = form.getvalue("TestId")
-lesson_type = form.getvalue("Type")
 
 response = {}
 
-if session_id is None or lesson_type is None or test_id is None:
+if session_id is None:
     response["Status"] = "Failure"
 else:
         try:
@@ -24,26 +22,31 @@ else:
             if len(cursor.fetchall()) != 1:
                 raise Exception()
 
-            query = """SELECT PairID FROM WordsToLearn
-                    left join Sessions ON WordsToLearn.UserID = Sessions.UserID
-                    WHERE SessionID = ?"""
-            cursor.execute(query, (session_id,))
+            query = """SELECT ID FROM Pair"""
+            cursor.execute(query, ())
             words_id = []
             for row in cursor:
                 id = row[0]
                 words_id.append(id)
             WordsForLesson = random.sample(words_id, 5)
+            response["l"] = WordsForLesson
 
-            query = "SELECT NLang FROM Users left join Sessions ON Users.UserID = Sessions.UserID WHERE SessionID = ?"
+            query = "SELECT NLang, FLang, Sessions.UserID FROM Users left join Sessions ON Users.UserID = Sessions.UserID WHERE SessionID = ?"
             cursor.execute(query, (session_id,))
-            lang = cursor.fetchone()[0]
 
-            query = """Select PairID, Words.LangID, Spell, Phonetic FROM WordsToLearn left join Pair ON WordsToLearn.PairID = Pair.ID
-                        left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID
-                        left join Sessions ON Sessions.UserID = WordsToLearn.UserID
-                        WHERE SessionID = ?"""
-            cursor.execute(query, (session_id,))
+            for row in cursor:
+                lang = row[0]
+                f_lang = row[1]
+                user_id = row[2]
+
+            query = """Select ID, Words.LangID, Spell, Phonetic FROM Pair
+                        left join Words On Pair.Word1ID = Words.WordID OR Pair.Word2ID = Words.WordID"""
+            cursor.execute(query, ())
             rows = cursor.fetchall()
+
+            for element in WordsForLesson:
+                query = """INSERT INTO WordsToLearn (UserID, PairID, LangID) VALUES (?, ?, ?)"""
+                cursor.execute(query, (user_id, element, f_lang))
 
             lesson = []
             for i in range(5):
